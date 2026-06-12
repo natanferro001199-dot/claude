@@ -1,14 +1,34 @@
 {
   "sector": "aerospace",
-  "aggregateScore": 61,
-  "label": "Bullish",
-  "trend": "improving",
+  "aggregateScore": 50,
+  "label": "Neutral",
+  "trend": "stable",
   "companiesScores": [
-    { "ticker": "RKLB", "score": 74, "label": "Bullish" },
-    { "ticker": "LUNR", "score": 68, "label": "Bullish" },
-    { "ticker": "PL", "score": 58, "label": "Neutral" },
-    { "ticker": "RDW", "score": 42, "label": "Neutral" },
-    { "ticker": "MNTS", "score": 35, "label": "Bearish" }
+    {
+      "ticker": "RKLB",
+      "score": 50,
+      "label": "Neutral"
+    },
+    {
+      "ticker": "RDW",
+      "score": 50,
+      "label": "Neutral"
+    },
+    {
+      "ticker": "PL",
+      "score": 50,
+      "label": "Neutral"
+    },
+    {
+      "ticker": "MNTS",
+      "score": 50,
+      "label": "Neutral"
+    },
+    {
+      "ticker": "LUNR",
+      "score": 50,
+      "label": "Neutral"
+    }
   ],
-  "lastUpdated": "2026-06-12T23:00:00Z"
+  "lastUpdated": "2026-06-12T02:23:23.740275Z"
 }

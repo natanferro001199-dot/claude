@@ -1,16 +1,31 @@
 {
   "ticker": "APLD",
-  "sentimentScore": 72,
-  "label": "Bullish",
-  "confidence": 0.80,
-  "trend": "improving",
-  "articlesAnalyzed": 28,
-  "lastUpdated": "2026-06-12T23:00:00Z",
-  "modelMae7d": 0.19,
+  "sentimentScore": 50,
+  "label": "Neutral",
+  "confidence": 0.424,
+  "trend": "declining",
+  "articlesAnalyzed": 1,
+  "lastUpdated": "2026-06-12T02:23:22.533875Z",
+  "modelMae7d": 0.0434,
   "topHeadlines": [
-    { "title": "Applied Digital signs 200MW AI data center lease with major hyperscaler", "source": "Bloomberg", "date": "2026-06-11", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.92, "confidence": 0.94, "isFilingRelated": false },
-    { "title": "APLD Q3 FY2026: revenue surges 185% YoY on AI data center demand surge", "source": "Reuters", "date": "2026-05-20", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.88, "confidence": 0.91, "isFilingRelated": true },
-    { "title": "Applied Digital raising $1B to fund AI infrastructure expansion — sources", "source": "Wall Street Journal", "date": "2026-06-09", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.72, "confidence": 0.82, "isFilingRelated": false }
+    {
+      "title": "",
+      "source": "",
+      "date": "1970-01-01",
+      "url": "",
+      "sentimentLabel": "Neutral",
+      "sentimentScore": 0.0,
+      "confidence": 0.424,
+      "isFilingRelated": false
+    }
   ],
-  "scoreHistory7d": [58, 62, 65, 67, 69, 71, 72]
+  "scoreHistory7d": [
+    62,
+    65,
+    67,
+    69,
+    71,
+    72,
+    50
+  ]
 }

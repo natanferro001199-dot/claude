@@ -1,113 +1,212 @@
 {
   "company": {
     "ticker": "NEBIUS",
-    "name": "Nebius Group N.V.",
+    "name": "NEBIUS",
     "sector": "datacenters",
-    "exchange": "Nasdaq",
-    "description": "Nebius Group (formerly Yandex N.V.) is an AI-centric technology company building a full-stack AI cloud infrastructure platform. It operates GPU clusters and AI cloud services across Europe and the U.S., offering AI training infrastructure and inference services. The company separated from Yandex Russia and relisted on Nasdaq in 2024.",
-    "founded": 2024,
-    "employees": 2400
+    "exchange": "",
+    "description": "",
+    "founded": null,
+    "employees": null,
+    "website": null
   },
   "price": {
-    "price": 34.20,
-    "priceChange": 1.85,
-    "priceChangePct": 5.71,
-    "open": 32.35,
-    "high52w": 52.80,
-    "low52w": 16.45,
-    "volume": 5400000,
-    "avgVolume30d": 4200000,
-    "marketCap": 11250000000,
-    "marketCapCategory": "mid",
-    "lastUpdated": "2026-06-12T23:00:00Z",
-    "dataConfidence": "medium"
+    "price": null,
+    "priceChange": 0,
+    "priceChangePct": 0,
+    "open": 0.0,
+    "high52w": 0.0,
+    "low52w": 0.0,
+    "volume": null,
+    "avgVolume30d": null,
+    "marketCap": null,
+    "marketCapCategory": "micro",
+    "lastUpdated": "2026-06-12T02:23:05.540963Z",
+    "dataConfidence": "low"
   },
   "scores": {
-    "technicalScore": 70,
-    "fundamentalScore": 34,
+    "technicalScore": 50,
+    "fundamentalScore": 50,
     "piotroskiScore": 4,
-    "altmanZScore": 2.4,
-    "compositeScore": 52
+    "altmanZScore": null,
+    "compositeScore": 50
   },
-  "technical": {
-    "indicators": {
-      "rsi14": 65.8,
-      "sma20": 31.85,
-      "sma50": 28.42,
-      "sma200": 25.18,
-      "macd": { "macd": 1.24, "signal": 0.72, "histogram": 0.52 },
-      "bollingerBands": { "upper": 39.85, "middle": 31.85, "lower": 23.85 },
-      "volumeMA20": 4000000,
-      "atr14": 2.45
-    },
-    "signals": [
-      { "label": "RSI", "value": "65.8", "interpretation": "bullish" },
-      { "label": "MACD", "value": "Strong bullish", "interpretation": "bullish" },
-      { "label": "Price vs SMA200", "value": "+35.8%", "interpretation": "bullish" },
-      { "label": "Volume", "value": "+28.6% vs avg", "interpretation": "bullish" }
-    ],
-    "trendStrength": "strong-up",
-    "supportLevel": 29.50,
-    "resistanceLevel": 40.00
-  },
+  "priceHistory": [],
+  "technical": null,
   "fundamental": {
     "valuation": {
-      "pe": null, "forwardPe": null,
-      "evEbitda": null, "evRevenue": 18.4,
-      "ps": 16.8, "pb": 3.4, "pfcf": null
+      "pe": null,
+      "forwardPe": null,
+      "evEbitda": null,
+      "evRevenue": null,
+      "ps": null,
+      "pb": null,
+      "pfcf": null
     },
     "health": {
-      "grossMargin": 35.8, "operatingMargin": -185.4, "netMargin": -182.5,
-      "roic": -28.4, "roe": -42.5, "debtToEquity": 0.28,
-      "currentRatio": 4.8, "quickRatio": 4.5,
-      "fcfYield": null, "interestCoverage": null
+      "grossMargin": 0.0,
+      "operatingMargin": 0.0,
+      "netMargin": 0.0,
+      "roic": 0.0,
+      "roe": 0.0,
+      "debtToEquity": 0.0,
+      "currentRatio": null,
+      "quickRatio": null,
+      "fcfYield": null,
+      "interestCoverage": null
     },
     "growth": {
-      "revenueGrowthYoY": 214.5, "revenueGrowth3Y": null,
-      "ebitdaGrowthYoY": null, "epsGrowthYoY": null, "fcfGrowthYoY": null
+      "revenueGrowthYoY": 0.0,
+      "revenueGrowth3Y": null,
+      "ebitdaGrowthYoY": null,
+      "epsGrowthYoY": 0.0,
+      "fcfGrowthYoY": null
     },
     "incomeStatement": {
-      "years": ["2023", "2024", "2025"],
-      "revenue": [12.5, 218.4, 686.2],
-      "grossProfit": [3.8, 78.2, 245.8],
-      "operatingIncome": [-85.4, [-402.5], -1272.4],
-      "ebitda": [-65.4, [-315.8], -985.2],
-      "netIncome": [-88.5, [-398.4], -1252.5],
-      "eps": [-0.42, -1.48, -3.82]
+      "years": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "revenue": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "grossProfit": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "operatingIncome": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "ebitda": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "netIncome": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "eps": [
+        null,
+        null,
+        null,
+        null
+      ]
     },
     "balanceSheet": {
-      "years": ["2023", "2024", "2025"],
-      "cash": [1485.2, 2248.5, 3124.8],
-      "totalAssets": [2248.5, 4285.2, 6428.5],
-      "totalDebt": [285.4, 485.2, 842.5],
-      "totalEquity": [1842.5, 3124.8, 4285.2],
-      "sharesOutstanding": [285.0, 318.5, 342.5]
+      "years": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "cash": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "totalAssets": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "totalDebt": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "totalEquity": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "sharesOutstanding": [
+        null,
+        null,
+        null,
+        null
+      ]
     },
     "cashFlow": {
-      "years": ["2023", "2024", "2025"],
-      "operatingCF": [-58.4, [-285.4], -842.5],
-      "capex": [-124.5, [-585.2], -1485.4],
-      "freeCashFlow": [-182.9, -870.6, -2327.9],
-      "financingCF": [1485.2, 2248.5, 3124.8]
+      "years": [
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "operatingCF": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "capex": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "freeCashFlow": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "financingCF": [
+        null,
+        null,
+        null,
+        null
+      ]
     },
     "dcf": {
       "scenarios": [
-        { "label": "Bull", "fcfGrowthRate": 200, "wacc": 12.0, "terminalGrowth": 4.0, "intrinsicValue": 68.50, "upsideDownside": 100.3 },
-        { "label": "Base", "fcfGrowthRate": 100, "wacc": 14.0, "terminalGrowth": 3.0, "intrinsicValue": 35.20, "upsideDownside": 2.9 },
-        { "label": "Bear", "fcfGrowthRate": 30, "wacc": 18.0, "terminalGrowth": 2.0, "intrinsicValue": 12.80, "upsideDownside": -62.6 }
+        {
+          "label": "Bull",
+          "fcfGrowthRate": 30,
+          "wacc": 9.0,
+          "terminalGrowth": 3.5,
+          "intrinsicValue": 1.5,
+          "upsideDownside": 50.0
+        },
+        {
+          "label": "Base",
+          "fcfGrowthRate": 15,
+          "wacc": 10.0,
+          "terminalGrowth": 2.5,
+          "intrinsicValue": 1.0,
+          "upsideDownside": 0.0
+        },
+        {
+          "label": "Bear",
+          "fcfGrowthRate": 3,
+          "wacc": 12.0,
+          "terminalGrowth": 1.5,
+          "intrinsicValue": 0.6,
+          "upsideDownside": -40.0
+        }
       ],
-      "impliedGrowthRate": 98.5,
-      "currentPrice": 34.20
+      "impliedGrowthRate": 10.0,
+      "currentPrice": 1
     },
-    "valuationBands": [
-      { "metric": "ps", "current": 16.8, "min5y": 8.5, "max5y": 45.2, "median5y": 22.4, "percentileRank": 42 }
-    ],
-    "sectorKpis": {
-      "occupancyRate": 68.4,
-      "pue": 1.22,
-      "revenuePerMW": 15.8,
-      "adjustedEbitdaMargin": -124.5,
-      "hyperscalerConcentration": null
-    }
+    "valuationBands": [],
+    "sectorKpis": {},
+    "piotroskiScore": 0
   }
 }
