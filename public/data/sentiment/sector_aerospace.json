@@ -1,0 +1,14 @@
+{
+  "sector": "aerospace",
+  "aggregateScore": 61,
+  "label": "Bullish",
+  "trend": "improving",
+  "companiesScores": [
+    { "ticker": "RKLB", "score": 74, "label": "Bullish" },
+    { "ticker": "LUNR", "score": 68, "label": "Bullish" },
+    { "ticker": "PL", "score": 58, "label": "Neutral" },
+    { "ticker": "RDW", "score": 42, "label": "Neutral" },
+    { "ticker": "MNTS", "score": 35, "label": "Bearish" }
+  ],
+  "lastUpdated": "2026-06-12T23:00:00Z"
+}

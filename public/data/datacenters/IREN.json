@@ -1,0 +1,112 @@
+{
+  "company": {
+    "ticker": "IREN",
+    "name": "Iris Energy Limited",
+    "sector": "datacenters",
+    "exchange": "Nasdaq",
+    "description": "Iris Energy is a Bitcoin mining and AI data center company operating proprietary, purpose-built data centers powered by 100% renewable energy. It is strategically pivoting its facilities toward GPU cloud computing for AI training workloads, leveraging its low-cost power contracts and existing liquid-cooled infrastructure.",
+    "founded": 2018,
+    "employees": 185
+  },
+  "price": {
+    "price": 11.45,
+    "priceChange": 0.65,
+    "priceChangePct": 6.02,
+    "open": 10.80,
+    "high52w": 18.95,
+    "low52w": 3.85,
+    "volume": 12500000,
+    "avgVolume30d": 10200000,
+    "marketCap": 1450000000,
+    "marketCapCategory": "small",
+    "lastUpdated": "2026-06-12T23:00:00Z",
+    "dataConfidence": "high"
+  },
+  "scores": {
+    "technicalScore": 71,
+    "fundamentalScore": 28,
+    "piotroskiScore": 3,
+    "altmanZScore": 1.7,
+    "compositeScore": 50
+  },
+  "technical": {
+    "indicators": {
+      "rsi14": 66.2,
+      "sma20": 10.42,
+      "sma50": 8.85,
+      "sma200": 7.42,
+      "macd": { "macd": 0.52, "signal": 0.28, "histogram": 0.24 },
+      "bollingerBands": { "upper": 13.45, "middle": 10.42, "lower": 7.39 },
+      "volumeMA20": 9800000,
+      "atr14": 0.88
+    },
+    "signals": [
+      { "label": "RSI", "value": "66.2", "interpretation": "bullish" },
+      { "label": "MACD", "value": "Strong bullish", "interpretation": "bullish" },
+      { "label": "Price vs SMA200", "value": "+54.3%", "interpretation": "bullish" }
+    ],
+    "trendStrength": "strong-up",
+    "supportLevel": 9.50,
+    "resistanceLevel": 13.80
+  },
+  "fundamental": {
+    "valuation": {
+      "pe": null, "forwardPe": null,
+      "evEbitda": null, "evRevenue": 5.2,
+      "ps": 4.8, "pb": 2.4, "pfcf": null
+    },
+    "health": {
+      "grossMargin": 32.4, "operatingMargin": -28.5, "netMargin": -32.4,
+      "roic": -14.5, "roe": -24.8, "debtToEquity": 0.85,
+      "currentRatio": 2.4, "quickRatio": 2.2,
+      "fcfYield": null, "interestCoverage": -5.8
+    },
+    "growth": {
+      "revenueGrowthYoY": 148.5, "revenueGrowth3Y": null,
+      "ebitdaGrowthYoY": null, "epsGrowthYoY": null, "fcfGrowthYoY": null
+    },
+    "incomeStatement": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "revenue": [28.5, 68.4, 198.5, 493.2],
+      "grossProfit": [8.4, 24.8, 64.3, 159.8],
+      "operatingIncome": [-24.5, -42.8, -56.5, -140.5],
+      "ebitda": [-14.5, -28.5, -32.4, -85.2],
+      "netIncome": [-28.5, -48.2, -64.5, -159.8],
+      "eps": [-0.38, [-0.58], -0.68, -1.25]
+    },
+    "balanceSheet": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "cash": [98.5, 185.4, 285.8, 428.5],
+      "totalAssets": [285.4, 485.2, 848.5, 1485.2],
+      "totalDebt": [82.5, 148.5, 248.5, 485.2],
+      "totalEquity": [185.4, 285.2, 485.8, 748.5],
+      "sharesOutstanding": [98.0, 108.5, 118.4, 128.5]
+    },
+    "cashFlow": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "operatingCF": [-14.5, -22.4, [-28.5], -48.5],
+      "capex": [-148.5, [-285.4], -485.2, [-985.4]],
+      "freeCashFlow": [-163.0, -307.8, -513.7, -1033.9],
+      "financingCF": [248.5, 485.2, 748.5, 1485.2]
+    },
+    "dcf": {
+      "scenarios": [
+        { "label": "Bull", "fcfGrowthRate": 120, "wacc": 13.0, "terminalGrowth": 3.0, "intrinsicValue": 22.50, "upsideDownside": 96.5 },
+        { "label": "Base", "fcfGrowthRate": 65, "wacc": 15.0, "terminalGrowth": 2.5, "intrinsicValue": 11.80, "upsideDownside": 3.1 },
+        { "label": "Bear", "fcfGrowthRate": 20, "wacc": 18.0, "terminalGrowth": 1.5, "intrinsicValue": 4.50, "upsideDownside": -60.7 }
+      ],
+      "impliedGrowthRate": 63.8,
+      "currentPrice": 11.45
+    },
+    "valuationBands": [
+      { "metric": "ps", "current": 4.8, "min5y": 1.2, "max5y": 22.5, "median5y": 6.8, "percentileRank": 32 }
+    ],
+    "sectorKpis": {
+      "occupancyRate": 88.5,
+      "pue": 1.12,
+      "revenuePerMW": 4.8,
+      "adjustedEbitdaMargin": 28.5,
+      "hyperscalerConcentration": null
+    }
+  }
+}

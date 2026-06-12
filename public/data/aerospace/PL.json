@@ -1,0 +1,112 @@
+{
+  "company": {
+    "ticker": "PL",
+    "name": "Planet Labs PBC",
+    "sector": "aerospace",
+    "exchange": "NYSE",
+    "description": "Planet Labs operates the world's largest commercial satellite constellation with over 200 Dove satellites, delivering daily high-resolution imagery of Earth's entire landmass. Its analytics platform serves agriculture, forestry, intelligence, and climate monitoring customers.",
+    "founded": 2010,
+    "employees": 900
+  },
+  "price": {
+    "price": 3.28,
+    "priceChange": 0.12,
+    "priceChangePct": 3.80,
+    "open": 3.16,
+    "high52w": 6.45,
+    "low52w": 1.82,
+    "volume": 8700000,
+    "avgVolume30d": 7200000,
+    "marketCap": 735000000,
+    "marketCapCategory": "small",
+    "lastUpdated": "2026-06-12T23:00:00Z",
+    "dataConfidence": "high"
+  },
+  "scores": {
+    "technicalScore": 58,
+    "fundamentalScore": 32,
+    "piotroskiScore": 3,
+    "altmanZScore": 1.8,
+    "compositeScore": 45
+  },
+  "technical": {
+    "indicators": {
+      "rsi14": 55.8,
+      "sma20": 3.05,
+      "sma50": 2.78,
+      "sma200": 2.92,
+      "macd": { "macd": 0.08, "signal": 0.04, "histogram": 0.04 },
+      "bollingerBands": { "upper": 3.85, "middle": 3.05, "lower": 2.25 },
+      "volumeMA20": 7000000,
+      "atr14": 0.22
+    },
+    "signals": [
+      { "label": "RSI", "value": "55.8", "interpretation": "neutral" },
+      { "label": "MACD", "value": "Bullish crossover", "interpretation": "bullish" },
+      { "label": "Price vs SMA50", "value": "+18.0%", "interpretation": "bullish" },
+      { "label": "Volume", "value": "+20.8% vs avg", "interpretation": "bullish" }
+    ],
+    "trendStrength": "up",
+    "supportLevel": 2.80,
+    "resistanceLevel": 3.90
+  },
+  "fundamental": {
+    "valuation": {
+      "pe": null, "forwardPe": null, "evEbitda": null,
+      "evRevenue": 3.1, "ps": 2.8, "pb": 1.4, "pfcf": null
+    },
+    "health": {
+      "grossMargin": 42.8, "operatingMargin": -52.4, "netMargin": -55.1,
+      "roic": -28.4, "roe": -45.6, "debtToEquity": 0.68,
+      "currentRatio": 2.8, "quickRatio": 2.5,
+      "fcfYield": null, "interestCoverage": -8.4
+    },
+    "growth": {
+      "revenueGrowthYoY": 21.8, "revenueGrowth3Y": 42.1,
+      "ebitdaGrowthYoY": null, "epsGrowthYoY": null, "fcfGrowthYoY": null
+    },
+    "incomeStatement": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "revenue": [131.2, 191.0, 228.2, 278.0],
+      "grossProfit": [52.4, 82.1, 97.6, 119.1],
+      "operatingIncome": [-158.2, -172.4, -145.8, -145.7],
+      "ebitda": [-120.4, -130.2, -105.8, -98.4],
+      "netIncome": [-160.8, -175.2, -149.1, -153.3],
+      "eps": [-0.72, -0.79, -0.67, -0.68]
+    },
+    "balanceSheet": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "cash": [412.5, 324.1, 248.2, 215.4],
+      "totalAssets": [760.0, 710.0, 675.0, 652.0],
+      "totalDebt": [145.0, 152.0, 168.0, 178.0],
+      "totalEquity": [528.0, 482.0, 425.0, 380.0],
+      "sharesOutstanding": [222.0, 224.0, 225.5, 227.0]
+    },
+    "cashFlow": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "operatingCF": [-98.4, -82.1, -68.4, -55.2],
+      "capex": [-95.2, [-88.4], -72.1, -58.4],
+      "freeCashFlow": [-193.6, -170.5, -140.5, -113.6],
+      "financingCF": [284.5, 58.2, 45.8, 32.5]
+    },
+    "dcf": {
+      "scenarios": [
+        { "label": "Bull", "fcfGrowthRate": 45, "wacc": 10.0, "terminalGrowth": 3.0, "intrinsicValue": 6.80, "upsideDownside": 107.3 },
+        { "label": "Base", "fcfGrowthRate": 25, "wacc": 12.0, "terminalGrowth": 2.0, "intrinsicValue": 3.50, "upsideDownside": 6.7 },
+        { "label": "Bear", "fcfGrowthRate": 8, "wacc": 14.0, "terminalGrowth": 1.5, "intrinsicValue": 1.60, "upsideDownside": -51.2 }
+      ],
+      "impliedGrowthRate": 24.8,
+      "currentPrice": 3.28
+    },
+    "valuationBands": [
+      { "metric": "ps", "current": 2.8, "min5y": 1.2, "max5y": 12.4, "median5y": 4.8, "percentileRank": 22 }
+    ],
+    "sectorKpis": {
+      "backlogOrders": 0.18,
+      "bookToBill": 1.12,
+      "govtRevenuePercent": 35.2,
+      "rdPercentRevenue": 14.5,
+      "launchCount12m": null
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ticker": "LUNR",
+  "sentimentScore": 68,
+  "label": "Bullish",
+  "confidence": 0.78,
+  "trend": "improving",
+  "articlesAnalyzed": 24,
+  "lastUpdated": "2026-06-12T23:00:00Z",
+  "modelMae7d": 0.16,
+  "topHeadlines": [
+    { "title": "Intuitive Machines wins $4.8B NASA CLPS task order for 3 additional lunar missions", "source": "Reuters", "date": "2026-06-11", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.95, "confidence": 0.96, "isFilingRelated": false },
+    { "title": "LUNR Q1 2026: revenue triples YoY, path to breakeven in FY2027 on track", "source": "Bloomberg", "date": "2026-05-14", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.88, "confidence": 0.91, "isFilingRelated": true },
+    { "title": "Intuitive Machines' IM-3 mission targets lunar south pole for NASA", "source": "SpaceNews", "date": "2026-06-09", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.75, "confidence": 0.85, "isFilingRelated": false }
+  ],
+  "scoreHistory7d": [55, 58, 60, 62, 64, 66, 68]
+}

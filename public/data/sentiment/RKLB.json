@@ -1,0 +1,18 @@
+{
+  "ticker": "RKLB",
+  "sentimentScore": 74,
+  "label": "Bullish",
+  "confidence": 0.82,
+  "trend": "improving",
+  "articlesAnalyzed": 31,
+  "lastUpdated": "2026-06-12T23:00:00Z",
+  "modelMae7d": 0.14,
+  "topHeadlines": [
+    { "title": "Rocket Lab wins $55M NASA contract for Neutron upper stage development", "source": "Reuters", "date": "2026-06-12", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.91, "confidence": 0.94, "isFilingRelated": false },
+    { "title": "Rocket Lab's Electron completes 55th mission, delivers commercial payload", "source": "SpaceNews", "date": "2026-06-11", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.78, "confidence": 0.88, "isFilingRelated": false },
+    { "title": "RKLB Q1 2026 revenue beats consensus by 12%, guidance raised for FY2026", "source": "Seeking Alpha", "date": "2026-05-08", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.85, "confidence": 0.92, "isFilingRelated": true },
+    { "title": "Rocket Lab expands Neutron production facility in Virginia", "source": "Bloomberg", "date": "2026-06-09", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.72, "confidence": 0.85, "isFilingRelated": false },
+    { "title": "Analyst raises RKLB price target to $30 citing strong backlog momentum", "source": "Morgan Stanley", "date": "2026-06-10", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.88, "confidence": 0.91, "isFilingRelated": false }
+  ],
+  "scoreHistory7d": [61, 65, 68, 70, 69, 72, 74]
+}

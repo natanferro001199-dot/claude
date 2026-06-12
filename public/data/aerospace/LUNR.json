@@ -1,0 +1,111 @@
+{
+  "company": {
+    "ticker": "LUNR",
+    "name": "Intuitive Machines",
+    "sector": "aerospace",
+    "exchange": "Nasdaq",
+    "description": "Intuitive Machines designs, manufactures, and operates space products and services for lunar exploration. Its Nova-C lander delivered NASA payloads to the lunar surface in 2024 — the first U.S. lunar landing since Apollo. It holds multi-mission NASA CLPS contracts valued over $1 billion.",
+    "founded": 2013,
+    "employees": 315
+  },
+  "price": {
+    "price": 9.85,
+    "priceChange": 0.45,
+    "priceChangePct": 4.78,
+    "open": 9.40,
+    "high52w": 18.40,
+    "low52w": 2.85,
+    "volume": 6500000,
+    "avgVolume30d": 5200000,
+    "marketCap": 1180000000,
+    "marketCapCategory": "small",
+    "lastUpdated": "2026-06-12T23:00:00Z",
+    "dataConfidence": "high"
+  },
+  "scores": {
+    "technicalScore": 64,
+    "fundamentalScore": 35,
+    "piotroskiScore": 4,
+    "altmanZScore": 1.9,
+    "compositeScore": 50
+  },
+  "technical": {
+    "indicators": {
+      "rsi14": 60.2,
+      "sma20": 8.92,
+      "sma50": 7.85,
+      "sma200": 6.45,
+      "macd": { "macd": 0.38, "signal": 0.22, "histogram": 0.16 },
+      "bollingerBands": { "upper": 11.25, "middle": 8.92, "lower": 6.59 },
+      "volumeMA20": 5000000,
+      "atr14": 0.72
+    },
+    "signals": [
+      { "label": "RSI", "value": "60.2", "interpretation": "bullish" },
+      { "label": "MACD", "value": "Bullish crossover", "interpretation": "bullish" },
+      { "label": "Price vs SMA200", "value": "+52.7%", "interpretation": "bullish" }
+    ],
+    "trendStrength": "up",
+    "supportLevel": 8.20,
+    "resistanceLevel": 11.80
+  },
+  "fundamental": {
+    "valuation": {
+      "pe": null, "forwardPe": null, "evEbitda": null,
+      "evRevenue": 7.2, "ps": 6.8, "pb": 5.4, "pfcf": null
+    },
+    "health": {
+      "grossMargin": 22.4, "operatingMargin": -68.2, "netMargin": -72.4,
+      "roic": -35.4, "roe": -58.4, "debtToEquity": 0.92,
+      "currentRatio": 2.8, "quickRatio": 2.4,
+      "fcfYield": null, "interestCoverage": -10.5
+    },
+    "growth": {
+      "revenueGrowthYoY": 124.8, "revenueGrowth3Y": null,
+      "ebitdaGrowthYoY": null, "epsGrowthYoY": null, "fcfGrowthYoY": null
+    },
+    "incomeStatement": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "revenue": [31.2, 72.4, 228.5, 514.8],
+      "grossProfit": [4.8, 12.4, 51.2, 115.3],
+      "operatingIncome": [-48.2, -82.4, -155.8, -351.4],
+      "ebitda": [-38.4, -65.2, -125.4, -285.2],
+      "netIncome": [-52.4, -88.5, -165.4, -372.8],
+      "eps": [-0.82, -1.28, -2.12, -3.65]
+    },
+    "balanceSheet": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "cash": [28.5, 85.2, 142.8, 248.4],
+      "totalAssets": [125.4, 282.5, 485.2, 842.4],
+      "totalDebt": [45.8, 82.4, 125.4, 248.5],
+      "totalEquity": [54.2, 142.8, 248.5, 418.4],
+      "sharesOutstanding": [98.0, 102.5, 118.2, 126.5]
+    },
+    "cashFlow": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "operatingCF": [-42.4, -62.5, -108.4, -215.8],
+      "capex": [-12.5, -28.4, -52.8, -98.4],
+      "freeCashFlow": [-54.9, -90.9, -161.2, -314.2],
+      "financingCF": [88.5, 248.4, 285.2, 525.8]
+    },
+    "dcf": {
+      "scenarios": [
+        { "label": "Bull", "fcfGrowthRate": 100, "wacc": 10.0, "terminalGrowth": 3.5, "intrinsicValue": 18.50, "upsideDownside": 87.8 },
+        { "label": "Base", "fcfGrowthRate": 60, "wacc": 12.0, "terminalGrowth": 2.5, "intrinsicValue": 10.20, "upsideDownside": 3.6 },
+        { "label": "Bear", "fcfGrowthRate": 20, "wacc": 15.0, "terminalGrowth": 1.5, "intrinsicValue": 4.80, "upsideDownside": -51.3 }
+      ],
+      "impliedGrowthRate": 58.8,
+      "currentPrice": 9.85
+    },
+    "valuationBands": [
+      { "metric": "ps", "current": 6.8, "min5y": 2.4, "max5y": 45.2, "median5y": 12.8, "percentileRank": 38 }
+    ],
+    "sectorKpis": {
+      "backlogOrders": 0.72,
+      "bookToBill": 1.45,
+      "govtRevenuePercent": 92.4,
+      "rdPercentRevenue": 12.8,
+      "launchCount12m": 2
+    }
+  }
+}

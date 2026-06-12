@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Roboto:wght@300;400;500&family=Roboto+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gf-bg text-gf-text font-sans antialiased;
+  }
+
+  * {
+    @apply border-gf-border;
+  }
+}
+
+@layer components {
+  .gf-card {
+    @apply bg-white rounded-lg border border-gf-border shadow-gf-card transition-shadow duration-150;
+  }
+
+  .gf-card:hover {
+    @apply shadow-gf-card-hover;
+  }
+
+  .gf-tab {
+    @apply px-4 py-2 text-sm font-medium text-gf-text-secondary border-b-2 border-transparent
+           hover:text-gf-text hover:border-gf-border transition-all duration-150 cursor-pointer whitespace-nowrap;
+  }
+
+  .gf-tab-active {
+    @apply text-gf-accent border-gf-accent;
+  }
+
+  .gf-btn {
+    @apply px-4 py-2 rounded-md text-sm font-medium transition-all duration-150 cursor-pointer;
+  }
+
+  .gf-btn-primary {
+    @apply gf-btn bg-gf-accent text-white hover:bg-blue-600;
+  }
+
+  .gf-btn-outline {
+    @apply gf-btn border border-gf-border text-gf-text hover:bg-gf-bg;
+  }
+
+  .gf-table th {
+    @apply text-xs font-medium text-gf-text-secondary uppercase tracking-wide py-2 px-3 text-right first:text-left bg-gf-bg;
+  }
+
+  .gf-table td {
+    @apply text-sm py-2 px-3 text-right first:text-left border-t border-gf-border font-mono;
+  }
+
+  .gf-table tr:hover td {
+    @apply bg-gf-bg;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-medium;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { @apply bg-gf-border rounded-full; }
+::-webkit-scrollbar-thumb:hover { @apply bg-gf-text-secondary; }
+
+/* Lightweight Charts container */
+.tv-chart-container {
+  width: 100%;
+  height: 320px;
+}
+
+/* Smooth transitions */
+.fade-in { animation: fadeIn 0.2s ease-in; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }

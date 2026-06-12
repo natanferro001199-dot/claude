@@ -1,0 +1,16 @@
+{
+  "ticker": "RDW",
+  "sentimentScore": 42,
+  "label": "Neutral",
+  "confidence": 0.68,
+  "trend": "declining",
+  "articlesAnalyzed": 14,
+  "lastUpdated": "2026-06-12T23:00:00Z",
+  "modelMae7d": 0.21,
+  "topHeadlines": [
+    { "title": "Redwire delivers solar array system for NASA Gateway lunar outpost", "source": "SpaceNews", "date": "2026-06-11", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.72, "confidence": 0.82, "isFilingRelated": false },
+    { "title": "Redwire Q1 2026 results: revenue in-line, losses wider than expected", "source": "Reuters", "date": "2026-05-12", "url": "#", "sentimentLabel": "Bearish", "sentimentScore": -0.42, "confidence": 0.78, "isFilingRelated": true },
+    { "title": "RDW stock downgraded to Hold on rising debt concerns", "source": "JP Morgan", "date": "2026-06-08", "url": "#", "sentimentLabel": "Bearish", "sentimentScore": -0.58, "confidence": 0.85, "isFilingRelated": false }
+  ],
+  "scoreHistory7d": [52, 50, 48, 45, 44, 43, 42]
+}

@@ -1,0 +1,113 @@
+{
+  "company": {
+    "ticker": "RDW",
+    "name": "Redwire Corporation",
+    "sector": "aerospace",
+    "exchange": "NYSE",
+    "description": "Redwire Corporation is a leading space infrastructure company focused on providing essential capabilities for civil, commercial, and national security space missions. It builds power systems, solar arrays, deployable structures, and in-space manufacturing systems for satellites and the ISS.",
+    "founded": 2020,
+    "employees": 650
+  },
+  "price": {
+    "price": 7.82,
+    "priceChange": -0.18,
+    "priceChangePct": -2.25,
+    "open": 8.00,
+    "high52w": 14.20,
+    "low52w": 2.85,
+    "volume": 4200000,
+    "avgVolume30d": 3800000,
+    "marketCap": 925000000,
+    "marketCapCategory": "small",
+    "lastUpdated": "2026-06-12T23:00:00Z",
+    "dataConfidence": "medium"
+  },
+  "scores": {
+    "technicalScore": 44,
+    "fundamentalScore": 29,
+    "piotroskiScore": 3,
+    "altmanZScore": 1.4,
+    "compositeScore": 37
+  },
+  "technical": {
+    "indicators": {
+      "rsi14": 43.2,
+      "sma20": 8.34,
+      "sma50": 9.12,
+      "sma200": 7.45,
+      "macd": { "macd": -0.22, "signal": -0.08, "histogram": -0.14 },
+      "bollingerBands": { "upper": 10.21, "middle": 8.34, "lower": 6.47 },
+      "volumeMA20": 3600000,
+      "atr14": 0.58
+    },
+    "signals": [
+      { "label": "RSI", "value": "43.2", "interpretation": "neutral" },
+      { "label": "MACD", "value": "Bearish", "interpretation": "bearish" },
+      { "label": "Price vs SMA50", "value": "-14.2%", "interpretation": "bearish" },
+      { "label": "Price vs SMA200", "value": "+5.0%", "interpretation": "neutral" },
+      { "label": "Volume", "value": "+10.5% vs avg", "interpretation": "neutral" }
+    ],
+    "trendStrength": "down",
+    "supportLevel": 6.50,
+    "resistanceLevel": 9.80
+  },
+  "fundamental": {
+    "valuation": {
+      "pe": null, "forwardPe": null, "evEbitda": null,
+      "evRevenue": 2.8, "ps": 2.4, "pb": 3.1, "pfcf": null
+    },
+    "health": {
+      "grossMargin": 18.2, "operatingMargin": -28.4, "netMargin": -32.1,
+      "roic": -22.5, "roe": -48.3, "debtToEquity": 1.85,
+      "currentRatio": 1.4, "quickRatio": 1.1,
+      "fcfYield": null, "interestCoverage": -4.2
+    },
+    "growth": {
+      "revenueGrowthYoY": 12.4, "revenueGrowth3Y": 38.5,
+      "ebitdaGrowthYoY": null, "epsGrowthYoY": null, "fcfGrowthYoY": null
+    },
+    "incomeStatement": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "revenue": [168.2, 247.1, 315.8, 355.0],
+      "grossProfit": [28.4, 42.1, 57.5, 64.6],
+      "operatingIncome": [-68.2, -85.4, -89.7, -100.9],
+      "ebitda": [-42.1, -55.3, -58.2, -65.4],
+      "netIncome": [-79.2, -98.4, -110.2, -114.1],
+      "eps": [-1.12, -1.38, -1.52, -1.47]
+    },
+    "balanceSheet": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "cash": [98.2, 124.5, 87.3, 110.2],
+      "totalAssets": [548.0, 612.0, 645.0, 680.0],
+      "totalDebt": [248.0, 312.0, 328.0, 340.0],
+      "totalEquity": [185.0, 168.0, 154.0, 152.0],
+      "sharesOutstanding": [73.0, 74.5, 76.2, 77.5]
+    },
+    "cashFlow": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "operatingCF": [-45.2, -52.1, -48.3, -55.1],
+      "capex": [-18.4, -22.5, -24.8, -28.2],
+      "freeCashFlow": [-63.6, -74.6, -73.1, -83.3],
+      "financingCF": [145.3, 88.2, 42.5, 65.4]
+    },
+    "dcf": {
+      "scenarios": [
+        { "label": "Bull", "fcfGrowthRate": 40, "wacc": 10.0, "terminalGrowth": 2.5, "intrinsicValue": 12.50, "upsideDownside": 59.8 },
+        { "label": "Base", "fcfGrowthRate": 20, "wacc": 12.0, "terminalGrowth": 2.0, "intrinsicValue": 7.20, "upsideDownside": -7.9 },
+        { "label": "Bear", "fcfGrowthRate": 5, "wacc": 14.0, "terminalGrowth": 1.0, "intrinsicValue": 3.40, "upsideDownside": -56.5 }
+      ],
+      "impliedGrowthRate": 18.5,
+      "currentPrice": 7.82
+    },
+    "valuationBands": [
+      { "metric": "ps", "current": 2.4, "min5y": 0.8, "max5y": 8.5, "median5y": 3.2, "percentileRank": 28 }
+    ],
+    "sectorKpis": {
+      "backlogOrders": 0.32,
+      "bookToBill": 1.05,
+      "govtRevenuePercent": 72.4,
+      "rdPercentRevenue": 5.8,
+      "launchCount12m": null
+    }
+  }
+}

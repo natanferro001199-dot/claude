@@ -1,0 +1,16 @@
+{
+  "ticker": "IREN",
+  "sentimentScore": 70,
+  "label": "Bullish",
+  "confidence": 0.76,
+  "trend": "improving",
+  "articlesAnalyzed": 22,
+  "lastUpdated": "2026-06-12T23:00:00Z",
+  "modelMae7d": 0.24,
+  "topHeadlines": [
+    { "title": "Iris Energy pivots to AI: 100MW GPU cluster fully contracted at Childress facility", "source": "Bloomberg", "date": "2026-06-11", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.88, "confidence": 0.90, "isFilingRelated": false },
+    { "title": "IREN Q3 FY2026: AI revenue now 45% of total, Bitcoin mining de-emphasized", "source": "Reuters", "date": "2026-05-15", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.82, "confidence": 0.88, "isFilingRelated": true },
+    { "title": "Iris Energy signs 10-year renewable power agreement for 500MW expansion", "source": "Seeking Alpha", "date": "2026-06-09", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.75, "confidence": 0.82, "isFilingRelated": false }
+  ],
+  "scoreHistory7d": [58, 61, 63, 65, 67, 68, 70]
+}

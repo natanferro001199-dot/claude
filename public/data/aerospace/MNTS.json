@@ -1,0 +1,111 @@
+{
+  "company": {
+    "ticker": "MNTS",
+    "name": "Momentus Inc.",
+    "sector": "aerospace",
+    "exchange": "Nasdaq",
+    "description": "Momentus is a commercial space company that provides in-space transportation and infrastructure services. Its Vigoride spacecraft delivers satellites to precise orbital destinations after rideshare deployment and provides hosted payload services.",
+    "founded": 2017,
+    "employees": 120
+  },
+  "price": {
+    "price": 1.24,
+    "priceChange": 0.04,
+    "priceChangePct": 3.34,
+    "open": 1.20,
+    "high52w": 3.85,
+    "low52w": 0.58,
+    "volume": 1850000,
+    "avgVolume30d": 1400000,
+    "marketCap": 42000000,
+    "marketCapCategory": "micro",
+    "lastUpdated": "2026-06-12T23:00:00Z",
+    "dataConfidence": "medium"
+  },
+  "scores": {
+    "technicalScore": 51,
+    "fundamentalScore": 14,
+    "piotroskiScore": 1,
+    "altmanZScore": 0.8,
+    "compositeScore": 33
+  },
+  "technical": {
+    "indicators": {
+      "rsi14": 52.1,
+      "sma20": 1.18,
+      "sma50": 1.35,
+      "sma200": 1.82,
+      "macd": { "macd": 0.02, "signal": -0.01, "histogram": 0.03 },
+      "bollingerBands": { "upper": 1.62, "middle": 1.18, "lower": 0.74 },
+      "volumeMA20": 1350000,
+      "atr14": 0.12
+    },
+    "signals": [
+      { "label": "RSI", "value": "52.1", "interpretation": "neutral" },
+      { "label": "MACD", "value": "Bullish cross", "interpretation": "bullish" },
+      { "label": "Price vs SMA200", "value": "-31.9%", "interpretation": "bearish" }
+    ],
+    "trendStrength": "neutral",
+    "supportLevel": 0.95,
+    "resistanceLevel": 1.65
+  },
+  "fundamental": {
+    "valuation": {
+      "pe": null, "forwardPe": null, "evEbitda": null,
+      "evRevenue": 1.2, "ps": 0.9, "pb": 0.6, "pfcf": null
+    },
+    "health": {
+      "grossMargin": -245.0, "operatingMargin": -1840.0, "netMargin": -1920.0,
+      "roic": null, "roe": null, "debtToEquity": 0.28,
+      "currentRatio": 4.2, "quickRatio": 4.0,
+      "fcfYield": null, "interestCoverage": null
+    },
+    "growth": {
+      "revenueGrowthYoY": -18.4, "revenueGrowth3Y": null,
+      "ebitdaGrowthYoY": null, "epsGrowthYoY": null, "fcfGrowthYoY": null
+    },
+    "incomeStatement": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "revenue": [0.6, 2.4, 5.8, 4.7],
+      "grossProfit": [-3.2, -2.1, -1.8, -11.5],
+      "operatingIncome": [-78.4, -65.2, -58.4, -86.4],
+      "ebitda": [-68.4, -55.2, -48.1, -75.2],
+      "netIncome": [-82.4, -68.4, -62.1, -90.3],
+      "eps": [-4.82, -3.98, -3.52, -5.01]
+    },
+    "balanceSheet": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "cash": [58.4, 42.1, 28.5, 18.4],
+      "totalAssets": [98.2, 82.4, 65.4, 48.2],
+      "totalDebt": [8.5, 6.2, 5.8, 4.2],
+      "totalEquity": [72.4, 58.5, 42.8, 32.1],
+      "sharesOutstanding": [18.0, 18.5, 18.8, 19.2]
+    },
+    "cashFlow": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "operatingCF": [-62.4, -52.1, -42.8, -58.4],
+      "capex": [-12.4, [-8.5], -6.2, -4.8],
+      "freeCashFlow": [-74.8, -60.6, -49.0, -63.2],
+      "financingCF": [85.4, 28.5, 12.4, 8.2]
+    },
+    "dcf": {
+      "scenarios": [
+        { "label": "Bull", "fcfGrowthRate": 120, "wacc": 15.0, "terminalGrowth": 3.0, "intrinsicValue": 3.20, "upsideDownside": 158.1 },
+        { "label": "Base", "fcfGrowthRate": 60, "wacc": 18.0, "terminalGrowth": 2.0, "intrinsicValue": 1.10, "upsideDownside": -11.3 },
+        { "label": "Bear", "fcfGrowthRate": 10, "wacc": 22.0, "terminalGrowth": 1.0, "intrinsicValue": 0.20, "upsideDownside": -83.9 }
+      ],
+      "impliedGrowthRate": 58.4,
+      "currentPrice": 1.24
+    },
+    "valuationBands": [
+      { "metric": "ps", "current": 0.9, "min5y": 0.4, "max5y": 8.5, "median5y": 2.4, "percentileRank": 12 }
+    ],
+    "sectorKpis": {
+      "backlogOrders": 0.01,
+      "bookToBill": 0.82,
+      "govtRevenuePercent": 28.5,
+      "rdPercentRevenue": 42.5,
+      "launchCount12m": 3
+    }
+  }
+}

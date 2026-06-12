@@ -1,0 +1,33 @@
+{
+  "company": {
+    "ticker": "VOYAGER",
+    "name": "Voyager Space",
+    "sector": "aerospace",
+    "exchange": "Private",
+    "description": "Voyager Space is a private space infrastructure company building Starlab, a commercial space station under development with NASA backing. It is a prime contractor on NASA's Commercial Low Earth Orbit Destinations program, partnering with Airbus. The company is expected to pursue an IPO or SPAC merger.",
+    "founded": 2019,
+    "employees": 400,
+    "isPlaceholder": true
+  },
+  "price": {
+    "price": null,
+    "priceChange": null,
+    "priceChangePct": null,
+    "open": null,
+    "high52w": null,
+    "low52w": null,
+    "volume": null,
+    "avgVolume30d": null,
+    "marketCap": null,
+    "marketCapCategory": "micro",
+    "lastUpdated": "2026-06-12T23:00:00Z",
+    "dataConfidence": "low"
+  },
+  "scores": {
+    "technicalScore": null,
+    "fundamentalScore": null,
+    "piotroskiScore": null,
+    "altmanZScore": null,
+    "compositeScore": null
+  }
+}

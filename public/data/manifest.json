@@ -1,0 +1,9 @@
+{
+  "lastUpdated": "2026-06-12T23:00:00Z",
+  "dataSource": "mock",
+  "companies": {
+    "aerospace": ["RKLB", "RDW", "PL", "MNTS", "LUNR", "VOYAGER"],
+    "datacenters": ["EQIX", "APLD", "NEBIUS", "IREN", "TSSI"]
+  },
+  "nextRefresh": "2026-06-13T23:00:00Z"
+}

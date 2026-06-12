@@ -1,0 +1,16 @@
+{
+  "ticker": "PL",
+  "sentimentScore": 58,
+  "label": "Neutral",
+  "confidence": 0.72,
+  "trend": "improving",
+  "articlesAnalyzed": 22,
+  "lastUpdated": "2026-06-12T23:00:00Z",
+  "modelMae7d": 0.18,
+  "topHeadlines": [
+    { "title": "Planet Labs secures $45M U.S. government contract for climate monitoring imagery", "source": "Reuters", "date": "2026-06-10", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.82, "confidence": 0.88, "isFilingRelated": false },
+    { "title": "Planet Labs expands into agricultural analytics with Syngenta partnership", "source": "Bloomberg", "date": "2026-06-08", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.68, "confidence": 0.80, "isFilingRelated": false },
+    { "title": "PL Q4 FY2026 results: revenue growth slows to 18%, path to profitability extended", "source": "Seeking Alpha", "date": "2026-04-24", "url": "#", "sentimentLabel": "Neutral", "sentimentScore": -0.12, "confidence": 0.75, "isFilingRelated": true }
+  ],
+  "scoreHistory7d": [48, 50, 52, 54, 56, 57, 58]
+}

@@ -1,0 +1,16 @@
+{
+  "ticker": "EQIX",
+  "sentimentScore": 55,
+  "label": "Neutral",
+  "confidence": 0.74,
+  "trend": "declining",
+  "articlesAnalyzed": 38,
+  "lastUpdated": "2026-06-12T23:00:00Z",
+  "modelMae7d": 0.11,
+  "topHeadlines": [
+    { "title": "Equinix reports Q1 2026: revenue +7.2% YoY, AFFO guidance maintained", "source": "Reuters", "date": "2026-05-07", "url": "#", "sentimentLabel": "Neutral", "sentimentScore": 0.18, "confidence": 0.82, "isFilingRelated": true },
+    { "title": "Rising interest rates pressure REIT valuations — Equinix among affected names", "source": "Bloomberg", "date": "2026-06-10", "url": "#", "sentimentLabel": "Bearish", "sentimentScore": -0.48, "confidence": 0.78, "isFilingRelated": false },
+    { "title": "Equinix expands xScale JV in Japan with $2.1B new data center campus", "source": "Wall Street Journal", "date": "2026-06-08", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.72, "confidence": 0.85, "isFilingRelated": false }
+  ],
+  "scoreHistory7d": [62, 60, 58, 57, 56, 55, 55]
+}

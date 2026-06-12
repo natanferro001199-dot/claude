@@ -1,0 +1,16 @@
+{
+  "ticker": "MNTS",
+  "sentimentScore": 35,
+  "label": "Bearish",
+  "confidence": 0.62,
+  "trend": "stable",
+  "articlesAnalyzed": 8,
+  "lastUpdated": "2026-06-12T23:00:00Z",
+  "modelMae7d": 0.28,
+  "topHeadlines": [
+    { "title": "Momentus completes Vigoride-7 mission delivering 4 satellites", "source": "SpaceNews", "date": "2026-06-05", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.62, "confidence": 0.78, "isFilingRelated": false },
+    { "title": "Momentus Q1 2026: revenue declines 18%, raises going concern warnings", "source": "SEC EDGAR", "date": "2026-05-15", "url": "#", "sentimentLabel": "Bearish", "sentimentScore": -0.84, "confidence": 0.92, "isFilingRelated": true },
+    { "title": "Momentus in discussions with potential acquirers — sources", "source": "Bloomberg", "date": "2026-06-01", "url": "#", "sentimentLabel": "Neutral", "sentimentScore": 0.12, "confidence": 0.65, "isFilingRelated": false }
+  ],
+  "scoreHistory7d": [38, 36, 35, 34, 35, 35, 35]
+}

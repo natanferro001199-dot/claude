@@ -1,0 +1,15 @@
+{
+  "ticker": "TSSI",
+  "sentimentScore": 52,
+  "label": "Neutral",
+  "confidence": 0.65,
+  "trend": "stable",
+  "articlesAnalyzed": 9,
+  "lastUpdated": "2026-06-12T23:00:00Z",
+  "modelMae7d": 0.32,
+  "topHeadlines": [
+    { "title": "TSS Inc. wins $28M DoD data center modernization contract", "source": "PR Newswire", "date": "2026-06-07", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.72, "confidence": 0.80, "isFilingRelated": false },
+    { "title": "TSSI Q1 2026: EPS beats by 15%, DoD pipeline growing", "source": "Seeking Alpha", "date": "2026-05-12", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.65, "confidence": 0.78, "isFilingRelated": true }
+  ],
+  "scoreHistory7d": [50, 51, 52, 52, 53, 52, 52]
+}

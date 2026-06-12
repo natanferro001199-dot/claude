@@ -1,0 +1,14 @@
+{
+  "sector": "datacenters",
+  "aggregateScore": 65,
+  "label": "Bullish",
+  "trend": "improving",
+  "companiesScores": [
+    { "ticker": "NEBIUS", "score": 78, "label": "Bullish" },
+    { "ticker": "APLD", "score": 72, "label": "Bullish" },
+    { "ticker": "IREN", "score": 70, "label": "Bullish" },
+    { "ticker": "TSSI", "score": 52, "label": "Neutral" },
+    { "ticker": "EQIX", "score": 55, "label": "Neutral" }
+  ],
+  "lastUpdated": "2026-06-12T23:00:00Z"
+}

@@ -1,0 +1,113 @@
+{
+  "company": {
+    "ticker": "APLD",
+    "name": "Applied Digital Corporation",
+    "sector": "datacenters",
+    "exchange": "Nasdaq",
+    "description": "Applied Digital builds and operates next-generation digital infrastructure for high-performance computing (HPC) and AI workloads. Its data centers provide GPU-as-a-service to AI companies, hosting NVIDIA H100 and H200 clusters. It is transitioning from Bitcoin mining hosting to pure AI data center infrastructure.",
+    "founded": 2001,
+    "employees": 280
+  },
+  "price": {
+    "price": 6.85,
+    "priceChange": 0.42,
+    "priceChangePct": 6.54,
+    "open": 6.43,
+    "high52w": 12.85,
+    "low52w": 2.18,
+    "volume": 18500000,
+    "avgVolume30d": 14200000,
+    "marketCap": 1420000000,
+    "marketCapCategory": "small",
+    "lastUpdated": "2026-06-12T23:00:00Z",
+    "dataConfidence": "high"
+  },
+  "scores": {
+    "technicalScore": 68,
+    "fundamentalScore": 30,
+    "piotroskiScore": 3,
+    "altmanZScore": 1.6,
+    "compositeScore": 49
+  },
+  "technical": {
+    "indicators": {
+      "rsi14": 64.5,
+      "sma20": 6.12,
+      "sma50": 5.28,
+      "sma200": 4.85,
+      "macd": { "macd": 0.28, "signal": 0.14, "histogram": 0.14 },
+      "bollingerBands": { "upper": 7.82, "middle": 6.12, "lower": 4.42 },
+      "volumeMA20": 13500000,
+      "atr14": 0.52
+    },
+    "signals": [
+      { "label": "RSI", "value": "64.5", "interpretation": "bullish" },
+      { "label": "MACD", "value": "Bullish crossover", "interpretation": "bullish" },
+      { "label": "Price vs SMA200", "value": "+41.2%", "interpretation": "bullish" },
+      { "label": "Volume", "value": "+30.3% vs avg", "interpretation": "bullish" }
+    ],
+    "trendStrength": "strong-up",
+    "supportLevel": 5.50,
+    "resistanceLevel": 8.20
+  },
+  "fundamental": {
+    "valuation": {
+      "pe": null, "forwardPe": null,
+      "evEbitda": null, "evRevenue": 4.8,
+      "ps": 4.2, "pb": 2.8, "pfcf": null
+    },
+    "health": {
+      "grossMargin": 24.8, "operatingMargin": -48.4, "netMargin": -52.8,
+      "roic": -22.4, "roe": -38.5, "debtToEquity": 1.42,
+      "currentRatio": 1.8, "quickRatio": 1.6,
+      "fcfYield": null, "interestCoverage": -6.8
+    },
+    "growth": {
+      "revenueGrowthYoY": 185.4, "revenueGrowth3Y": null,
+      "ebitdaGrowthYoY": null, "epsGrowthYoY": null, "fcfGrowthYoY": null
+    },
+    "incomeStatement": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "revenue": [28.4, 84.2, 264.8, 754.2],
+      "grossProfit": [4.2, 14.8, 65.7, 187.2],
+      "operatingIncome": [-18.4, -42.5, -128.4, -365.2],
+      "ebitda": [-12.4, -28.5, [-88.4], -248.5],
+      "netIncome": [-22.4, -52.1, -145.8, -398.5],
+      "eps": [-0.28, [-0.52], -0.85, -1.92]
+    },
+    "balanceSheet": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "cash": [48.4, 125.8, 312.4, 485.2],
+      "totalAssets": [248.5, 582.4, 1248.5, 2485.2],
+      "totalDebt": [98.5, 248.4, 585.4, 1248.5],
+      "totalEquity": [112.4, 248.5, 482.4, 845.2],
+      "sharesOutstanding": [145.0, 168.5, 194.2, 218.5]
+    },
+    "cashFlow": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "operatingCF": [-14.5, -28.4, [-85.4], -224.8],
+      "capex": [-82.4, -248.5, [-585.2], -1248.4],
+      "freeCashFlow": [-96.9, [-276.9], -670.6, -1473.2],
+      "financingCF": [145.8, 425.2, 1248.5, 2485.4]
+    },
+    "dcf": {
+      "scenarios": [
+        { "label": "Bull", "fcfGrowthRate": 150, "wacc": 12.0, "terminalGrowth": 3.5, "intrinsicValue": 14.50, "upsideDownside": 111.7 },
+        { "label": "Base", "fcfGrowthRate": 80, "wacc": 14.0, "terminalGrowth": 2.5, "intrinsicValue": 7.20, "upsideDownside": 5.1 },
+        { "label": "Bear", "fcfGrowthRate": 25, "wacc": 18.0, "terminalGrowth": 1.5, "intrinsicValue": 2.80, "upsideDownside": -59.1 }
+      ],
+      "impliedGrowthRate": 78.5,
+      "currentPrice": 6.85
+    },
+    "valuationBands": [
+      { "metric": "ps", "current": 4.2, "min5y": 0.8, "max5y": 18.5, "median5y": 5.2, "percentileRank": 38 }
+    ],
+    "sectorKpis": {
+      "occupancyRate": 72.5,
+      "pue": 1.28,
+      "revenuePerMW": 8.5,
+      "adjustedEbitdaMargin": -8.4,
+      "hyperscalerConcentration": 45.8
+    }
+  }
+}

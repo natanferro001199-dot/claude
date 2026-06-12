@@ -1,0 +1,126 @@
+{
+  "company": {
+    "ticker": "TSSI",
+    "name": "TSS Inc.",
+    "sector": "datacenters",
+    "exchange": "Nasdaq",
+    "description": "TSS Inc. (formerly Total Server Solutions) provides critical infrastructure services including design, build, and management of data centers and mission-critical facilities. It serves government and commercial clients, with a focus on Department of Defense IT infrastructure modernization and colocation services.",
+    "founded": 2000,
+    "employees": 110
+  },
+  "price": {
+    "price": 3.12,
+    "priceChange": 0.08,
+    "priceChangePct": 2.63,
+    "open": 3.04,
+    "high52w": 8.45,
+    "low52w": 1.25,
+    "volume": 985000,
+    "avgVolume30d": 780000,
+    "marketCap": 95000000,
+    "marketCapCategory": "micro",
+    "lastUpdated": "2026-06-12T23:00:00Z",
+    "dataConfidence": "low"
+  },
+  "scores": {
+    "technicalScore": 55,
+    "fundamentalScore": 38,
+    "piotroskiScore": 5,
+    "altmanZScore": 2.8,
+    "compositeScore": 47
+  },
+  "technical": {
+    "indicators": {
+      "rsi14": 54.2,
+      "sma20": 2.98,
+      "sma50": 3.25,
+      "sma200": 3.82,
+      "macd": { "macd": -0.04, "signal": -0.08, "histogram": 0.04 },
+      "bollingerBands": { "upper": 3.85, "middle": 2.98, "lower": 2.11 },
+      "volumeMA20": 760000,
+      "atr14": 0.24
+    },
+    "signals": [
+      { "label": "RSI", "value": "54.2", "interpretation": "neutral" },
+      { "label": "MACD", "value": "Turning bullish", "interpretation": "neutral" },
+      { "label": "Price vs SMA200", "value": "-18.3%", "interpretation": "bearish" }
+    ],
+    "trendStrength": "neutral",
+    "supportLevel": 2.60,
+    "resistanceLevel": 4.00
+  },
+  "fundamental": {
+    "valuation": {
+      "pe": 28.4,
+      "forwardPe": 22.5,
+      "evEbitda": 14.8,
+      "evRevenue": 0.8,
+      "ps": 0.7,
+      "pb": 1.8,
+      "pfcf": 18.5
+    },
+    "health": {
+      "grossMargin": 22.5,
+      "operatingMargin": 5.8,
+      "netMargin": 4.2,
+      "roic": 8.4,
+      "roe": 12.5,
+      "debtToEquity": 0.45,
+      "currentRatio": 2.2,
+      "quickRatio": 1.9,
+      "fcfYield": 5.4,
+      "interestCoverage": 4.2
+    },
+    "growth": {
+      "revenueGrowthYoY": 18.5,
+      "revenueGrowth3Y": 24.8,
+      "ebitdaGrowthYoY": 22.4,
+      "epsGrowthYoY": 28.5,
+      "fcfGrowthYoY": 18.4
+    },
+    "incomeStatement": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "revenue": [68.4, 95.2, 115.8, 137.2],
+      "grossProfit": [12.4, 18.5, 26.1, 30.9],
+      "operatingIncome": [2.8, 5.4, 6.7, 7.9],
+      "ebitda": [5.4, 8.5, 10.8, 12.8],
+      "netIncome": [1.8, 3.5, 4.8, 5.8],
+      "eps": [0.06, 0.12, 0.16, 0.19]
+    },
+    "balanceSheet": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "cash": [8.5, 12.4, 15.8, 18.5],
+      "totalAssets": [85.4, 98.5, 115.2, 132.8],
+      "totalDebt": [18.5, 22.4, 24.8, 26.5],
+      "totalEquity": [42.5, 48.4, 58.5, 68.4],
+      "sharesOutstanding": [28.5, 29.2, 30.5, 31.2]
+    },
+    "cashFlow": {
+      "years": ["2022", "2023", "2024", "2025"],
+      "operatingCF": [4.8, 7.2, 8.5, 9.8],
+      "capex": [-2.4, [-3.5], -4.2, -4.8],
+      "freeCashFlow": [2.4, 3.7, 4.3, 5.0],
+      "financingCF": [-1.8, [-2.4], -2.8, -3.2]
+    },
+    "dcf": {
+      "scenarios": [
+        { "label": "Bull", "fcfGrowthRate": 25, "wacc": 9.0, "terminalGrowth": 2.5, "intrinsicValue": 5.80, "upsideDownside": 85.9 },
+        { "label": "Base", "fcfGrowthRate": 15, "wacc": 11.0, "terminalGrowth": 2.0, "intrinsicValue": 3.20, "upsideDownside": 2.6 },
+        { "label": "Bear", "fcfGrowthRate": 5, "wacc": 13.0, "terminalGrowth": 1.5, "intrinsicValue": 1.80, "upsideDownside": -42.3 }
+      ],
+      "impliedGrowthRate": 14.8,
+      "currentPrice": 3.12
+    },
+    "valuationBands": [
+      { "metric": "evEbitda", "current": 14.8, "min5y": 6.5, "max5y": 28.5, "median5y": 12.4, "percentileRank": 58 },
+      { "metric": "ps", "current": 0.7, "min5y": 0.3, "max5y": 2.8, "median5y": 0.9, "percentileRank": 40 }
+    ],
+    "sectorKpis": {
+      "occupancyRate": 76.5,
+      "pue": 1.52,
+      "revenuePerMW": 5.8,
+      "adjustedEbitdaMargin": 9.3,
+      "hyperscalerConcentration": 35.4
+    }
+  }
+}
