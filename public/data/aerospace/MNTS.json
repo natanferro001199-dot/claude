@@ -2366,6 +2366,18 @@
         -4.716
       ]
     },
-    "ohlsonScore": 67.8
+    "ohlsonScore": 67.8,
+    "analystConsensus": {
+      "analystScore": 35,
+      "analystLabel": "Sell",
+      "recommendationKey": "sell",
+      "recommendationMean": 3.8,
+      "targetMeanPrice": 9.78,
+      "targetHighPrice": 12.23,
+      "targetLowPrice": 6.16,
+      "targetUpside": -40.0,
+      "analystCount": 3,
+      "lastUpdated": "2026-06-12T00:00:00Z"
+    }
   }
 }

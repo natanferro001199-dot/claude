@@ -51,6 +51,7 @@ export default function SectorDashboard() {
               <th>Fund Score</th>
               <th>F-Score</th>
               <th>Z-Score</th>
+              <th>Analyst</th>
             </tr>
           </thead>
           <tbody>
@@ -95,6 +96,22 @@ export default function SectorDashboard() {
                     scores.altmanZScore >= 3 ? 'text-gf-positive' :
                     scores.altmanZScore >= 1.8 ? 'text-yellow-600' : 'text-gf-negative'
                   }`}>{scores.altmanZScore?.toFixed(1) ?? 'N/A'}</td>
+                  <td>
+                    {f?.analystConsensus != null ? (
+                      <div className="flex flex-col items-center gap-0.5">
+                        <span className={`badge text-xs font-semibold ${
+                          f.analystConsensus.analystScore > 60 ? 'bg-green-50 text-gf-positive' :
+                          f.analystConsensus.analystScore >= 40 ? 'bg-yellow-50 text-yellow-700' :
+                          'bg-red-50 text-gf-negative'
+                        }`}>
+                          {f.analystConsensus.analystScore}
+                        </span>
+                        <span className="text-xs text-gf-text-secondary">{f.analystConsensus.analystLabel}</span>
+                      </div>
+                    ) : (
+                      <span className="text-gf-text-secondary text-xs">N/A</span>
+                    )}
+                  </td>
                 </tr>
               )
             })}

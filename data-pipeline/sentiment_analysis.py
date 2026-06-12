@@ -296,6 +296,91 @@ def compute_catalyst_score(scored_articles):
     return catalyst_score, events[:5]
 
 
+def compute_analyst_rf_score(info: dict, price_data: dict):
+    """Random Forest model that aggregates analyst recommendations and price targets into a 0-100 score."""
+    try:
+        from sklearn.ensemble import RandomForestRegressor
+        import numpy as np
+        from datetime import datetime
+
+        current_price = price_data.get("price") or info.get("currentPrice") or 0
+        rec_mean      = info.get("recommendationMean")
+        target_mean   = info.get("targetMeanPrice")
+        target_high   = info.get("targetHighPrice")
+        target_low    = info.get("targetLowPrice")
+        n_analysts    = int(info.get("numberOfAnalystOpinions") or 0)
+        high52w       = price_data.get("high52w") or info.get("fiftyTwoWeekHigh") or 0
+        low52w        = price_data.get("low52w") or info.get("fiftyTwoWeekLow") or 0
+        rec_key       = info.get("recommendationKey") or ""
+
+        # Feature 1: recommendation_strength (1=strong_buy→1.0, 5=strong_sell→0.0)
+        rec_strength = (5.0 - rec_mean) / 4.0 if rec_mean else 0.5
+
+        # Feature 2: target_upside_norm
+        if target_mean and current_price > 0:
+            raw_upside = (target_mean - current_price) / current_price
+            raw_upside = max(-1.0, min(1.0, raw_upside))
+            upside_norm = (raw_upside + 1.0) / 2.0
+        else:
+            upside_norm = 0.5
+
+        # Feature 3: analyst_coverage
+        coverage = min(n_analysts / 20.0, 1.0)
+
+        # Feature 4: target_confidence (tighter spread = more confident)
+        if target_mean and target_mean > 0 and target_high and target_low:
+            confidence = max(0.0, 1.0 - (target_high - target_low) / target_mean)
+        else:
+            confidence = 0.5
+
+        # Feature 5: price_momentum (52wk position)
+        if high52w > low52w and current_price > 0:
+            momentum = max(0.0, min(1.0, (current_price - low52w) / (high52w - low52w)))
+        else:
+            momentum = 0.5
+
+        # Bootstrap training data (deterministic, seed=42)
+        rng = np.random.default_rng(42)
+        X_synth = rng.uniform(0, 1, (100, 5))
+        y_synth = (
+            0.30 * X_synth[:, 0] + 0.30 * X_synth[:, 1] +
+            0.15 * X_synth[:, 2] + 0.15 * X_synth[:, 3] +
+            0.10 * X_synth[:, 4]
+        ) * 100
+
+        rf = RandomForestRegressor(n_estimators=50, random_state=42)
+        rf.fit(X_synth, y_synth)
+
+        features = np.array([[rec_strength, upside_norm, coverage, confidence, momentum]])
+        score = float(rf.predict(features)[0])
+        score = round(max(0.0, min(100.0, score)), 1)
+
+        if score > 80:   label = "Strong Buy"
+        elif score > 60: label = "Buy"
+        elif score > 40: label = "Hold"
+        elif score > 20: label = "Sell"
+        else:            label = "Strong Sell"
+
+        target_upside_pct = None
+        if target_mean and current_price > 0:
+            target_upside_pct = round((target_mean - current_price) / current_price * 100, 1)
+
+        return {
+            "analystScore": int(round(score)),
+            "analystLabel": label,
+            "recommendationKey": rec_key,
+            "recommendationMean": round(rec_mean, 2) if rec_mean else None,
+            "targetMeanPrice": round(target_mean, 2) if target_mean else None,
+            "targetHighPrice": round(target_high, 2) if target_high else None,
+            "targetLowPrice": round(target_low, 2) if target_low else None,
+            "targetUpside": target_upside_pct,
+            "analystCount": n_analysts,
+            "lastUpdated": datetime.utcnow().isoformat() + "Z",
+        }
+    except Exception:
+        return None
+
+
 # ─── MAE Evaluation ────────────────────────────────────────────────────────────
 
 def compute_mae_7d(ticker):

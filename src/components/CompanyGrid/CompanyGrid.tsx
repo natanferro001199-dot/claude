@@ -4,11 +4,12 @@ import { useFilterStore } from '../../store/filters'
 import CompanyCard from '../CompanyCard/CompanyCard'
 import type { CompanyData } from '../../types/company'
 import type { SentimentData } from '../../types/sentiment'
+import type { FundamentalData } from '../../types/fundamental'
 
 interface LoadedCompany {
   data: CompanyData
   technical: unknown
-  fundamental: unknown
+  fundamental: FundamentalData | null
 }
 
 export default function CompanyGrid() {
@@ -78,12 +79,13 @@ export default function CompanyGrid() {
           <span className="text-xs font-normal text-gf-text-secondary">{items.length} companies</span>
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {items.map(({ data }: LoadedCompany) => (
+          {items.map(({ data, fundamental }: LoadedCompany) => (
             <CompanyCard
               key={data.company.ticker}
               company={data}
               sentiment={sentimentMap[data.company.ticker] ?? null}
               analysisMode={analysisMode}
+              fundamental={fundamental}
               onClick={() => setSelectedTicker(data.company.ticker)}
             />
           ))}

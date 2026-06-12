@@ -1,6 +1,7 @@
 import { TrendingUp, TrendingDown, Minus, AlertTriangle, Lock } from 'lucide-react'
 import type { CompanyData } from '../../types/company'
 import type { SentimentData } from '../../types/sentiment'
+import type { FundamentalData } from '../../types/fundamental'
 import { formatCurrency, formatPct, getChangeColor, getScoreBg } from '../../lib/utils'
 import SentimentBadge from '../Sentiment/SentimentBadge'
 
@@ -8,10 +9,11 @@ interface Props {
   company: CompanyData
   sentiment: SentimentData | null
   analysisMode: 'short-term' | 'long-term'
+  fundamental?: FundamentalData | null
   onClick: () => void
 }
 
-export default function CompanyCard({ company, sentiment, analysisMode, onClick }: Props) {
+export default function CompanyCard({ company, sentiment, analysisMode, fundamental, onClick }: Props) {
   const { company: meta, price, scores } = company
 
   if (meta.isPlaceholder) {
@@ -114,6 +116,18 @@ export default function CompanyCard({ company, sentiment, analysisMode, onClick 
               scores.ohlsonScore < 10 ? 'text-gf-positive' :
               scores.ohlsonScore <= 30 ? 'text-yellow-600' : 'text-gf-negative'
             }`}>{scores.ohlsonScore.toFixed(1)}%</span>
+          </>
+        )}
+        {fundamental?.analystConsensus != null && (
+          <>
+            <span className="text-xs text-gf-text-secondary ml-2">Analyst:</span>
+            <span className={`text-xs font-semibold ${
+              fundamental.analystConsensus.analystScore > 60 ? 'text-gf-positive' :
+              fundamental.analystConsensus.analystScore >= 40 ? 'text-yellow-600' : 'text-gf-negative'
+            }`}>
+              {fundamental.analystConsensus.analystScore}
+            </span>
+            <span className="text-xs text-gf-text-secondary">{fundamental.analystConsensus.analystLabel}</span>
           </>
         )}
       </div>

@@ -124,6 +124,19 @@ export interface DataCenterKPIs {
 
 export type SectorKPIs = AerospaceKPIs | DataCenterKPIs
 
+export interface AnalystConsensus {
+  analystScore: number
+  analystLabel: 'Strong Buy' | 'Buy' | 'Hold' | 'Sell' | 'Strong Sell'
+  recommendationKey: string
+  recommendationMean: number | null
+  targetMeanPrice: number | null
+  targetHighPrice: number | null
+  targetLowPrice: number | null
+  targetUpside: number | null
+  analystCount: number
+  lastUpdated: string
+}
+
 export interface FundamentalData {
   valuation: ValuationMultiples
   health: FinancialHealth
@@ -137,4 +150,5 @@ export interface FundamentalData {
   valuationBands: ValuationBands[]
   sectorKpis: SectorKPIs
   ohlsonScore?: number   // 0-100 probability of financial distress (Ohlson 1980)
+  analystConsensus?: AnalystConsensus
 }

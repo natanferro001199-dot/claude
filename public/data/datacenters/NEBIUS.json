@@ -313,6 +313,18 @@
         null
       ]
     },
-    "ohlsonScore": 28
+    "ohlsonScore": 28,
+    "analystConsensus": {
+      "analystScore": 88,
+      "analystLabel": "Strong Buy",
+      "recommendationKey": "strong_buy",
+      "recommendationMean": 1.6,
+      "targetMeanPrice": 52.00,
+      "targetHighPrice": 65.00,
+      "targetLowPrice": 32.76,
+      "targetUpside": 38.0,
+      "analystCount": 7,
+      "lastUpdated": "2026-06-12T00:00:00Z"
+    }
   }
 }

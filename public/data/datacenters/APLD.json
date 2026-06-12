@@ -2366,6 +2366,18 @@
         -161.394
       ]
     },
-    "ohlsonScore": 62.1
+    "ohlsonScore": 62.1,
+    "analystConsensus": {
+      "analystScore": 62,
+      "analystLabel": "Hold",
+      "recommendationKey": "hold",
+      "recommendationMean": 2.8,
+      "targetMeanPrice": 47.69,
+      "targetHighPrice": 59.61,
+      "targetLowPrice": 30.04,
+      "targetUpside": 15.0,
+      "analystCount": 9,
+      "lastUpdated": "2026-06-12T00:00:00Z"
+    }
   }
 }

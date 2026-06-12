@@ -11,6 +11,7 @@ import requests
 from config import COMPANIES, FMP_API_KEY, OUTPUT_DIR
 from calculate_technicals import compute_technicals
 from financial_statements import fetch_statements
+from sentiment_analysis import compute_analyst_rf_score
 
 MARKET_CAP_CATEGORIES = {
     "micro": 300_000_000,
@@ -81,6 +82,16 @@ def process_ticker(ticker, sector):
 
         # Financial statements
         statements = fetch_statements(stock)
+
+        if statements:
+            price_data_for_analyst = {
+                "price": price,
+                "high52w": info.get("fiftyTwoWeekHigh", 0),
+                "low52w": info.get("fiftyTwoWeekLow", 0),
+            }
+            ac = compute_analyst_rf_score(info, price_data_for_analyst)
+            if ac:
+                statements["analystConsensus"] = ac
 
         # FMP supplemental
         fmp = fetch_fmp_fundamentals(ticker)

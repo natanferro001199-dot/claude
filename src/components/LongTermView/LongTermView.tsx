@@ -7,6 +7,7 @@ import FinancialStatements from './FinancialStatements'
 import SectorKPIsPanel from './SectorKPIs'
 import NewsFeed from '../Sentiment/NewsFeed'
 import CatalystScore from '../Sentiment/CatalystScore'
+import AnalystConsensusCard from './AnalystConsensusCard'
 
 interface Props {
   company: CompanyData
@@ -27,6 +28,15 @@ export default function LongTermView({ company, fundamental, sentiment }: Props)
 
   return (
     <div className="space-y-6">
+      {fundamental.analystConsensus != null && (
+        <div>
+          <h3 className="text-sm font-semibold mb-3">Analyst Consensus</h3>
+          <AnalystConsensusCard
+            consensus={fundamental.analystConsensus}
+            currentPrice={company.price.price}
+          />
+        </div>
+      )}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {/* Left: Valuation */}
         <div>
