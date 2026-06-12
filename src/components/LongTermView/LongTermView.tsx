@@ -6,6 +6,7 @@ import DCFScenarios from './DCFScenarios'
 import FinancialStatements from './FinancialStatements'
 import SectorKPIsPanel from './SectorKPIs'
 import NewsFeed from '../Sentiment/NewsFeed'
+import CatalystScore from '../Sentiment/CatalystScore'
 
 interface Props {
   company: CompanyData
@@ -49,6 +50,14 @@ export default function LongTermView({ company, fundamental, sentiment }: Props)
         <h3 className="text-sm font-semibold mb-3">Financial Statements</h3>
         <FinancialStatements data={fundamental} />
       </div>
+
+      {/* Catalyst Momentum */}
+      {sentiment?.catalystScore !== undefined && (
+        <div>
+          <h3 className="text-sm font-semibold mb-3">Catalyst Momentum</h3>
+          <CatalystScore score={sentiment.catalystScore} events={sentiment.catalystEvents} />
+        </div>
+      )}
 
       {/* Earnings & Filings News Feed */}
       {earningsNews.length > 0 && (

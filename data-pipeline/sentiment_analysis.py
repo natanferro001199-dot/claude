@@ -196,6 +196,106 @@ def aggregate_with_rf(article_features):
         raw = sum(f["finbert_score"] for f in article_features) / len(article_features)
         return round((raw + 1) / 2 * 100, 1)
 
+# ─── Catalyst Momentum Score ────────────────────────────────────────────────────
+
+# Positive catalyst keywords → event type
+POSITIVE_CATALYST_PATTERNS = {
+    "contract_win": ["contract", "award", "awarded", "win", "wins", "won", "deal", "selected", "chosen", "task order"],
+    "partnership": ["partnership", "partner", "collaborat", "joint venture", "teaming"],
+    "product_launch": ["launch", "unveil", "rollout", "debut", "online", "opens", "ramp"],
+    "regulatory_approval": ["approval", "approved", "clearance", "certif", "faa", "fda"],
+}
+# Negative catalyst keywords → event type
+NEGATIVE_CATALYST_PATTERNS = {
+    "contract_loss": ["loss", "lost", "cancel", "terminated", "scrapped"],
+    "lawsuit": ["lawsuit", "sue", "sued", "litigation", "investigation", "fraud"],
+    "delay": ["delay", "delayed", "postpone", "pushed back", "slip"],
+    "layoffs": ["layoff", "layoffs", "job cuts", "restructur", "downgrade"],
+}
+
+POSITIVE_TYPES = set(POSITIVE_CATALYST_PATTERNS.keys())
+
+
+def _impact_from_score(score):
+    if score >= 75:
+        return "high"
+    if score >= 55:
+        return "medium"
+    return "low"
+
+
+def _classify_catalyst(content):
+    """Return (event_type, is_positive) for the strongest matching pattern, or (None, None)."""
+    text = content.lower()
+    has_dollar = "$" in content
+    for etype, kws in POSITIVE_CATALYST_PATTERNS.items():
+        if any(kw in text for kw in kws):
+            return etype, True
+    for etype, kws in NEGATIVE_CATALYST_PATTERNS.items():
+        if any(kw in text for kw in kws):
+            return etype, False
+    if has_dollar:
+        # A dollar figure alone is a mild positive (deal/raise) signal
+        return "contract_win", True
+    return None, None
+
+
+def compute_catalyst_score(scored_articles):
+    """
+    Detect event-based catalysts from headlines/bodies and derive a 0-100
+    Catalyst Momentum (MoM) score plus a list of catalyst events.
+
+    Weighting: each catalyst's per-event score is scaled by article recency and
+    source weight, then positive vs negative pressure is balanced around 50.
+    """
+    events = []
+    pos_pressure = 0.0
+    neg_pressure = 0.0
+
+    for s in scored_articles:
+        article = s["article"]
+        content = (s.get("content") or article.get("title", "")).strip()
+        if not content:
+            continue
+        etype, is_positive = _classify_catalyst(content)
+        if etype is None:
+            continue
+
+        weight = s.get("recency_decay", 0.5) * s.get("source_weight", 0.6)
+        # Blend FinBERT magnitude with the keyword signal
+        magnitude = min(1.0, 0.5 + abs(s.get("finbert_score", 0.0)) * 0.5)
+
+        if is_positive:
+            event_score = int(round(min(100, 55 + magnitude * 45)))
+            pos_pressure += weight * magnitude
+        else:
+            event_score = int(round(max(0, 45 - magnitude * 45)))
+            neg_pressure += weight * magnitude
+
+        events.append({
+            "type": etype,
+            "title": article.get("title", "")[:160],
+            "date": article.get("date", "")[:10],
+            "impact": _impact_from_score(event_score),
+            "score": event_score,
+        })
+
+    if not events:
+        return 50, []
+
+    total = pos_pressure + neg_pressure
+    if total <= 0:
+        catalyst_score = 50
+    else:
+        # 0-100: fraction of pressure that is positive, nudged by net volume
+        ratio = pos_pressure / total
+        catalyst_score = int(round(max(0, min(100, ratio * 100))))
+
+    # Sort events by absolute distance from neutral (most impactful first)
+    events.sort(key=lambda e: abs(e["score"] - 50), reverse=True)
+    return catalyst_score, events[:5]
+
+
 # ─── MAE Evaluation ────────────────────────────────────────────────────────────
 
 def compute_mae_7d(ticker):
@@ -252,6 +352,7 @@ def process_ticker_sentiment(ticker, sector, company_name):
             "recency_decay": recency,
             "source_weight": source_w,
             "keyword_relevance": kw_rel,
+            "content": article.get("content", "") or article.get("title", ""),
             "article": {
                 "title": article["title"],
                 "source": article.get("source", ""),
@@ -299,6 +400,9 @@ def process_ticker_sentiment(ticker, sector, company_name):
         reverse=True
     )[:5]
 
+    # Catalyst Momentum (MoM) score from event detection
+    catalyst_score, catalyst_events = compute_catalyst_score(scored)
+
     return {
         "ticker": ticker,
         "sentimentScore": int(final_score),
@@ -310,6 +414,8 @@ def process_ticker_sentiment(ticker, sector, company_name):
         "modelMae7d": mae,
         "topHeadlines": top_headlines,
         "scoreHistory7d": history_7d,
+        "catalystScore": catalyst_score,
+        "catalystEvents": catalyst_events,
     }
 
 def main():

@@ -27,5 +27,22 @@
     55,
     55,
     50
+  ],
+  "catalystScore": 64,
+  "catalystEvents": [
+    {
+      "type": "product_launch",
+      "title": "Equinix opens new AI-ready DC15 campus in Frankfurt",
+      "date": "2026-06-09",
+      "impact": "high",
+      "score": 76
+    },
+    {
+      "type": "partnership",
+      "title": "Equinix expands NVIDIA DGX Cloud interconnect footprint",
+      "date": "2026-05-27",
+      "impact": "medium",
+      "score": 62
+    }
   ]
 }

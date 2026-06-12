@@ -12,6 +12,24 @@ export interface NewsArticle {
   isFilingRelated: boolean // 8-K, earnings, etc.
 }
 
+export type CatalystEventType =
+  | 'contract_win'
+  | 'partnership'
+  | 'product_launch'
+  | 'regulatory_approval'
+  | 'contract_loss'
+  | 'lawsuit'
+  | 'delay'
+  | 'layoffs'
+
+export interface CatalystEvent {
+  type: CatalystEventType
+  title: string
+  date: string
+  impact: 'high' | 'medium' | 'low'
+  score: number
+}
+
 export interface SentimentData {
   ticker: string
   sentimentScore: number       // 0-100
@@ -23,6 +41,8 @@ export interface SentimentData {
   modelMae7d: number | null    // MAE vs next-day price Δ
   topHeadlines: NewsArticle[]
   scoreHistory7d: number[]
+  catalystScore?: number              // 0-100 Catalyst Momentum (MoM) score
+  catalystEvents?: CatalystEvent[]
 }
 
 export interface SectorSentiment {

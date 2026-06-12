@@ -27,5 +27,22 @@
     71,
     72,
     50
+  ],
+  "catalystScore": 70,
+  "catalystEvents": [
+    {
+      "type": "partnership",
+      "title": "Applied Digital signs multi-year HPC cloud partnership with major AI lab",
+      "date": "2026-06-10",
+      "impact": "high",
+      "score": 84
+    },
+    {
+      "type": "contract_win",
+      "title": "Applied Digital adds 100MW hyperscaler capacity commitment",
+      "date": "2026-05-29",
+      "impact": "medium",
+      "score": 66
+    }
   ]
 }

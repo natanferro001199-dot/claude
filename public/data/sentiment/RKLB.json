@@ -27,5 +27,29 @@
     72,
     74,
     50
+  ],
+  "catalystScore": 72,
+  "catalystEvents": [
+    {
+      "type": "contract_win",
+      "title": "Rocket Lab wins $55M NASA Neutron launch contract",
+      "date": "2026-06-10",
+      "impact": "high",
+      "score": 85
+    },
+    {
+      "type": "contract_win",
+      "title": "Rocket Lab awarded U.S. Space Force hypersonic test deal",
+      "date": "2026-06-05",
+      "impact": "medium",
+      "score": 68
+    },
+    {
+      "type": "product_launch",
+      "title": "Rocket Lab completes 60th Electron mission",
+      "date": "2026-05-28",
+      "impact": "low",
+      "score": 55
+    }
   ]
 }

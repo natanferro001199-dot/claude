@@ -27,5 +27,22 @@
     66,
     68,
     50
+  ],
+  "catalystScore": 68,
+  "catalystEvents": [
+    {
+      "type": "contract_win",
+      "title": "Intuitive Machines secures $120M NASA CLPS lunar delivery task order",
+      "date": "2026-06-09",
+      "impact": "high",
+      "score": 82
+    },
+    {
+      "type": "contract_win",
+      "title": "NASA extends IM lunar data relay services agreement",
+      "date": "2026-05-30",
+      "impact": "medium",
+      "score": 64
+    }
   ]
 }

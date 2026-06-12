@@ -12,5 +12,22 @@
     { "title": "NEBIUS Q1 2026: revenue +214% YoY, GPU cloud backlog at $3.2B", "source": "Reuters", "date": "2026-05-22", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.92, "confidence": 0.93, "isFilingRelated": true },
     { "title": "Nebius raises $1.5B in oversubscribed secondary offering for AI infrastructure", "source": "Financial Times", "date": "2026-06-10", "url": "#", "sentimentLabel": "Bullish", "sentimentScore": 0.82, "confidence": 0.88, "isFilingRelated": false }
   ],
-  "scoreHistory7d": [65, 68, 70, 72, 74, 76, 78]
+  "scoreHistory7d": [65, 68, 70, 72, 74, 76, 78],
+  "catalystScore": 80,
+  "catalystEvents": [
+    {
+      "type": "product_launch",
+      "title": "Nebius brings online new 1GW NVIDIA GB200 GPU cluster",
+      "date": "2026-06-12",
+      "impact": "high",
+      "score": 90
+    },
+    {
+      "type": "partnership",
+      "title": "Nebius deepens NVIDIA AI cloud partnership with reference architecture",
+      "date": "2026-06-04",
+      "impact": "medium",
+      "score": 70
+    }
+  ]
 }

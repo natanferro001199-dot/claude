@@ -27,5 +27,22 @@
     68,
     70,
     50
+  ],
+  "catalystScore": 67,
+  "catalystEvents": [
+    {
+      "type": "contract_win",
+      "title": "IREN signs AI/HPC colocation deal expanding Childress capacity",
+      "date": "2026-06-08",
+      "impact": "high",
+      "score": 79
+    },
+    {
+      "type": "product_launch",
+      "title": "IREN energizes additional 50MW for high-density GPU hosting",
+      "date": "2026-05-25",
+      "impact": "medium",
+      "score": 63
+    }
   ]
 }

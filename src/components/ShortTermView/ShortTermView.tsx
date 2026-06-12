@@ -5,6 +5,7 @@ import PriceChart from './PriceChart'
 import TechnicalIndicators from './TechnicalIndicators'
 import SentimentGauge from '../Sentiment/SentimentGauge'
 import SentimentTrend from '../Sentiment/SentimentTrend'
+import CatalystScore from '../Sentiment/CatalystScore'
 import NewsFeed from '../Sentiment/NewsFeed'
 import { generateMockPriceHistory } from '../../lib/utils'
 
@@ -65,6 +66,7 @@ export default function ShortTermView({ company, technical, sentiment }: Props) 
               <div className="gf-card p-4">
                 <SentimentTrend history={sentiment.scoreHistory7d} trend={sentiment.trend} />
               </div>
+              <CatalystScore score={sentiment.catalystScore} events={sentiment.catalystEvents} />
               <NewsFeed articles={sentiment.topHeadlines} filterFilingsOnly={false} />
             </div>
           ) : (

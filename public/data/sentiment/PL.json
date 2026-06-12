@@ -27,5 +27,22 @@
     57,
     58,
     50
+  ],
+  "catalystScore": 63,
+  "catalystEvents": [
+    {
+      "type": "partnership",
+      "title": "Planet Labs expands government imagery partnership with NGA",
+      "date": "2026-06-08",
+      "impact": "high",
+      "score": 78
+    },
+    {
+      "type": "partnership",
+      "title": "Planet signs multi-year defense analytics deal with European ally",
+      "date": "2026-05-26",
+      "impact": "medium",
+      "score": 61
+    }
   ]
 }

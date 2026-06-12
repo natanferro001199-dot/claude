@@ -27,5 +27,22 @@
     43,
     42,
     50
+  ],
+  "catalystScore": 66,
+  "catalystEvents": [
+    {
+      "type": "contract_win",
+      "title": "Redwire wins $40M DoD spacecraft components contract",
+      "date": "2026-06-07",
+      "impact": "high",
+      "score": 80
+    },
+    {
+      "type": "regulatory_approval",
+      "title": "Redwire receives ITAR clearance for new optics export line",
+      "date": "2026-05-24",
+      "impact": "low",
+      "score": 57
+    }
   ]
 }
