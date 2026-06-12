@@ -5,8 +5,8 @@
   "confidence": 0.424,
   "trend": "declining",
   "articlesAnalyzed": 1,
-  "lastUpdated": "2026-06-12T02:23:23.300204Z",
-  "modelMae7d": 0.0627,
+  "lastUpdated": "2026-06-12T13:36:22.225354Z",
+  "modelMae7d": 0.0623,
   "topHeadlines": [
     {
       "title": "",
@@ -20,29 +20,14 @@
     }
   ],
   "scoreHistory7d": [
-    61,
     63,
     65,
     67,
     68,
     70,
+    50,
     50
   ],
-  "catalystScore": 67,
-  "catalystEvents": [
-    {
-      "type": "contract_win",
-      "title": "IREN signs AI/HPC colocation deal expanding Childress capacity",
-      "date": "2026-06-08",
-      "impact": "high",
-      "score": 79
-    },
-    {
-      "type": "product_launch",
-      "title": "IREN energizes additional 50MW for high-density GPU hosting",
-      "date": "2026-05-25",
-      "impact": "medium",
-      "score": 63
-    }
-  ]
+  "catalystScore": 50,
+  "catalystEvents": []
 }

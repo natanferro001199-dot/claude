@@ -10,26 +10,26 @@
     "website": "https://applieddigital.com"
   },
   "price": {
-    "price": 41.47,
-    "priceChange": 2.55,
-    "priceChangePct": 6.55,
-    "open": 38.42,
+    "price": 42.93,
+    "priceChange": 1.46,
+    "priceChangePct": 3.52,
+    "open": 41.34,
     "high52w": 50.73,
     "low52w": 9.02,
-    "volume": 16849928,
+    "volume": 1316902,
     "avgVolume30d": 22398623,
-    "marketCap": 11850862592,
+    "marketCap": 12268086272,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-12T02:23:04.325271Z",
+    "lastUpdated": "2026-06-12T13:35:52.914997Z",
     "dataConfidence": "high"
   },
   "scores": {
     "technicalScore": 50,
     "fundamentalScore": 50,
-    "piotroskiScore": 4,
+    "piotroskiScore": 5,
     "altmanZScore": null,
-    "compositeScore": 50,
-    "ohlsonScore": 62.1
+    "ohlsonScore": 86.3,
+    "compositeScore": 50
   },
   "priceHistory": [
     {
@@ -130,7 +130,7 @@
     },
     {
       "time": "2025-07-01",
-      "open": 10,
+      "open": 10.0,
       "high": 10.37,
       "low": 9.71,
       "close": 9.76,
@@ -236,7 +236,7 @@
       "time": "2025-07-21",
       "open": 12.19,
       "high": 12.21,
-      "low": 11,
+      "low": 11.0,
       "close": 11.09,
       "volume": 42467600
     },
@@ -379,7 +379,7 @@
     {
       "time": "2025-08-14",
       "open": 14.62,
-      "high": 15,
+      "high": 15.0,
       "low": 13.98,
       "close": 14.55,
       "volume": 20751300
@@ -458,7 +458,7 @@
     },
     {
       "time": "2025-08-28",
-      "open": 17,
+      "open": 17.0,
       "high": 17.6,
       "low": 16.46,
       "close": 16.6,
@@ -586,7 +586,7 @@
     },
     {
       "time": "2025-09-22",
-      "open": 20,
+      "open": 20.0,
       "high": 24.85,
       "low": 19.87,
       "close": 24.45,
@@ -645,7 +645,7 @@
       "open": 22.83,
       "high": 25.05,
       "low": 22.3,
-      "close": 25,
+      "close": 25.0,
       "volume": 23678700
     },
     {
@@ -738,7 +738,7 @@
     },
     {
       "time": "2025-10-17",
-      "open": 35,
+      "open": 35.0,
       "high": 36.02,
       "low": 33.06,
       "close": 34.24,
@@ -780,7 +780,7 @@
       "time": "2025-10-24",
       "open": 34.25,
       "high": 35.73,
-      "low": 33,
+      "low": 33.0,
       "close": 33.43,
       "volume": 29775100
     },
@@ -802,7 +802,7 @@
     },
     {
       "time": "2025-10-29",
-      "open": 35,
+      "open": 35.0,
       "high": 36.32,
       "low": 33.12,
       "close": 34.42,
@@ -891,7 +891,7 @@
     {
       "time": "2025-11-13",
       "open": 25.43,
-      "high": 26,
+      "high": 26.0,
       "low": 22.98,
       "close": 23.06,
       "volume": 31351800
@@ -899,7 +899,7 @@
     {
       "time": "2025-11-14",
       "open": 21.18,
-      "high": 25,
+      "high": 25.0,
       "low": 20.55,
       "close": 23.65,
       "volume": 44561200
@@ -940,7 +940,7 @@
       "time": "2025-11-21",
       "open": 21.25,
       "high": 21.49,
-      "low": 19,
+      "low": 19.0,
       "close": 21.09,
       "volume": 36810200
     },
@@ -1077,14 +1077,14 @@
       "open": 24.43,
       "high": 24.94,
       "low": 21.93,
-      "close": 22,
+      "close": 22.0,
       "volume": 29286300
     },
     {
       "time": "2025-12-18",
-      "open": 23,
+      "open": 23.0,
       "high": 24.83,
-      "low": 23,
+      "low": 23.0,
       "close": 23.9,
       "volume": 31804200
     },
@@ -1178,7 +1178,7 @@
     },
     {
       "time": "2026-01-07",
-      "open": 31,
+      "open": 31.0,
       "high": 31.45,
       "low": 29.51,
       "close": 29.56,
@@ -1211,7 +1211,7 @@
     {
       "time": "2026-01-13",
       "open": 38.36,
-      "high": 39,
+      "high": 39.0,
       "low": 36.33,
       "close": 36.71,
       "volume": 32424400
@@ -1251,7 +1251,7 @@
     {
       "time": "2026-01-21",
       "open": 36.33,
-      "high": 38,
+      "high": 38.0,
       "low": 32.32,
       "close": 35.06,
       "volume": 42153500
@@ -1267,7 +1267,7 @@
     {
       "time": "2026-01-23",
       "open": 34.3,
-      "high": 39,
+      "high": 39.0,
       "low": 33.22,
       "close": 37.69,
       "volume": 48149200
@@ -1338,7 +1338,7 @@
     },
     {
       "time": "2026-02-05",
-      "open": 30,
+      "open": 30.0,
       "high": 31.47,
       "low": 27.62,
       "close": 27.84,
@@ -1429,7 +1429,7 @@
       "open": 28.42,
       "high": 30.08,
       "low": 28.26,
-      "close": 30,
+      "close": 30.0,
       "volume": 14692900
     },
     {
@@ -1516,7 +1516,7 @@
       "time": "2026-03-10",
       "open": 27.06,
       "high": 28.35,
-      "low": 27,
+      "low": 27.0,
       "close": 27.4,
       "volume": 13808700
     },
@@ -1628,7 +1628,7 @@
       "time": "2026-03-30",
       "open": 24.08,
       "high": 24.12,
-      "low": 20,
+      "low": 20.0,
       "close": 20.55,
       "volume": 27139000
     },
@@ -1786,7 +1786,7 @@
     },
     {
       "time": "2026-04-28",
-      "open": 32,
+      "open": 32.0,
       "high": 32.84,
       "low": 30.51,
       "close": 32.11,
@@ -2034,36 +2034,44 @@
     },
     {
       "time": "2026-06-11",
-      "open": 38.42,
+      "open": 38.65,
       "high": 42.06,
       "low": 37.93,
       "close": 41.47,
-      "volume": 16849928
+      "volume": 16949100
+    },
+    {
+      "time": "2026-06-12",
+      "open": 41.34,
+      "high": 42.96,
+      "low": 40.88,
+      "close": 42.92,
+      "volume": 1317793
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 49.43,
-      "sma20": 43.8505,
-      "sma50": 37.5524,
-      "sma200": 30.4848,
+      "rsi14": 51.89,
+      "sma20": 43.661,
+      "sma50": 37.921,
+      "sma200": 30.617,
       "macd": {
-        "macd": 0.7733,
-        "signal": 1.9322,
-        "histogram": -1.1589
+        "macd": 0.7344,
+        "signal": 1.6926,
+        "histogram": -0.9582
       },
       "bollingerBands": {
-        "upper": 51.4877,
-        "middle": 43.8505,
-        "lower": 36.2133
+        "upper": 51.1924,
+        "middle": 43.661,
+        "lower": 36.1296
       },
-      "volumeMA20": 21886771,
-      "atr14": 4.2871
+      "volumeMA20": 21139654,
+      "atr14": 4.215
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "49.43",
+        "value": "51.89",
         "interpretation": "neutral"
       },
       {
@@ -2073,12 +2081,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "+10.4%",
+        "value": "+13.2%",
         "interpretation": "bullish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+36.0%",
+        "value": "+40.2%",
         "interpretation": "bullish"
       }
     ],
@@ -2089,11 +2097,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -42.9741,
+      "forwardPe": -44.4871,
       "evEbitda": 1002.095,
       "evRevenue": 43.645,
-      "ps": 37.1196,
-      "pb": 7.4842,
+      "ps": 38.4264,
+      "pb": 7.7477,
       "pfcf": null
     },
     "health": {
@@ -2112,7 +2120,7 @@
       "revenueGrowthYoY": 139.3,
       "revenueGrowth3Y": null,
       "ebitdaGrowthYoY": null,
-      "epsGrowthYoY": 0,
+      "epsGrowthYoY": 0.0,
       "fcfGrowthYoY": null
     },
     "incomeStatement": {
@@ -2229,155 +2237,135 @@
         874.686
       ]
     },
-    "dcf": {
-      "scenarios": [
-        {
-          "label": "Bull",
-          "fcfGrowthRate": 30,
-          "wacc": 9,
-          "terminalGrowth": 3.5,
-          "intrinsicValue": 62.205,
-          "upsideDownside": 50
-        },
-        {
-          "label": "Base",
-          "fcfGrowthRate": 15,
-          "wacc": 10,
-          "terminalGrowth": 2.5,
-          "intrinsicValue": 41.47,
-          "upsideDownside": 0
-        },
-        {
-          "label": "Bear",
-          "fcfGrowthRate": 3,
-          "wacc": 12,
-          "terminalGrowth": 1.5,
-          "intrinsicValue": 24.881999999999998,
-          "upsideDownside": -40
-        }
-      ],
-      "impliedGrowthRate": 10,
-      "currentPrice": 41.47
-    },
-    "valuationBands": [],
-    "sectorKpis": {},
-    "piotroskiScore": 5,
     "incomeStatementQ": {
       "quarters": [
-        "Q2 2026",
         "Q1 2026",
         "Q4 2025",
         "Q3 2025",
         "Q2 2025",
         "Q1 2025",
-        "Q4 2024",
-        "Q3 2024"
+        "Q4 2024"
       ],
       "revenue": [
-        41.095,
-        38.572,
-        37.49,
-        35.688,
-        34.246,
-        32.443,
-        31.001,
-        29.199
+        126.637,
+        126.589,
+        64.216,
+        -33.3,
+        52.921,
+        null
       ],
       "grossProfit": [
-        12.181,
-        11.433,
-        11.113,
-        10.579,
-        10.151,
-        9.617,
-        9.19,
-        8.655
+        53.805,
+        26.036,
+        8.61,
+        27.811,
+        3.78,
+        null
       ],
       "operatingIncome": [
-        -11.492,
-        -10.786,
-        -10.484,
-        -9.98,
-        -9.577,
-        -9.073,
-        -8.669,
-        -8.165
+        -25.918,
+        -30.957,
+        -20.542,
+        11.598,
+        -18.943,
+        null
       ],
       "netIncome": [
-        -65.854,
-        -61.81,
-        -60.077,
-        -57.189,
-        -54.878,
-        -51.99,
-        -49.679,
-        -46.791
+        -99.303,
+        -17.511,
+        -16.926,
+        -52.537,
+        -35.555,
+        null
       ],
       "eps": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        -0.36,
+        -0.07,
+        -0.07,
+        -0.24,
+        -0.16,
         null
       ]
     },
     "cashFlowQ": {
       "quarters": [
-        "Q2 2026",
         "Q1 2026",
         "Q4 2025",
         "Q3 2025",
         "Q2 2025",
         "Q1 2025",
-        "Q4 2024",
-        "Q3 2024"
+        "Q4 2024"
       ],
       "operatingCF": [
-        -32.89,
-        -30.87,
-        -30.005,
-        -28.562,
-        -27.408,
-        -25.965,
-        -24.811,
-        -23.369
+        55.008,
+        -15.845,
+        -82.023,
+        6.855,
+        5.897,
+        null
       ],
       "capex": [
-        -194.257,
-        -182.329,
-        -177.217,
-        -168.697,
-        -161.881,
-        -153.361,
-        -146.545,
-        -138.025
+        -775.207,
+        -552.07,
+        -249.42,
+        -198.263,
+        -257.493,
+        null
       ],
       "freeCashFlow": [
-        -227.146,
-        -213.199,
-        -207.221,
-        -197.259,
-        -189.289,
-        -179.326,
-        -171.356,
-        -161.394
+        -720.199,
+        -567.915,
+        -331.443,
+        -191.408,
+        -251.596,
+        null
       ]
     },
-    "ohlsonScore": 62.1,
+    "dcf": {
+      "scenarios": [
+        {
+          "label": "Bull",
+          "fcfGrowthRate": 30,
+          "wacc": 9.0,
+          "terminalGrowth": 3.5,
+          "intrinsicValue": 64.395,
+          "upsideDownside": 50.0
+        },
+        {
+          "label": "Base",
+          "fcfGrowthRate": 15,
+          "wacc": 10.0,
+          "terminalGrowth": 2.5,
+          "intrinsicValue": 42.93,
+          "upsideDownside": 0.0
+        },
+        {
+          "label": "Bear",
+          "fcfGrowthRate": 3,
+          "wacc": 12.0,
+          "terminalGrowth": 1.5,
+          "intrinsicValue": 25.758,
+          "upsideDownside": -40.0
+        }
+      ],
+      "impliedGrowthRate": 10.0,
+      "currentPrice": 42.93
+    },
+    "valuationBands": [],
+    "sectorKpis": {},
+    "piotroskiScore": 5,
+    "ohlsonScore": 86.3,
     "analystConsensus": {
-      "analystScore": 62,
-      "analystLabel": "Hold",
-      "recommendationKey": "hold",
-      "recommendationMean": 2.8,
-      "targetMeanPrice": 47.69,
-      "targetHighPrice": 59.61,
-      "targetLowPrice": 30.04,
-      "targetUpside": 15.0,
-      "analystCount": 9,
-      "lastUpdated": "2026-06-12T00:00:00Z"
+      "analystScore": 74,
+      "analystLabel": "Buy",
+      "recommendationKey": "strong_buy",
+      "recommendationMean": 1.18,
+      "targetMeanPrice": 71.0,
+      "targetHighPrice": 106.0,
+      "targetLowPrice": 40.0,
+      "targetUpside": 65.4,
+      "analystCount": 11,
+      "lastUpdated": "2026-06-12T13:35:52.914947Z"
     }
   }
 }

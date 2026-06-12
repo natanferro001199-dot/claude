@@ -5,8 +5,8 @@
   "confidence": 0.424,
   "trend": "improving",
   "articlesAnalyzed": 1,
-  "lastUpdated": "2026-06-12T02:23:21.095137Z",
-  "modelMae7d": 0.1395,
+  "lastUpdated": "2026-06-12T13:36:09.517239Z",
+  "modelMae7d": 0.1589,
   "topHeadlines": [
     {
       "title": "",
@@ -20,29 +20,14 @@
     }
   ],
   "scoreHistory7d": [
-    36,
     35,
     34,
     35,
     35,
     35,
+    50,
     50
   ],
-  "catalystScore": 32,
-  "catalystEvents": [
-    {
-      "type": "delay",
-      "title": "Momentus delays Vigoride propulsion system qualification to Q4",
-      "date": "2026-06-06",
-      "impact": "high",
-      "score": 22
-    },
-    {
-      "type": "delay",
-      "title": "Momentus pushes next orbital service mission amid supply issues",
-      "date": "2026-05-20",
-      "impact": "medium",
-      "score": 35
-    }
-  ]
+  "catalystScore": 50,
+  "catalystEvents": []
 }

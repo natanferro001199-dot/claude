@@ -5,8 +5,8 @@
   "confidence": 0.424,
   "trend": "declining",
   "articlesAnalyzed": 1,
-  "lastUpdated": "2026-06-12T02:23:22.025436Z",
-  "modelMae7d": 0.0116,
+  "lastUpdated": "2026-06-12T13:36:20.459845Z",
+  "modelMae7d": 0.0109,
   "topHeadlines": [
     {
       "title": "",
@@ -20,29 +20,14 @@
     }
   ],
   "scoreHistory7d": [
-    60,
     58,
     57,
     56,
     55,
     55,
+    50,
     50
   ],
-  "catalystScore": 64,
-  "catalystEvents": [
-    {
-      "type": "product_launch",
-      "title": "Equinix opens new AI-ready DC15 campus in Frankfurt",
-      "date": "2026-06-09",
-      "impact": "high",
-      "score": 76
-    },
-    {
-      "type": "partnership",
-      "title": "Equinix expands NVIDIA DGX Cloud interconnect footprint",
-      "date": "2026-05-27",
-      "impact": "medium",
-      "score": 62
-    }
-  ]
+  "catalystScore": 50,
+  "catalystEvents": []
 }

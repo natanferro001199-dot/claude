@@ -5,8 +5,8 @@
   "confidence": 0.424,
   "trend": "declining",
   "articlesAnalyzed": 1,
-  "lastUpdated": "2026-06-12T02:23:19.665127Z",
-  "modelMae7d": 0.0616,
+  "lastUpdated": "2026-06-12T13:36:07.500140Z",
+  "modelMae7d": 0.0519,
   "topHeadlines": [
     {
       "title": "",
@@ -20,36 +20,14 @@
     }
   ],
   "scoreHistory7d": [
-    65,
     68,
     70,
     69,
     72,
     74,
+    50,
     50
   ],
-  "catalystScore": 72,
-  "catalystEvents": [
-    {
-      "type": "contract_win",
-      "title": "Rocket Lab wins $55M NASA Neutron launch contract",
-      "date": "2026-06-10",
-      "impact": "high",
-      "score": 85
-    },
-    {
-      "type": "contract_win",
-      "title": "Rocket Lab awarded U.S. Space Force hypersonic test deal",
-      "date": "2026-06-05",
-      "impact": "medium",
-      "score": 68
-    },
-    {
-      "type": "product_launch",
-      "title": "Rocket Lab completes 60th Electron mission",
-      "date": "2026-05-28",
-      "impact": "low",
-      "score": 55
-    }
-  ]
+  "catalystScore": 50,
+  "catalystEvents": []
 }

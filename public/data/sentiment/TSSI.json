@@ -5,8 +5,8 @@
   "confidence": 0.424,
   "trend": "stable",
   "articlesAnalyzed": 1,
-  "lastUpdated": "2026-06-12T02:23:23.740086Z",
-  "modelMae7d": 0.048,
+  "lastUpdated": "2026-06-12T13:36:22.723258Z",
+  "modelMae7d": 0.0432,
   "topHeadlines": [
     {
       "title": "",
@@ -20,29 +20,14 @@
     }
   ],
   "scoreHistory7d": [
-    51,
     52,
     52,
     53,
     52,
     52,
+    50,
     50
   ],
-  "catalystScore": 58,
-  "catalystEvents": [
-    {
-      "type": "contract_win",
-      "title": "TSS Inc wins government IT integration contract for AI rack deployment",
-      "date": "2026-06-07",
-      "impact": "high",
-      "score": 75
-    },
-    {
-      "type": "contract_win",
-      "title": "TSS expands data center modular reseller agreement",
-      "date": "2026-05-22",
-      "impact": "low",
-      "score": 54
-    }
-  ]
+  "catalystScore": 50,
+  "catalystEvents": []
 }

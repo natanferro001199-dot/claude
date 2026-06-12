@@ -10,26 +10,26 @@
     "website": "https://www.intuitivemachines.com"
   },
   "price": {
-    "price": 30.64,
-    "priceChange": 4.11,
-    "priceChangePct": 15.47,
-    "open": 27,
+    "price": 27.76,
+    "priceChange": -2.88,
+    "priceChangePct": -9.4,
+    "open": 29.88,
     "high52w": 46.75,
     "low52w": 7.78,
-    "volume": 21825283,
+    "volume": 2750007,
     "avgVolume30d": 15487779,
-    "marketCap": 4916258304,
+    "marketCap": 4454059520,
     "marketCapCategory": "mid",
-    "lastUpdated": "2026-06-12T02:23:02.223905Z",
+    "lastUpdated": "2026-06-12T13:35:49.586970Z",
     "dataConfidence": "high"
   },
   "scores": {
-    "technicalScore": 50,
+    "technicalScore": 40,
     "fundamentalScore": 50,
     "piotroskiScore": 4,
     "altmanZScore": null,
-    "compositeScore": 50,
-    "ohlsonScore": 44.1
+    "ohlsonScore": 100.0,
+    "compositeScore": 45
   },
   "priceHistory": [
     {
@@ -85,7 +85,7 @@
       "open": 9.92,
       "high": 10.15,
       "low": 9.52,
-      "close": 10,
+      "close": 10.0,
       "volume": 5784000
     },
     {
@@ -554,7 +554,7 @@
     },
     {
       "time": "2025-09-16",
-      "open": 9,
+      "open": 9.0,
       "high": 9.21,
       "low": 8.73,
       "close": 9.15,
@@ -620,7 +620,7 @@
       "time": "2025-09-26",
       "open": 10.03,
       "high": 10.55,
-      "low": 10,
+      "low": 10.0,
       "close": 10.08,
       "volume": 5290700
     },
@@ -636,7 +636,7 @@
       "time": "2025-09-30",
       "open": 10.2,
       "high": 10.55,
-      "low": 10,
+      "low": 10.0,
       "close": 10.52,
       "volume": 5305100
     },
@@ -682,7 +682,7 @@
     },
     {
       "time": "2025-10-08",
-      "open": 12,
+      "open": 12.0,
       "high": 12.93,
       "low": 11.94,
       "close": 12.48,
@@ -949,7 +949,7 @@
       "open": 8.65,
       "high": 9.02,
       "low": 8.51,
-      "close": 9,
+      "close": 9.0,
       "volume": 4464400
     },
     {
@@ -1106,7 +1106,7 @@
     },
     {
       "time": "2025-12-23",
-      "open": 15,
+      "open": 15.0,
       "high": 16.94,
       "low": 14.68,
       "close": 16.51,
@@ -1116,7 +1116,7 @@
       "time": "2025-12-24",
       "open": 16.94,
       "high": 17.5,
-      "low": 16,
+      "low": 16.0,
       "close": 16.71,
       "volume": 8590900
     },
@@ -1675,7 +1675,7 @@
     {
       "time": "2026-04-08",
       "open": 24.74,
-      "high": 25,
+      "high": 25.0,
       "low": 23.07,
       "close": 23.39,
       "volume": 17999600
@@ -1922,8 +1922,8 @@
     },
     {
       "time": "2026-05-21",
-      "open": 33,
-      "high": 35,
+      "open": 33.0,
+      "high": 35.0,
       "low": 31.33,
       "close": 34.24,
       "volume": 10787300
@@ -1980,7 +1980,7 @@
       "time": "2026-06-02",
       "open": 38.9,
       "high": 41.05,
-      "low": 38,
+      "low": 38.0,
       "close": 39.57,
       "volume": 10205200
     },
@@ -2034,36 +2034,44 @@
     },
     {
       "time": "2026-06-11",
-      "open": 27,
+      "open": 26.96,
       "high": 30.91,
       "low": 26.73,
       "close": 30.64,
-      "volume": 21825283
+      "volume": 22041100
+    },
+    {
+      "time": "2026-06-12",
+      "open": 29.88,
+      "high": 30.05,
+      "low": 27.7,
+      "close": 27.76,
+      "volume": 2750007
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 47.65,
-      "sma20": 34.817,
-      "sma50": 29.5326,
-      "sma200": 17.8626,
+      "rsi14": 43.67,
+      "sma20": 34.379,
+      "sma50": 29.683,
+      "sma200": 17.9568,
       "macd": {
-        "macd": -0.0474,
-        "signal": 1.5027,
-        "histogram": -1.5501
+        "macd": -0.3956,
+        "signal": 1.123,
+        "histogram": -1.5186
       },
       "bollingerBands": {
-        "upper": 44.6825,
-        "middle": 34.817,
-        "lower": 24.9515
+        "upper": 44.6718,
+        "middle": 34.379,
+        "lower": 24.0862
       },
-      "volumeMA20": 17489954,
-      "atr14": 5.2607
+      "volumeMA20": 16676690,
+      "atr14": 5.1779
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "47.65",
+        "value": "43.67",
         "interpretation": "neutral"
       },
       {
@@ -2073,27 +2081,27 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "+3.7%",
-        "interpretation": "neutral"
+        "value": "-6.5%",
+        "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+71.5%",
+        "value": "+54.6%",
         "interpretation": "bullish"
       }
     ],
-    "trendStrength": "neutral",
+    "trendStrength": "down",
     "supportLevel": 26.26,
     "resistanceLevel": 46.16
   },
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -255.3333,
+      "forwardPe": -231.3283,
       "evEbitda": -76.95,
       "evRevenue": 18.564,
-      "ps": 14.7077,
-      "pb": -14.6463,
+      "ps": 13.3249,
+      "pb": -13.2693,
       "pfcf": null
     },
     "health": {
@@ -2112,48 +2120,55 @@
       "revenueGrowthYoY": 198.7,
       "revenueGrowth3Y": null,
       "ebitdaGrowthYoY": null,
-      "epsGrowthYoY": 0,
+      "epsGrowthYoY": 0.0,
       "fcfGrowthYoY": null
     },
     "incomeStatement": {
       "years": [
+        "2021",
         "2022",
         "2023",
         "2024",
         "2025"
       ],
       "revenue": [
+        null,
         85.946,
         79.551,
-        228,
+        228.0,
         207.132
       ],
       "grossProfit": [
+        null,
         10.433,
         -24.442,
         2.769,
         6.063
       ],
       "operatingIncome": [
+        null,
         -5.507,
         -60.155,
         -52.352,
         -87.231
       ],
       "ebitda": [
+        null,
         -4.52,
         -58.779,
         -344.934,
         -95.11
       ],
       "netIncome": [
-        0,
+        null,
+        0.0,
         61.762,
         -283.413,
         -83.294
       ],
       "eps": [
-        0,
+        null,
+        0.0,
         2.875,
         -2.8259,
         -0.6919
@@ -2161,36 +2176,42 @@
     },
     "balanceSheet": {
       "years": [
+        "2021",
         "2022",
         "2023",
         "2024",
         "2025"
       ],
       "cash": [
+        null,
         25.764,
         4.498,
         207.607,
         582.606
       ],
       "totalAssets": [
+        null,
         67.004,
         85.908,
         355.404,
         757.154
       ],
       "totalDebt": [
+        null,
         25.764,
         43.475,
         37.38,
         372.159
       ],
       "totalEquity": [
+        null,
         -57.619,
         -233.234,
         -1003.272,
         -748.351
       ],
       "sharesOutstanding": [
+        null,
         18.0703,
         21.0299,
         100.609,
@@ -2199,72 +2220,43 @@
     },
     "cashFlow": {
       "years": [
+        "2021",
         "2022",
         "2023",
         "2024",
         "2025"
       ],
       "operatingCF": [
+        null,
         0.784,
         -45.279,
         -57.587,
         -14.318
       ],
       "capex": [
+        null,
         -16.405,
         -29.911,
         -10.111,
         -41.697
       ],
       "freeCashFlow": [
+        null,
         -15.621,
         -75.19,
         -67.698,
         -56.015
       ],
       "financingCF": [
+        null,
         12.096,
         53.924,
         272.787,
         446.588
       ]
     },
-    "dcf": {
-      "scenarios": [
-        {
-          "label": "Bull",
-          "fcfGrowthRate": 30,
-          "wacc": 9,
-          "terminalGrowth": 3.5,
-          "intrinsicValue": 45.96,
-          "upsideDownside": 50
-        },
-        {
-          "label": "Base",
-          "fcfGrowthRate": 15,
-          "wacc": 10,
-          "terminalGrowth": 2.5,
-          "intrinsicValue": 30.64,
-          "upsideDownside": 0
-        },
-        {
-          "label": "Bear",
-          "fcfGrowthRate": 3,
-          "wacc": 12,
-          "terminalGrowth": 1.5,
-          "intrinsicValue": 18.384,
-          "upsideDownside": -40
-        }
-      ],
-      "impliedGrowthRate": 10,
-      "currentPrice": 30.64
-    },
-    "valuationBands": [],
-    "sectorKpis": {},
-    "piotroskiScore": 4,
     "incomeStatementQ": {
       "quarters": [
-        "Q2 2026",
         "Q1 2026",
         "Q4 2025",
         "Q3 2025",
@@ -2274,59 +2266,53 @@
         "Q3 2024"
       ],
       "revenue": [
-        59.033,
-        55.408,
-        53.854,
-        51.265,
-        49.194,
-        46.605,
-        44.533,
-        41.944
+        183.63,
+        43.308,
+        50.987,
+        50.313,
+        62.524,
+        null,
+        null
       ],
       "grossProfit": [
-        1.728,
-        1.622,
-        1.576,
-        1.501,
-        1.44,
-        1.364,
-        1.304,
-        1.228
+        27.007,
+        7.011,
+        4.218,
+        -11.843,
+        6.677,
+        null,
+        null
       ],
       "operatingIncome": [
-        -24.861,
-        -23.334,
-        -22.68,
-        -21.59,
-        -20.717,
-        -19.627,
-        -18.755,
-        -17.664
+        -39.201,
+        -33.095,
+        -15.419,
+        -28.64,
+        -10.077,
+        null,
+        null
       ],
       "netIncome": [
-        -23.739,
-        -22.281,
-        -21.656,
-        -20.615,
-        -19.782,
-        -18.741,
-        -17.908,
-        -16.867
+        -37.387,
+        -39.875,
+        -6.842,
+        -25.181,
+        -11.396,
+        null,
+        null
       ],
       "eps": [
-        -0.1972,
-        -0.1851,
-        -0.1799,
-        -0.1712,
-        -0.1643,
-        -0.1557,
-        -0.1488,
-        -0.1401
+        -0.25,
+        -0.3301,
+        -0.06,
+        -0.22,
+        -0.11,
+        null,
+        null
       ]
     },
     "cashFlowQ": {
       "quarters": [
-        "Q2 2026",
         "Q1 2026",
         "Q4 2025",
         "Q3 2025",
@@ -2336,48 +2322,78 @@
         "Q3 2024"
       ],
       "operatingCF": [
-        -4.081,
-        -3.83,
-        -3.723,
-        -3.544,
-        -3.401,
-        -3.222,
-        -3.078,
-        -2.899
+        -54.768,
+        -7.295,
+        -7.179,
+        -19.263,
+        19.419,
+        null,
+        null
       ],
       "capex": [
-        -11.884,
-        -11.154,
-        -10.841,
-        -10.32,
-        -9.903,
-        -9.382,
-        -8.965,
-        -8.444
+        -9.876,
+        -15.71,
+        -11.811,
+        -8.054,
+        -6.122,
+        null,
+        null
       ],
       "freeCashFlow": [
-        -15.964,
-        -14.984,
-        -14.564,
-        -13.864,
-        -13.304,
-        -12.603,
-        -12.043,
-        -11.343
+        -64.644,
+        -23.005,
+        -18.99,
+        -27.317,
+        13.297,
+        null,
+        null
       ]
     },
-    "ohlsonScore": 44.1,
+    "dcf": {
+      "scenarios": [
+        {
+          "label": "Bull",
+          "fcfGrowthRate": 30,
+          "wacc": 9.0,
+          "terminalGrowth": 3.5,
+          "intrinsicValue": 41.6391,
+          "upsideDownside": 50.0
+        },
+        {
+          "label": "Base",
+          "fcfGrowthRate": 15,
+          "wacc": 10.0,
+          "terminalGrowth": 2.5,
+          "intrinsicValue": 27.7594,
+          "upsideDownside": 0.0
+        },
+        {
+          "label": "Bear",
+          "fcfGrowthRate": 3,
+          "wacc": 12.0,
+          "terminalGrowth": 1.5,
+          "intrinsicValue": 16.65564,
+          "upsideDownside": -40.0
+        }
+      ],
+      "impliedGrowthRate": 10.0,
+      "currentPrice": 27.7594
+    },
+    "valuationBands": [],
+    "sectorKpis": {},
+    "piotroskiScore": 4,
+    "ohlsonScore": 100.0,
     "analystConsensus": {
-      "analystScore": 76,
-      "analystLabel": "Buy",
-      "recommendationKey": "buy",
-      "recommendationMean": 2.0,
-      "targetMeanPrice": 40.14,
-      "targetHighPrice": 50.18,
-      "targetLowPrice": 25.29,
-      "targetUpside": 31.0,
-      "analystCount": 10,
-      "lastUpdated": "2026-06-12T00:00:00Z"
+      "analystScore": 56,
+      "analystLabel": "Hold",
+      "recommendationKey": "none",
+      "recommendationMean": null,
+      "targetMeanPrice": 40.78,
+      "targetHighPrice": 75.0,
+      "targetLowPrice": 11.0,
+      "targetUpside": 46.9,
+      "analystCount": 9,
+      "lastUpdated": "2026-06-12T13:35:49.586918Z"
     }
   }
 }

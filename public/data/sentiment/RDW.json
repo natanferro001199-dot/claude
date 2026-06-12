@@ -5,8 +5,8 @@
   "confidence": 0.424,
   "trend": "improving",
   "articlesAnalyzed": 1,
-  "lastUpdated": "2026-06-12T02:23:20.134158Z",
-  "modelMae7d": 0.1013,
+  "lastUpdated": "2026-06-12T13:36:08.244371Z",
+  "modelMae7d": 0.0938,
   "topHeadlines": [
     {
       "title": "",
@@ -20,29 +20,14 @@
     }
   ],
   "scoreHistory7d": [
-    50,
     48,
     45,
     44,
     43,
     42,
+    50,
     50
   ],
-  "catalystScore": 66,
-  "catalystEvents": [
-    {
-      "type": "contract_win",
-      "title": "Redwire wins $40M DoD spacecraft components contract",
-      "date": "2026-06-07",
-      "impact": "high",
-      "score": 80
-    },
-    {
-      "type": "regulatory_approval",
-      "title": "Redwire receives ITAR clearance for new optics export line",
-      "date": "2026-05-24",
-      "impact": "low",
-      "score": 57
-    }
-  ]
+  "catalystScore": 50,
+  "catalystEvents": []
 }

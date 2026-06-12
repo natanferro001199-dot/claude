@@ -13,23 +13,23 @@
     "price": null,
     "priceChange": 0,
     "priceChangePct": 0,
-    "open": 0,
-    "high52w": 0,
-    "low52w": 0,
+    "open": 0.0,
+    "high52w": 0.0,
+    "low52w": 0.0,
     "volume": null,
     "avgVolume30d": null,
     "marketCap": null,
     "marketCapCategory": "micro",
-    "lastUpdated": "2026-06-12T02:23:05.540963Z",
+    "lastUpdated": "2026-06-12T13:35:54.851684Z",
     "dataConfidence": "low"
   },
   "scores": {
     "technicalScore": 50,
     "fundamentalScore": 50,
-    "piotroskiScore": 4,
+    "piotroskiScore": 0,
     "altmanZScore": null,
-    "compositeScore": 50,
-    "ohlsonScore": 28
+    "ohlsonScore": null,
+    "compositeScore": 50
   },
   "priceHistory": [],
   "technical": null,
@@ -44,26 +44,27 @@
       "pfcf": null
     },
     "health": {
-      "grossMargin": 0,
-      "operatingMargin": 0,
-      "netMargin": 0,
-      "roic": 0,
-      "roe": 0,
-      "debtToEquity": 0,
+      "grossMargin": 0.0,
+      "operatingMargin": 0.0,
+      "netMargin": 0.0,
+      "roic": 0.0,
+      "roe": 0.0,
+      "debtToEquity": 0.0,
       "currentRatio": null,
       "quickRatio": null,
       "fcfYield": null,
       "interestCoverage": null
     },
     "growth": {
-      "revenueGrowthYoY": 0,
+      "revenueGrowthYoY": 0.0,
       "revenueGrowth3Y": null,
       "ebitdaGrowthYoY": null,
-      "epsGrowthYoY": 0,
+      "epsGrowthYoY": 0.0,
       "fcfGrowthYoY": null
     },
     "incomeStatement": {
       "years": [
+        "2021",
         "2022",
         "2023",
         "2024",
@@ -73,9 +74,11 @@
         null,
         null,
         null,
+        null,
         null
       ],
       "grossProfit": [
+        null,
         null,
         null,
         null,
@@ -85,9 +88,11 @@
         null,
         null,
         null,
+        null,
         null
       ],
       "ebitda": [
+        null,
         null,
         null,
         null,
@@ -97,9 +102,11 @@
         null,
         null,
         null,
+        null,
         null
       ],
       "eps": [
+        null,
         null,
         null,
         null,
@@ -108,6 +115,7 @@
     },
     "balanceSheet": {
       "years": [
+        "2021",
         "2022",
         "2023",
         "2024",
@@ -117,9 +125,11 @@
         null,
         null,
         null,
+        null,
         null
       ],
       "totalAssets": [
+        null,
         null,
         null,
         null,
@@ -129,9 +139,11 @@
         null,
         null,
         null,
+        null,
         null
       ],
       "totalEquity": [
+        null,
         null,
         null,
         null,
@@ -141,11 +153,13 @@
         null,
         null,
         null,
+        null,
         null
       ]
     },
     "cashFlow": {
       "years": [
+        "2021",
         "2022",
         "2023",
         "2024",
@@ -155,9 +169,11 @@
         null,
         null,
         null,
+        null,
         null
       ],
       "capex": [
+        null,
         null,
         null,
         null,
@@ -167,59 +183,19 @@
         null,
         null,
         null,
+        null,
         null
       ],
       "financingCF": [
         null,
         null,
         null,
+        null,
         null
       ]
     },
-    "dcf": {
-      "scenarios": [
-        {
-          "label": "Bull",
-          "fcfGrowthRate": 30,
-          "wacc": 9,
-          "terminalGrowth": 3.5,
-          "intrinsicValue": 1.5,
-          "upsideDownside": 50
-        },
-        {
-          "label": "Base",
-          "fcfGrowthRate": 15,
-          "wacc": 10,
-          "terminalGrowth": 2.5,
-          "intrinsicValue": 1,
-          "upsideDownside": 0
-        },
-        {
-          "label": "Bear",
-          "fcfGrowthRate": 3,
-          "wacc": 12,
-          "terminalGrowth": 1.5,
-          "intrinsicValue": 0.6,
-          "upsideDownside": -40
-        }
-      ],
-      "impliedGrowthRate": 10,
-      "currentPrice": 1
-    },
-    "valuationBands": [],
-    "sectorKpis": {},
-    "piotroskiScore": 0,
     "incomeStatementQ": {
-      "quarters": [
-        "Q2 2026",
-        "Q1 2026",
-        "Q4 2025",
-        "Q3 2025",
-        "Q2 2025",
-        "Q1 2025",
-        "Q4 2024",
-        "Q3 2024"
-      ],
+      "quarters": [],
       "revenue": [
         null,
         null,
@@ -272,16 +248,7 @@
       ]
     },
     "cashFlowQ": {
-      "quarters": [
-        "Q2 2026",
-        "Q1 2026",
-        "Q4 2025",
-        "Q3 2025",
-        "Q2 2025",
-        "Q1 2025",
-        "Q4 2024",
-        "Q3 2024"
-      ],
+      "quarters": [],
       "operatingCF": [
         null,
         null,
@@ -313,18 +280,51 @@
         null
       ]
     },
-    "ohlsonScore": 28,
+    "dcf": {
+      "scenarios": [
+        {
+          "label": "Bull",
+          "fcfGrowthRate": 30,
+          "wacc": 9.0,
+          "terminalGrowth": 3.5,
+          "intrinsicValue": 1.5,
+          "upsideDownside": 50.0
+        },
+        {
+          "label": "Base",
+          "fcfGrowthRate": 15,
+          "wacc": 10.0,
+          "terminalGrowth": 2.5,
+          "intrinsicValue": 1.0,
+          "upsideDownside": 0.0
+        },
+        {
+          "label": "Bear",
+          "fcfGrowthRate": 3,
+          "wacc": 12.0,
+          "terminalGrowth": 1.5,
+          "intrinsicValue": 0.6,
+          "upsideDownside": -40.0
+        }
+      ],
+      "impliedGrowthRate": 10.0,
+      "currentPrice": 1
+    },
+    "valuationBands": [],
+    "sectorKpis": {},
+    "piotroskiScore": 0,
+    "ohlsonScore": null,
     "analystConsensus": {
-      "analystScore": 88,
-      "analystLabel": "Strong Buy",
-      "recommendationKey": "strong_buy",
-      "recommendationMean": 1.6,
-      "targetMeanPrice": 52.00,
-      "targetHighPrice": 65.00,
-      "targetLowPrice": 32.76,
-      "targetUpside": 38.0,
-      "analystCount": 7,
-      "lastUpdated": "2026-06-12T00:00:00Z"
+      "analystScore": 45,
+      "analystLabel": "Hold",
+      "recommendationKey": "",
+      "recommendationMean": null,
+      "targetMeanPrice": null,
+      "targetHighPrice": null,
+      "targetLowPrice": null,
+      "targetUpside": null,
+      "analystCount": 0,
+      "lastUpdated": "2026-06-12T13:35:54.851637Z"
     }
   }
 }
