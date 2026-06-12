@@ -138,11 +138,15 @@ def compute_scores(info, statements, technicals):
         if trend in ("strong-down", "down"): tech_score -= 10
         tech_score = max(0, min(100, tech_score))
 
+    piotroski = statements.get("piotroskiScore", 4) if statements else 4
+    ohlson = statements.get("ohlsonScore") if statements else None
+
     return {
         "technicalScore": tech_score,
         "fundamentalScore": fund_score,
-        "piotroskiScore": 4,  # Computed in financial_statements.py
+        "piotroskiScore": piotroski,
         "altmanZScore": None,
+        "ohlsonScore": ohlson,
         "compositeScore": round((tech_score + fund_score) / 2),
     }
 

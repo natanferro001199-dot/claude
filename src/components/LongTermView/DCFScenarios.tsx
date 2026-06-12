@@ -1,10 +1,20 @@
-import type { DCFData } from '../../types/fundamental'
+import type { DCFData, DCFScenario } from '../../types/fundamental'
 import { formatCurrency, formatPct } from '../../lib/utils'
 
 interface Props { dcf: DCFData }
 
 export default function DCFScenarios({ dcf }: Props) {
-  const { scenarios, impliedGrowthRate, currentPrice } = dcf
+  const scenarios: DCFScenario[] = dcf?.scenarios ?? []
+  const impliedGrowthRate = dcf?.impliedGrowthRate ?? 0
+  const currentPrice = dcf?.currentPrice ?? 0
+
+  if (scenarios.length === 0) {
+    return (
+      <div className="gf-card p-4">
+        <div className="text-xs text-gf-text-secondary">DCF data unavailable.</div>
+      </div>
+    )
+  }
 
   const colors = {
     Bull: { bar: 'bg-gf-positive', text: 'text-gf-positive', bg: 'bg-gf-positive-bg' },

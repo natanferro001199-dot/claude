@@ -61,6 +61,24 @@ export interface CashFlowStatement {
   financingCF: (number | null)[]
 }
 
+// Income Statement (quarterly — last 8 quarters)
+export interface QuarterlyIncomeStatement {
+  quarters: string[]
+  revenue: (number | null)[]
+  grossProfit: (number | null)[]
+  operatingIncome: (number | null)[]
+  netIncome: (number | null)[]
+  eps: (number | null)[]
+}
+
+// Cash Flow Statement (quarterly — last 8 quarters)
+export interface QuarterlyCashFlow {
+  quarters: string[]
+  operatingCF: (number | null)[]
+  capex: (number | null)[]
+  freeCashFlow: (number | null)[]
+}
+
 export interface DCFScenario {
   label: 'Bull' | 'Base' | 'Bear'
   fcfGrowthRate: number
@@ -113,7 +131,10 @@ export interface FundamentalData {
   incomeStatement: IncomeStatement
   balanceSheet: BalanceSheet
   cashFlow: CashFlowStatement
+  incomeStatementQ?: QuarterlyIncomeStatement
+  cashFlowQ?: QuarterlyCashFlow
   dcf: DCFData
   valuationBands: ValuationBands[]
   sectorKpis: SectorKPIs
+  ohlsonScore?: number   // 0-100 probability of financial distress (Ohlson 1980)
 }

@@ -43,6 +43,7 @@ export interface CompanyScores {
   fundamentalScore: number     // 0-100
   piotroskiScore: number       // 0-9
   altmanZScore: number | null  // null if not applicable (pre-revenue)
+  ohlsonScore?: number         // 0-100 probability of financial distress (Ohlson 1980)
   compositeScore: number       // weighted average
 }
 

@@ -13,9 +13,9 @@
     "price": null,
     "priceChange": 0,
     "priceChangePct": 0,
-    "open": 0.0,
-    "high52w": 0.0,
-    "low52w": 0.0,
+    "open": 0,
+    "high52w": 0,
+    "low52w": 0,
     "volume": null,
     "avgVolume30d": null,
     "marketCap": null,
@@ -28,7 +28,8 @@
     "fundamentalScore": 50,
     "piotroskiScore": 4,
     "altmanZScore": null,
-    "compositeScore": 50
+    "compositeScore": 50,
+    "ohlsonScore": 28
   },
   "priceHistory": [],
   "technical": null,
@@ -43,22 +44,22 @@
       "pfcf": null
     },
     "health": {
-      "grossMargin": 0.0,
-      "operatingMargin": 0.0,
-      "netMargin": 0.0,
-      "roic": 0.0,
-      "roe": 0.0,
-      "debtToEquity": 0.0,
+      "grossMargin": 0,
+      "operatingMargin": 0,
+      "netMargin": 0,
+      "roic": 0,
+      "roe": 0,
+      "debtToEquity": 0,
       "currentRatio": null,
       "quickRatio": null,
       "fcfYield": null,
       "interestCoverage": null
     },
     "growth": {
-      "revenueGrowthYoY": 0.0,
+      "revenueGrowthYoY": 0,
       "revenueGrowth3Y": null,
       "ebitdaGrowthYoY": null,
-      "epsGrowthYoY": 0.0,
+      "epsGrowthYoY": 0,
       "fcfGrowthYoY": null
     },
     "incomeStatement": {
@@ -180,33 +181,138 @@
         {
           "label": "Bull",
           "fcfGrowthRate": 30,
-          "wacc": 9.0,
+          "wacc": 9,
           "terminalGrowth": 3.5,
           "intrinsicValue": 1.5,
-          "upsideDownside": 50.0
+          "upsideDownside": 50
         },
         {
           "label": "Base",
           "fcfGrowthRate": 15,
-          "wacc": 10.0,
+          "wacc": 10,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 1.0,
-          "upsideDownside": 0.0
+          "intrinsicValue": 1,
+          "upsideDownside": 0
         },
         {
           "label": "Bear",
           "fcfGrowthRate": 3,
-          "wacc": 12.0,
+          "wacc": 12,
           "terminalGrowth": 1.5,
           "intrinsicValue": 0.6,
-          "upsideDownside": -40.0
+          "upsideDownside": -40
         }
       ],
-      "impliedGrowthRate": 10.0,
+      "impliedGrowthRate": 10,
       "currentPrice": 1
     },
     "valuationBands": [],
     "sectorKpis": {},
-    "piotroskiScore": 0
+    "piotroskiScore": 0,
+    "incomeStatementQ": {
+      "quarters": [
+        "Q2 2026",
+        "Q1 2026",
+        "Q4 2025",
+        "Q3 2025",
+        "Q2 2025",
+        "Q1 2025",
+        "Q4 2024",
+        "Q3 2024"
+      ],
+      "revenue": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "grossProfit": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "operatingIncome": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "netIncome": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "eps": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "cashFlowQ": {
+      "quarters": [
+        "Q2 2026",
+        "Q1 2026",
+        "Q4 2025",
+        "Q3 2025",
+        "Q2 2025",
+        "Q1 2025",
+        "Q4 2024",
+        "Q3 2024"
+      ],
+      "operatingCF": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "capex": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "freeCashFlow": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "ohlsonScore": 28
   }
 }

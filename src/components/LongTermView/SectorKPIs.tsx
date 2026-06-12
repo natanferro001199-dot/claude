@@ -12,11 +12,11 @@ export default function SectorKPIsPanel({ kpis, sector }: Props) {
   if (sector === 'aerospace') {
     const k = kpis as AerospaceKPIs
     const rows = [
-      { label: 'Backlog Orders', value: k.backlogOrders !== null ? `$${k.backlogOrders.toFixed(2)}B` : 'N/A', note: 'Contracted but undelivered revenue' },
+      { label: 'Backlog Orders', value: k.backlogOrders != null ? `$${k.backlogOrders.toFixed(2)}B` : 'N/A', note: 'Contracted but undelivered revenue' },
       { label: 'Book-to-Bill Ratio', value: fmt(k.bookToBill), note: '>1.0 = growing backlog' },
       { label: 'Government Revenue %', value: fmt(k.govtRevenuePercent, '%'), note: 'Defense / civil vs commercial mix' },
       { label: 'R&D % of Revenue', value: fmt(k.rdPercentRevenue, '%'), note: 'Innovation investment intensity' },
-      { label: 'Launches (12M)', value: k.launchCount12m !== null ? `${k.launchCount12m}` : 'N/A', note: 'Electron / other missions' },
+      { label: 'Launches (12M)', value: k.launchCount12m != null ? `${k.launchCount12m}` : 'N/A', note: 'Electron / other missions' },
     ]
     return <KPITable rows={rows} title="New Space KPIs" />
   }
@@ -25,7 +25,7 @@ export default function SectorKPIsPanel({ kpis, sector }: Props) {
   const rows = [
     { label: 'Occupancy Rate', value: fmt(k.occupancyRate, '%'), note: 'Leased / total capacity' },
     { label: 'Power Usage Effectiveness', value: fmt(k.pue), note: '1.0 = perfect efficiency' },
-    { label: 'Revenue per MW', value: k.revenuePerMW !== null ? `$${k.revenuePerMW.toFixed(1)}M/MW` : 'N/A', note: 'Monetization of power capacity' },
+    { label: 'Revenue per MW', value: k.revenuePerMW != null ? `$${k.revenuePerMW.toFixed(1)}M/MW` : 'N/A', note: 'Monetization of power capacity' },
     { label: 'Adj. EBITDA Margin', value: fmt(k.adjustedEbitdaMargin, '%'), note: 'Cash profitability of operations' },
     { label: 'Hyperscaler Concentration', value: fmt(k.hyperscalerConcentration, '%'), note: 'Revenue from top 3 cloud customers' },
   ]

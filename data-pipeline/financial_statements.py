@@ -17,6 +17,14 @@ def safe(val):
     except Exception:
         return None
 
+def quarter_label(ts):
+    """Convert a pandas Timestamp to a 'Q# YYYY' label."""
+    try:
+        q = (ts.month - 1) // 3 + 1
+        return f"Q{q} {ts.year}"
+    except Exception:
+        return str(ts)
+
 def fetch_statements(stock):
     try:
         info = stock.info or {}
@@ -26,18 +34,38 @@ def fetch_statements(stock):
         bal = stock.balance_sheet
         cf = stock.cashflow
 
-        def series_to_list(df, key, divisor=1e6):
-            """Extract a metric across years, convert to $M."""
+        # Quarterly statements (yfinance provides up to 8 recent quarters)
+        finq = stock.quarterly_financials
+        cfq = stock.quarterly_cashflow
+
+        def series_to_list(df, key, divisor=1e6, count=5):
+            """Extract a metric across the most recent `count` periods, convert to $M.
+
+            Returns oldest -> newest ordering to match the years list.
+            """
             if df is None or df.empty or key not in df.index:
-                return [None, None, None, None]
-            vals = df.loc[key].values[:4]  # Last 4 years
+                return [None] * count
+            vals = df.loc[key].values[:count]  # Most recent `count` periods
             return [safe(v / divisor) if v is not None else None for v in reversed(vals)]
 
+        def series_to_list_q(df, key, divisor=1e6, count=8):
+            """Extract a quarterly metric, most-recent-first ordering."""
+            if df is None or df.empty or key not in df.index:
+                return [None] * count
+            vals = df.loc[key].values[:count]  # Most recent `count` quarters
+            return [safe(v / divisor) if v is not None else None for v in vals]
+
+        # Annual periods — up to 5 years
         years = []
         if fin is not None and not fin.empty:
-            years = [str(c.year) for c in reversed(fin.columns[:4])]
+            years = [str(c.year) for c in reversed(fin.columns[:5])]
         if not years:
-            years = ["2022", "2023", "2024", "2025"]
+            years = ["2021", "2022", "2023", "2024", "2025"]
+
+        # Quarterly periods — up to 8 quarters, most recent first
+        quarters = []
+        if finq is not None and not finq.empty:
+            quarters = [quarter_label(c) for c in finq.columns[:8]]
 
         is_data = {
             "years": years,
@@ -64,6 +92,24 @@ def fetch_statements(stock):
             "capex": series_to_list(cf, "Capital Expenditure"),
             "freeCashFlow": series_to_list(cf, "Free Cash Flow"),
             "financingCF": series_to_list(cf, "Financing Cash Flow"),
+        }
+
+        # Quarterly income statement (last 8 quarters, most recent first)
+        is_data_q = {
+            "quarters": quarters,
+            "revenue": series_to_list_q(finq, "Total Revenue"),
+            "grossProfit": series_to_list_q(finq, "Gross Profit"),
+            "operatingIncome": series_to_list_q(finq, "Operating Income"),
+            "netIncome": series_to_list_q(finq, "Net Income"),
+            "eps": series_to_list_q(finq, "Diluted EPS", divisor=1),
+        }
+
+        # Quarterly cash flow (last 8 quarters, most recent first)
+        cf_data_q = {
+            "quarters": quarters,
+            "operatingCF": series_to_list_q(cfq, "Operating Cash Flow"),
+            "capex": series_to_list_q(cfq, "Capital Expenditure"),
+            "freeCashFlow": series_to_list_q(cfq, "Free Cash Flow"),
         }
 
         # Valuation multiples from info dict
@@ -115,6 +161,9 @@ def fetch_statements(stock):
         # Piotroski F-Score (simplified)
         piotroski = compute_piotroski(info, is_data, bs_data, cf_data)
 
+        # Ohlson O-Score (probability of financial distress, 0-100)
+        ohlson = compute_ohlson_o_score(info, is_data, bs_data, cf_data)
+
         return {
             "valuation": valuation,
             "health": health,
@@ -122,10 +171,13 @@ def fetch_statements(stock):
             "incomeStatement": is_data,
             "balanceSheet": bs_data,
             "cashFlow": cf_data,
+            "incomeStatementQ": is_data_q,
+            "cashFlowQ": cf_data_q,
             "dcf": dcf,
             "valuationBands": [],  # Requires historical data not available on free tier
             "sectorKpis": {},
             "piotroskiScore": piotroski,
+            "ohlsonScore": ohlson,
         }
     except Exception as e:
         print(f"    Error fetching statements: {e}")
@@ -220,3 +272,63 @@ def compute_piotroski(info, is_data, bs_data, cf_data):
     except Exception:
         pass
     return score
+
+def compute_ohlson_o_score(info, is_data, bs_data, cf_data):
+    """Ohlson O-Score (1980) — probability of financial distress (0-100).
+
+    Returns a probability percentage. Higher = greater bankruptcy risk.
+    Values flow in $M but ratios are unit-invariant; the GNP price-level
+    index is normalized to a constant of 100.
+    """
+    import math
+    try:
+        ta = bs_data["totalAssets"][-1]
+        te = bs_data["totalEquity"][-1]
+        ni_list = is_data.get("netIncome") or []
+        ni = ni_list[-1] if ni_list else None
+        ni_prev = ni_list[-2] if len(ni_list) >= 2 else None
+        ocf = cf_data["operatingCF"][-1] if cf_data.get("operatingCF") else None
+
+        if ta is None or ta <= 0 or te is None:
+            return None
+
+        tl = ta - te  # Total liabilities
+        if tl is None:
+            return None
+
+        current_ratio = info.get("currentRatio")
+        # Current assets / liabilities not on the free tier — approximate.
+        # Assume current liabilities ~40% of total liabilities, then derive
+        # current assets from the current ratio.
+        cl = tl * 0.4 if tl > 0 else abs(tl) * 0.4
+        ca = (cl * current_ratio) if (cl and current_ratio) else cl
+        wc = (ca - cl) if (ca is not None and cl is not None) else 0.0
+
+        gnp = 100.0  # GNP price-level index normalization constant
+        ni_val = ni if ni is not None else 0.0
+        x1 = 1.0 if tl > ta else 0.0
+        x2 = 1.0 if (ni is not None and ni < 0 and ni_prev is not None and ni_prev < 0) else 0.0
+        nip = ni_prev if ni_prev is not None else ni_val
+        denom = abs(ni_val) + abs(nip)
+        chin = (ni_val - nip) / denom if denom else 0.0
+
+        o = (-1.32
+             - 0.407 * math.log(ta / gnp)
+             + 6.03 * (tl / ta)
+             - 1.43 * (wc / ta)
+             + 0.076 * ((cl / ca) if (ca and ca != 0) else 0.0)
+             - 1.72 * x1
+             - 2.37 * (ni_val / ta)
+             - 1.83 * ((ocf / tl) if (ocf is not None and tl) else 0.0)
+             + 0.285 * x2
+             - 0.521 * chin)
+
+        # Numerically stable logistic
+        if o >= 0:
+            prob = 1.0 / (1.0 + math.exp(-o))
+        else:
+            e = math.exp(o)
+            prob = e / (1.0 + e)
+        return round(prob * 100, 1)
+    except Exception:
+        return None

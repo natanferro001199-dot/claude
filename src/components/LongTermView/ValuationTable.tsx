@@ -67,7 +67,7 @@ export default function ValuationTable({ data, company }: Props) {
             {healthRows.map((row) => (
               <tr key={row.label}>
                 <td className="font-normal text-gf-text">{row.label}</td>
-                <td className={`font-mono font-medium ${row.raw !== null ? getChangeColor(row.raw) : ''}`}>
+                <td className={`font-mono font-medium ${row.raw != null ? getChangeColor(row.raw) : ''}`}>
                   {row.value}
                 </td>
               </tr>
@@ -86,7 +86,7 @@ export default function ValuationTable({ data, company }: Props) {
             {growthRows.map((row) => (
               <tr key={row.label}>
                 <td className="font-normal text-gf-text">{row.label}</td>
-                <td className={`font-mono font-medium ${row.raw !== null ? getChangeColor(row.raw) : ''}`}>
+                <td className={`font-mono font-medium ${row.raw != null ? getChangeColor(row.raw) : ''}`}>
                   {row.value}
                 </td>
               </tr>
@@ -111,7 +111,7 @@ export default function ValuationTable({ data, company }: Props) {
           </div>
           <div className="bg-gf-bg rounded p-3 text-center">
             <div className="text-xs text-gf-text-secondary mb-1">Altman Z-Score</div>
-            {company.scores.altmanZScore !== null ? (
+            {company.scores.altmanZScore != null ? (
               <>
                 <div className={`text-2xl font-bold ${
                   company.scores.altmanZScore >= 3 ? 'text-gf-positive' :
@@ -124,6 +124,18 @@ export default function ValuationTable({ data, company }: Props) {
             ) : <div className="text-sm text-gf-text-secondary">N/A</div>}
           </div>
         </div>
+        {company.scores.ohlsonScore != null && (
+          <div className="bg-gf-bg rounded p-3 text-center mt-3" title="Probability of financial distress (Ohlson 1980)">
+            <div className="text-xs text-gf-text-secondary mb-1">Ohlson O-Score</div>
+            <div className={`text-2xl font-bold ${
+              company.scores.ohlsonScore < 10 ? 'text-gf-positive' :
+              company.scores.ohlsonScore <= 30 ? 'text-yellow-600' : 'text-gf-negative'
+            }`}>{company.scores.ohlsonScore.toFixed(1)}%</div>
+            <div className="text-xs text-gf-text-secondary mt-1">
+              {company.scores.ohlsonScore < 10 ? 'Low Distress Risk' : company.scores.ohlsonScore <= 30 ? 'Moderate Risk' : 'High Distress Risk'}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Valuation Bands */}
@@ -142,7 +154,7 @@ export default function ValuationTable({ data, company }: Props) {
                 </span>
               </div>
               <div className="relative h-2 bg-gf-bg rounded-full border border-gf-border">
-                {band.percentileRank !== null && (
+                {band.percentileRank != null && (
                   <div
                     className="absolute top-0 h-full w-2 -translate-x-1 bg-gf-accent rounded-full"
                     style={{ left: `${band.percentileRank}%` }}
@@ -153,7 +165,7 @@ export default function ValuationTable({ data, company }: Props) {
               <div className="flex justify-between text-xs text-gf-text-secondary mt-0.5">
                 <span>Low: {formatMultiple(band.min5y)}</span>
                 <span className="text-xs text-gf-text-secondary">
-                  {band.percentileRank !== null ? `${band.percentileRank}th %ile` : ''}
+                  {band.percentileRank != null ? `${band.percentileRank}th %ile` : ''}
                 </span>
                 <span>High: {formatMultiple(band.max5y)}</span>
               </div>

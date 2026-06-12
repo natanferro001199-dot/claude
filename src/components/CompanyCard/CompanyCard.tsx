@@ -98,13 +98,22 @@ export default function CompanyCard({ company, sentiment, analysisMode, onClick 
           scores.piotroskiScore >= 7 ? 'text-gf-positive' :
           scores.piotroskiScore >= 4 ? 'text-yellow-600' : 'text-gf-negative'
         }`}>{scores.piotroskiScore}/9</span>
-        {scores.altmanZScore !== null && (
+        {scores.altmanZScore != null && (
           <>
             <span className="text-xs text-gf-text-secondary ml-2">Z-Score:</span>
             <span className={`text-xs font-semibold ${
               scores.altmanZScore >= 3 ? 'text-gf-positive' :
               scores.altmanZScore >= 1.8 ? 'text-yellow-600' : 'text-gf-negative'
             }`}>{scores.altmanZScore.toFixed(1)}</span>
+          </>
+        )}
+        {scores.ohlsonScore != null && (
+          <>
+            <span className="text-xs text-gf-text-secondary ml-2" title="Probability of financial distress (Ohlson 1980)">O-Score:</span>
+            <span className={`text-xs font-semibold ${
+              scores.ohlsonScore < 10 ? 'text-gf-positive' :
+              scores.ohlsonScore <= 30 ? 'text-yellow-600' : 'text-gf-negative'
+            }`}>{scores.ohlsonScore.toFixed(1)}%</span>
           </>
         )}
       </div>

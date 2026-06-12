@@ -13,7 +13,7 @@
     "price": 30.64,
     "priceChange": 4.11,
     "priceChangePct": 15.47,
-    "open": 27.0,
+    "open": 27,
     "high52w": 46.75,
     "low52w": 7.78,
     "volume": 21825283,
@@ -28,7 +28,8 @@
     "fundamentalScore": 50,
     "piotroskiScore": 4,
     "altmanZScore": null,
-    "compositeScore": 50
+    "compositeScore": 50,
+    "ohlsonScore": 44.1
   },
   "priceHistory": [
     {
@@ -84,7 +85,7 @@
       "open": 9.92,
       "high": 10.15,
       "low": 9.52,
-      "close": 10.0,
+      "close": 10,
       "volume": 5784000
     },
     {
@@ -553,7 +554,7 @@
     },
     {
       "time": "2025-09-16",
-      "open": 9.0,
+      "open": 9,
       "high": 9.21,
       "low": 8.73,
       "close": 9.15,
@@ -619,7 +620,7 @@
       "time": "2025-09-26",
       "open": 10.03,
       "high": 10.55,
-      "low": 10.0,
+      "low": 10,
       "close": 10.08,
       "volume": 5290700
     },
@@ -635,7 +636,7 @@
       "time": "2025-09-30",
       "open": 10.2,
       "high": 10.55,
-      "low": 10.0,
+      "low": 10,
       "close": 10.52,
       "volume": 5305100
     },
@@ -681,7 +682,7 @@
     },
     {
       "time": "2025-10-08",
-      "open": 12.0,
+      "open": 12,
       "high": 12.93,
       "low": 11.94,
       "close": 12.48,
@@ -948,7 +949,7 @@
       "open": 8.65,
       "high": 9.02,
       "low": 8.51,
-      "close": 9.0,
+      "close": 9,
       "volume": 4464400
     },
     {
@@ -1105,7 +1106,7 @@
     },
     {
       "time": "2025-12-23",
-      "open": 15.0,
+      "open": 15,
       "high": 16.94,
       "low": 14.68,
       "close": 16.51,
@@ -1115,7 +1116,7 @@
       "time": "2025-12-24",
       "open": 16.94,
       "high": 17.5,
-      "low": 16.0,
+      "low": 16,
       "close": 16.71,
       "volume": 8590900
     },
@@ -1674,7 +1675,7 @@
     {
       "time": "2026-04-08",
       "open": 24.74,
-      "high": 25.0,
+      "high": 25,
       "low": 23.07,
       "close": 23.39,
       "volume": 17999600
@@ -1921,8 +1922,8 @@
     },
     {
       "time": "2026-05-21",
-      "open": 33.0,
-      "high": 35.0,
+      "open": 33,
+      "high": 35,
       "low": 31.33,
       "close": 34.24,
       "volume": 10787300
@@ -1979,7 +1980,7 @@
       "time": "2026-06-02",
       "open": 38.9,
       "high": 41.05,
-      "low": 38.0,
+      "low": 38,
       "close": 39.57,
       "volume": 10205200
     },
@@ -2033,7 +2034,7 @@
     },
     {
       "time": "2026-06-11",
-      "open": 27.0,
+      "open": 27,
       "high": 30.91,
       "low": 26.73,
       "close": 30.64,
@@ -2111,7 +2112,7 @@
       "revenueGrowthYoY": 198.7,
       "revenueGrowth3Y": null,
       "ebitdaGrowthYoY": null,
-      "epsGrowthYoY": 0.0,
+      "epsGrowthYoY": 0,
       "fcfGrowthYoY": null
     },
     "incomeStatement": {
@@ -2124,7 +2125,7 @@
       "revenue": [
         85.946,
         79.551,
-        228.0,
+        228,
         207.132
       ],
       "grossProfit": [
@@ -2146,13 +2147,13 @@
         -95.11
       ],
       "netIncome": [
-        0.0,
+        0,
         61.762,
         -283.413,
         -83.294
       ],
       "eps": [
-        0.0,
+        0,
         2.875,
         -2.8259,
         -0.6919
@@ -2233,33 +2234,138 @@
         {
           "label": "Bull",
           "fcfGrowthRate": 30,
-          "wacc": 9.0,
+          "wacc": 9,
           "terminalGrowth": 3.5,
           "intrinsicValue": 45.96,
-          "upsideDownside": 50.0
+          "upsideDownside": 50
         },
         {
           "label": "Base",
           "fcfGrowthRate": 15,
-          "wacc": 10.0,
+          "wacc": 10,
           "terminalGrowth": 2.5,
           "intrinsicValue": 30.64,
-          "upsideDownside": 0.0
+          "upsideDownside": 0
         },
         {
           "label": "Bear",
           "fcfGrowthRate": 3,
-          "wacc": 12.0,
+          "wacc": 12,
           "terminalGrowth": 1.5,
           "intrinsicValue": 18.384,
-          "upsideDownside": -40.0
+          "upsideDownside": -40
         }
       ],
-      "impliedGrowthRate": 10.0,
+      "impliedGrowthRate": 10,
       "currentPrice": 30.64
     },
     "valuationBands": [],
     "sectorKpis": {},
-    "piotroskiScore": 4
+    "piotroskiScore": 4,
+    "incomeStatementQ": {
+      "quarters": [
+        "Q2 2026",
+        "Q1 2026",
+        "Q4 2025",
+        "Q3 2025",
+        "Q2 2025",
+        "Q1 2025",
+        "Q4 2024",
+        "Q3 2024"
+      ],
+      "revenue": [
+        59.033,
+        55.408,
+        53.854,
+        51.265,
+        49.194,
+        46.605,
+        44.533,
+        41.944
+      ],
+      "grossProfit": [
+        1.728,
+        1.622,
+        1.576,
+        1.501,
+        1.44,
+        1.364,
+        1.304,
+        1.228
+      ],
+      "operatingIncome": [
+        -24.861,
+        -23.334,
+        -22.68,
+        -21.59,
+        -20.717,
+        -19.627,
+        -18.755,
+        -17.664
+      ],
+      "netIncome": [
+        -23.739,
+        -22.281,
+        -21.656,
+        -20.615,
+        -19.782,
+        -18.741,
+        -17.908,
+        -16.867
+      ],
+      "eps": [
+        -0.1972,
+        -0.1851,
+        -0.1799,
+        -0.1712,
+        -0.1643,
+        -0.1557,
+        -0.1488,
+        -0.1401
+      ]
+    },
+    "cashFlowQ": {
+      "quarters": [
+        "Q2 2026",
+        "Q1 2026",
+        "Q4 2025",
+        "Q3 2025",
+        "Q2 2025",
+        "Q1 2025",
+        "Q4 2024",
+        "Q3 2024"
+      ],
+      "operatingCF": [
+        -4.081,
+        -3.83,
+        -3.723,
+        -3.544,
+        -3.401,
+        -3.222,
+        -3.078,
+        -2.899
+      ],
+      "capex": [
+        -11.884,
+        -11.154,
+        -10.841,
+        -10.32,
+        -9.903,
+        -9.382,
+        -8.965,
+        -8.444
+      ],
+      "freeCashFlow": [
+        -15.964,
+        -14.984,
+        -14.564,
+        -13.864,
+        -13.304,
+        -12.603,
+        -12.043,
+        -11.343
+      ]
+    },
+    "ohlsonScore": 44.1
   }
 }
