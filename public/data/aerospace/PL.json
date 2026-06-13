@@ -10,17 +10,17 @@
     "website": "https://www.planet.com"
   },
   "price": {
-    "price": 31.7,
-    "priceChange": -2.45,
-    "priceChangePct": -7.19,
-    "open": 31.5,
+    "price": 31.15,
+    "priceChange": -3.02,
+    "priceChangePct": -8.84,
+    "open": 33.89,
     "high52w": 51.76,
     "low52w": 4.9,
-    "volume": 2011416,
+    "volume": 19484641,
     "avgVolume30d": 14608696,
-    "marketCap": 11287268352,
+    "marketCap": 11101938688,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-12T13:35:46.116025Z",
+    "lastUpdated": "2026-06-13T00:11:48.071712Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 40
   },
   "priceHistory": [
-    {
-      "time": "2025-06-12",
-      "open": 6.25,
-      "high": 6.28,
-      "low": 5.26,
-      "close": 5.46,
-      "volume": 27345300
-    },
     {
       "time": "2025-06-13",
       "open": 5.28,
@@ -2038,40 +2030,40 @@
       "high": 34.32,
       "low": 30.42,
       "close": 34.17,
-      "volume": 16225500
+      "volume": 16512500
     },
     {
       "time": "2026-06-12",
-      "open": 31.5,
+      "open": 33.89,
       "high": 34.14,
-      "low": 31.62,
-      "close": 31.69,
-      "volume": 2012280
+      "low": 29.77,
+      "close": 31.15,
+      "volume": 19484641
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 37.77,
-      "sma20": 41.4785,
-      "sma50": 38.9044,
-      "sma200": 23.418,
+      "rsi14": 37.14,
+      "sma20": 41.4515,
+      "sma50": 38.8936,
+      "sma200": 23.4153,
       "macd": {
-        "macd": -1.9373,
-        "signal": 0.0,
-        "histogram": -1.9373
+        "macd": -1.9804,
+        "signal": -0.0086,
+        "histogram": -1.9718
       },
       "bollingerBands": {
-        "upper": 55.1832,
-        "middle": 41.4785,
-        "lower": 27.7738
+        "upper": 55.2351,
+        "middle": 41.4515,
+        "lower": 27.6679
       },
-      "volumeMA20": 14417734,
-      "atr14": 4.9229
+      "volumeMA20": 15305702,
+      "atr14": 5.055
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "37.77",
+        "value": "37.14",
         "interpretation": "bearish"
       },
       {
@@ -2081,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-18.5%",
+        "value": "-19.9%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+35.3%",
+        "value": "+33.0%",
         "interpretation": "bullish"
       }
     ],
@@ -2097,11 +2089,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": 9510.511,
-      "evEbitda": -230.775,
-      "evRevenue": 35.563,
-      "ps": 33.6584,
-      "pb": 25.4378,
+      "forwardPe": 9354.3545,
+      "evEbitda": -209.964,
+      "evRevenue": 32.356,
+      "ps": 33.0797,
+      "pb": 25.0201,
       "pfcf": null
     },
     "health": {
@@ -2350,7 +2342,7 @@
           "wacc": 9.0,
           "terminalGrowth": 3.5,
           "intrinsicValue": 21.54,
-          "upsideDownside": -32.0
+          "upsideDownside": -30.9
         },
         {
           "label": "Base",
@@ -2358,7 +2350,7 @@
           "wacc": 10.0,
           "terminalGrowth": 2.5,
           "intrinsicValue": 5.28,
-          "upsideDownside": -83.3
+          "upsideDownside": -83.0
         },
         {
           "label": "Bear",
@@ -2366,11 +2358,11 @@
           "wacc": 12.0,
           "terminalGrowth": 1.5,
           "intrinsicValue": 1.65,
-          "upsideDownside": -94.8
+          "upsideDownside": -94.7
         }
       ],
       "impliedGrowthRate": 41.0,
-      "currentPrice": 31.695
+      "currentPrice": 31.15
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2384,9 +2376,9 @@
       "targetMeanPrice": 40.0,
       "targetHighPrice": 53.0,
       "targetLowPrice": 22.0,
-      "targetUpside": 26.2,
+      "targetUpside": 28.4,
       "analystCount": 10,
-      "lastUpdated": "2026-06-12T13:35:46.115978Z"
+      "lastUpdated": "2026-06-13T00:11:48.071676Z"
     }
   }
 }

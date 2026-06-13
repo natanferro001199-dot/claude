@@ -10,17 +10,17 @@
     "website": "https://www.equinix.com"
   },
   "price": {
-    "price": 1053.54,
-    "priceChange": 10.36,
-    "priceChangePct": 0.99,
+    "price": 1055.85,
+    "priceChange": 12.67,
+    "priceChangePct": 1.21,
     "open": 1048.78,
     "high52w": 1128.68,
     "low52w": 710.52,
-    "volume": 16005,
+    "volume": 491764,
     "avgVolume30d": 553573,
-    "marketCap": 103904100352,
+    "marketCap": 104132411392,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-12T13:35:51.328654Z",
+    "lastUpdated": "2026-06-13T00:11:51.640137Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 45
   },
   "priceHistory": [
-    {
-      "time": "2025-06-12",
-      "open": 873.83,
-      "high": 882.43,
-      "low": 873.62,
-      "close": 876.49,
-      "volume": 493900
-    },
     {
       "time": "2025-06-13",
       "open": 872.75,
@@ -2043,35 +2035,35 @@
     {
       "time": "2026-06-12",
       "open": 1048.78,
-      "high": 1053.54,
-      "low": 1048.4,
-      "close": 1053.54,
-      "volume": 16005
+      "high": 1055.86,
+      "low": 1043.75,
+      "close": 1055.85,
+      "volume": 491764
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 46.67,
-      "sma20": 1064.5395,
-      "sma50": 1064.4572,
-      "sma200": 879.9856,
+      "rsi14": 47.53,
+      "sma20": 1064.655,
+      "sma50": 1064.5034,
+      "sma200": 879.9971,
       "macd": {
-        "macd": -1.9957,
-        "signal": 1.9545,
-        "histogram": -3.9502
+        "macd": -1.8114,
+        "signal": 1.9913,
+        "histogram": -3.8027
       },
       "bollingerBands": {
-        "upper": 1092.2424,
-        "middle": 1064.5395,
-        "lower": 1036.8366
+        "upper": 1092.1922,
+        "middle": 1064.655,
+        "lower": 1037.1178
       },
-      "volumeMA20": 518810,
-      "atr14": 21.4621
+      "volumeMA20": 542598,
+      "atr14": 21.6279
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "46.67",
+        "value": "47.53",
         "interpretation": "neutral"
       },
       {
@@ -2081,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-1.0%",
+        "value": "-0.8%",
         "interpretation": "neutral"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+19.7%",
+        "value": "+20.0%",
         "interpretation": "bullish"
       }
     ],
@@ -2096,12 +2088,12 @@
   },
   "fundamental": {
     "valuation": {
-      "pe": 72.6576,
-      "forwardPe": 54.805,
-      "evEbitda": 29.164,
-      "evRevenue": 13.109,
-      "ps": 10.9074,
-      "pb": 7.267,
+      "pe": 72.8172,
+      "forwardPe": 54.9254,
+      "evEbitda": 29.455,
+      "evRevenue": 13.24,
+      "ps": 10.9314,
+      "pb": 7.2829,
       "pfcf": null
     },
     "health": {
@@ -2349,7 +2341,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 1580.3025000000002,
+          "intrinsicValue": 1583.7749999999999,
           "upsideDownside": 50.0
         },
         {
@@ -2357,7 +2349,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 1053.535,
+          "intrinsicValue": 1055.85,
           "upsideDownside": 0.0
         },
         {
@@ -2365,12 +2357,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 632.121,
+          "intrinsicValue": 633.5099999999999,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 1053.535
+      "currentPrice": 1055.85
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2384,9 +2376,9 @@
       "targetMeanPrice": 1197.11,
       "targetHighPrice": 1350.0,
       "targetLowPrice": 950.0,
-      "targetUpside": 13.6,
+      "targetUpside": 13.4,
       "analystCount": 28,
-      "lastUpdated": "2026-06-12T13:35:51.328608Z"
+      "lastUpdated": "2026-06-13T00:11:51.640102Z"
     }
   }
 }
