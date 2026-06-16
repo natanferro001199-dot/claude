@@ -10,17 +10,17 @@
     "website": "https://www.rdw.com"
   },
   "price": {
-    "price": 15.12,
-    "priceChange": -1.97,
-    "priceChangePct": -11.53,
-    "open": 16.28,
+    "price": 14.83,
+    "priceChange": -0.29,
+    "priceChangePct": -1.92,
+    "open": 15.96,
     "high52w": 26.64,
     "low52w": 4.87,
-    "volume": 63667286,
-    "avgVolume30d": 36184168,
-    "marketCap": 3007651072,
+    "volume": 39103424,
+    "avgVolume30d": 37008028,
+    "marketCap": 2949964544,
     "marketCapCategory": "mid",
-    "lastUpdated": "2026-06-13T00:11:46.870641Z",
+    "lastUpdated": "2026-06-16T00:21:30.717666Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 50
   },
   "priceHistory": [
-    {
-      "time": "2025-06-13",
-      "open": 18.48,
-      "high": 20.34,
-      "low": 18.01,
-      "close": 19.08,
-      "volume": 2664100
-    },
     {
       "time": "2025-06-16",
       "open": 19.7,
@@ -2035,35 +2027,43 @@
     {
       "time": "2026-06-12",
       "open": 16.28,
-      "high": 16.43,
+      "high": 16.44,
       "low": 14.72,
       "close": 15.12,
-      "volume": 63667286
+      "volume": 63902500
+    },
+    {
+      "time": "2026-06-15",
+      "open": 15.96,
+      "high": 15.99,
+      "low": 14.72,
+      "close": 14.83,
+      "volume": 39103424
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 46.64,
-      "sma20": 18.3605,
-      "sma50": 13.3994,
-      "sma200": 9.7663,
+      "rsi14": 45.99,
+      "sma20": 18.399,
+      "sma50": 13.5014,
+      "sma200": 9.7955,
       "macd": {
-        "macd": 0.9589,
-        "signal": 1.8749,
-        "histogram": -0.916
+        "macd": 0.6716,
+        "signal": 1.6342,
+        "histogram": -0.9626
       },
       "bollingerBands": {
-        "upper": 25.7373,
-        "middle": 18.3605,
-        "lower": 10.9837
+        "upper": 25.6932,
+        "middle": 18.399,
+        "lower": 11.1048
       },
-      "volumeMA20": 62838739,
-      "atr14": 3.1671
+      "volumeMA20": 62128071,
+      "atr14": 2.8571
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "46.64",
+        "value": "45.99",
         "interpretation": "neutral"
       },
       {
@@ -2073,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "+12.8%",
+        "value": "+9.8%",
         "interpretation": "bullish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+54.8%",
+        "value": "+51.4%",
         "interpretation": "bullish"
       }
     ],
@@ -2089,11 +2089,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -36.878,
+      "forwardPe": -36.1707,
       "evEbitda": -17.131,
       "evRevenue": 8.239,
-      "ps": 8.1078,
-      "pb": 2.7511,
+      "ps": 7.9523,
+      "pb": 2.6983,
       "pfcf": null
     },
     "health": {
@@ -2341,7 +2341,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 22.68,
+          "intrinsicValue": 22.245,
           "upsideDownside": 50.0
         },
         {
@@ -2349,7 +2349,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 15.12,
+          "intrinsicValue": 14.83,
           "upsideDownside": 0.0
         },
         {
@@ -2357,12 +2357,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 9.072,
+          "intrinsicValue": 8.898,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 15.12
+      "currentPrice": 14.83
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2376,9 +2376,9 @@
       "targetMeanPrice": 15.67,
       "targetHighPrice": 24.0,
       "targetLowPrice": 7.0,
-      "targetUpside": 3.6,
+      "targetUpside": 5.6,
       "analystCount": 9,
-      "lastUpdated": "2026-06-13T00:11:46.870602Z"
+      "lastUpdated": "2026-06-16T00:21:30.717632Z"
     }
   }
 }
