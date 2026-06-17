@@ -10,17 +10,17 @@
     "website": "https://momentus.space"
   },
   "price": {
-    "price": 10.23,
-    "priceChange": -1.72,
-    "priceChangePct": -14.39,
-    "open": 12.22,
+    "price": 9.31,
+    "priceChange": -0.92,
+    "priceChangePct": -8.99,
+    "open": 10.07,
     "high52w": 43.57,
     "low52w": 3.11,
-    "volume": 7098163,
-    "avgVolume30d": 5750039,
-    "marketCap": 147950448,
+    "volume": 3609389,
+    "avgVolume30d": 5859738,
+    "marketCap": 175361456,
     "marketCapCategory": "micro",
-    "lastUpdated": "2026-06-16T00:21:34.791892Z",
+    "lastUpdated": "2026-06-17T00:08:08.177094Z",
     "dataConfidence": "medium"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 50
   },
   "priceHistory": [
-    {
-      "time": "2025-06-16",
-      "open": 23.21,
-      "high": 23.39,
-      "low": 21.96,
-      "close": 22.68,
-      "volume": 17315
-    },
     {
       "time": "2025-06-17",
       "open": 24.11,
@@ -2038,32 +2030,40 @@
       "high": 12.34,
       "low": 10.11,
       "close": 10.23,
-      "volume": 7098163
+      "volume": 7173500
+    },
+    {
+      "time": "2026-06-16",
+      "open": 10.07,
+      "high": 10.08,
+      "low": 9.23,
+      "close": 9.31,
+      "volume": 3609389
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 47.72,
-      "sma20": 12.683,
-      "sma50": 8.1706,
-      "sma200": 11.8412,
+      "rsi14": 45.91,
+      "sma20": 12.842,
+      "sma50": 8.2866,
+      "sma200": 11.7636,
       "macd": {
-        "macd": 1.3818,
-        "signal": 1.9892,
-        "histogram": -0.6074
+        "macd": 1.0029,
+        "signal": 1.792,
+        "histogram": -0.7891
       },
       "bollingerBands": {
-        "upper": 21.1426,
-        "middle": 12.683,
-        "lower": 4.2234
+        "upper": 20.9136,
+        "middle": 12.842,
+        "lower": 4.7704
       },
-      "volumeMA20": 12704913,
-      "atr14": 3.7186
+      "volumeMA20": 12757214,
+      "atr14": 3.31
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "47.72",
+        "value": "45.91",
         "interpretation": "neutral"
       },
       {
@@ -2073,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "+25.2%",
+        "value": "+12.4%",
         "interpretation": "bullish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "-13.6%",
+        "value": "-20.9%",
         "interpretation": "bearish"
       }
     ],
@@ -2089,11 +2089,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -1.1291,
-      "evEbitda": -3.747,
-      "evRevenue": 26.362,
-      "ps": 36.9599,
-      "pb": 2.1991,
+      "forwardPe": -1.0276,
+      "evEbitda": -3.137,
+      "evRevenue": 22.069,
+      "ps": 43.8075,
+      "pb": 2.0013,
       "pfcf": null
     },
     "health": {
@@ -2348,7 +2348,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 15.345,
+          "intrinsicValue": 13.965,
           "upsideDownside": 50.0
         },
         {
@@ -2356,7 +2356,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 10.23,
+          "intrinsicValue": 9.31,
           "upsideDownside": 0.0
         },
         {
@@ -2364,12 +2364,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 6.138,
+          "intrinsicValue": 5.586,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 10.23
+      "currentPrice": 9.31
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2385,7 +2385,7 @@
       "targetLowPrice": null,
       "targetUpside": null,
       "analystCount": 0,
-      "lastUpdated": "2026-06-16T00:21:34.791859Z"
+      "lastUpdated": "2026-06-17T00:08:08.177048Z"
     }
   }
 }

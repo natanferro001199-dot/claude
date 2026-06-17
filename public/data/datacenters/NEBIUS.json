@@ -20,7 +20,7 @@
     "avgVolume30d": null,
     "marketCap": null,
     "marketCapCategory": "micro",
-    "lastUpdated": "2026-06-16T00:22:13.730940Z",
+    "lastUpdated": "2026-06-17T00:08:13.576436Z",
     "dataConfidence": "low"
   },
   "scores": {
@@ -324,7 +324,7 @@
       "targetLowPrice": null,
       "targetUpside": null,
       "analystCount": 0,
-      "lastUpdated": "2026-06-16T00:22:13.730879Z"
+      "lastUpdated": "2026-06-17T00:08:13.576391Z"
     }
   }
 }
