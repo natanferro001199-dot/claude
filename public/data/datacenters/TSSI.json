@@ -10,17 +10,17 @@
     "website": "https://tssiusa.com"
   },
   "price": {
-    "price": 12.4,
-    "priceChange": -1.02,
-    "priceChangePct": -7.6,
-    "open": 13.5,
+    "price": 12.85,
+    "priceChange": 0.45,
+    "priceChangePct": 3.63,
+    "open": 12.51,
     "high52w": 31.94,
     "low52w": 6.87,
-    "volume": 1019071,
-    "avgVolume30d": 1672912,
-    "marketCap": 348117056,
+    "volume": 844590,
+    "avgVolume30d": 1669306,
+    "marketCap": 360750336,
     "marketCapCategory": "small",
-    "lastUpdated": "2026-06-17T00:08:16.147315Z",
+    "lastUpdated": "2026-06-18T00:07:58.682400Z",
     "dataConfidence": "medium"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 45
   },
   "priceHistory": [
-    {
-      "time": "2025-06-17",
-      "open": 21.38,
-      "high": 22.2,
-      "low": 20.93,
-      "close": 21.79,
-      "volume": 1749800
-    },
     {
       "time": "2025-06-18",
       "open": 21.85,
@@ -2038,32 +2030,40 @@
       "high": 13.64,
       "low": 12.24,
       "close": 12.4,
-      "volume": 1019071
+      "volume": 1020600
+    },
+    {
+      "time": "2026-06-17",
+      "open": 12.51,
+      "high": 13.59,
+      "low": 12.51,
+      "close": 12.85,
+      "volume": 844590
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 46.03,
-      "sma20": 13.1135,
+      "rsi14": 48.43,
+      "sma20": 13.207,
       "sma50": 13.6688,
-      "sma200": 12.5442,
+      "sma200": 12.5388,
       "macd": {
-        "macd": -0.1575,
-        "signal": -0.0581,
-        "histogram": -0.0994
+        "macd": -0.1582,
+        "signal": -0.0781,
+        "histogram": -0.0801
       },
       "bollingerBands": {
-        "upper": 15.9583,
-        "middle": 13.1135,
-        "lower": 10.2687
+        "upper": 15.8831,
+        "middle": 13.207,
+        "lower": 10.5309
       },
-      "volumeMA20": 1598888,
-      "atr14": 1.4071
+      "volumeMA20": 1600999,
+      "atr14": 1.41
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "46.03",
+        "value": "48.43",
         "interpretation": "neutral"
       },
       {
@@ -2073,27 +2073,27 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-9.3%",
+        "value": "-6.0%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "-1.1%",
-        "interpretation": "bearish"
+        "value": "+2.5%",
+        "interpretation": "bullish"
       }
     ],
     "trendStrength": "down",
-    "supportLevel": 10.87,
+    "supportLevel": 11.02,
     "resistanceLevel": 16.64
   },
   "fundamental": {
     "valuation": {
-      "pe": 23.8462,
-      "forwardPe": 49.6,
+      "pe": 24.7115,
+      "forwardPe": 51.4,
       "evEbitda": 22.539,
       "evRevenue": 1.595,
-      "ps": 1.7224,
-      "pb": 4.4223,
+      "ps": 1.785,
+      "pb": 4.5827,
       "pfcf": null
     },
     "health": {
@@ -2346,7 +2346,7 @@
           "wacc": 9.0,
           "terminalGrowth": 3.5,
           "intrinsicValue": 10.53,
-          "upsideDownside": -15.1
+          "upsideDownside": -18.1
         },
         {
           "label": "Base",
@@ -2354,7 +2354,7 @@
           "wacc": 10.0,
           "terminalGrowth": 2.5,
           "intrinsicValue": 2.58,
-          "upsideDownside": -79.2
+          "upsideDownside": -79.9
         },
         {
           "label": "Bear",
@@ -2362,11 +2362,11 @@
           "wacc": 12.0,
           "terminalGrowth": 1.5,
           "intrinsicValue": 0.81,
-          "upsideDownside": -93.5
+          "upsideDownside": -93.7
         }
       ],
       "impliedGrowthRate": 38.0,
-      "currentPrice": 12.4
+      "currentPrice": 12.85
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2380,9 +2380,9 @@
       "targetMeanPrice": 18.0,
       "targetHighPrice": 20.0,
       "targetLowPrice": 16.0,
-      "targetUpside": 45.2,
+      "targetUpside": 40.1,
       "analystCount": 2,
-      "lastUpdated": "2026-06-17T00:08:16.147257Z"
+      "lastUpdated": "2026-06-18T00:07:58.682369Z"
     }
   }
 }
