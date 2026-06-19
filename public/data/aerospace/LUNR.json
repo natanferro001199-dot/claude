@@ -10,17 +10,17 @@
     "website": "https://www.intuitivemachines.com"
   },
   "price": {
-    "price": 22.72,
-    "priceChange": -0.64,
-    "priceChangePct": -2.74,
-    "open": 23.66,
+    "price": 22.85,
+    "priceChange": 0.13,
+    "priceChangePct": 0.57,
+    "open": 22.73,
     "high52w": 46.75,
     "low52w": 7.78,
-    "volume": 12105816,
-    "avgVolume30d": 15924688,
-    "marketCap": 3645476352,
+    "volume": 15272221,
+    "avgVolume30d": 16011487,
+    "marketCap": 3666335232,
     "marketCapCategory": "mid",
-    "lastUpdated": "2026-06-18T00:07:50.326958Z",
+    "lastUpdated": "2026-06-19T00:18:27.677983Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 40
   },
   "priceHistory": [
-    {
-      "time": "2025-06-18",
-      "open": 10.2,
-      "high": 10.37,
-      "low": 9.98,
-      "close": 10.16,
-      "volume": 5032800
-    },
     {
       "time": "2025-06-20",
       "open": 10.28,
@@ -2034,36 +2026,44 @@
     },
     {
       "time": "2026-06-17",
-      "open": 23.66,
-      "high": 23.91,
+      "open": 23.69,
+      "high": 23.92,
       "low": 22.64,
       "close": 22.72,
-      "volume": 12105816
+      "volume": 12175600
+    },
+    {
+      "time": "2026-06-18",
+      "open": 22.73,
+      "high": 22.9,
+      "low": 21.21,
+      "close": 22.85,
+      "volume": 15272221
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 37.54,
-      "sma20": 32.917,
-      "sma50": 29.7042,
-      "sma200": 18.177,
+      "rsi14": 37.81,
+      "sma20": 32.376,
+      "sma50": 29.6934,
+      "sma200": 18.2477,
       "macd": {
-        "macd": -1.8209,
-        "signal": -0.1359,
-        "histogram": -1.685
+        "macd": -2.1243,
+        "signal": -0.5336,
+        "histogram": -1.5907
       },
       "bollingerBands": {
-        "upper": 45.8045,
-        "middle": 32.917,
-        "lower": 20.0295
+        "upper": 45.9802,
+        "middle": 32.376,
+        "lower": 18.7718
       },
-      "volumeMA20": 17600320,
-      "atr14": 3.9093
+      "volumeMA20": 17721431,
+      "atr14": 3.5357
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "37.54",
+        "value": "37.81",
         "interpretation": "bearish"
       },
       {
@@ -2073,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-23.5%",
+        "value": "-23.0%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+25.0%",
+        "value": "+25.2%",
         "interpretation": "bullish"
       }
     ],
@@ -2089,11 +2089,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -189.3333,
+      "forwardPe": -190.4167,
       "evEbitda": -62.465,
       "evRevenue": 15.069,
-      "ps": 10.9059,
-      "pb": -10.8604,
+      "ps": 10.9683,
+      "pb": -10.9226,
       "pfcf": null
     },
     "health": {
@@ -2348,7 +2348,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 34.08,
+          "intrinsicValue": 34.275000000000006,
           "upsideDownside": 50.0
         },
         {
@@ -2356,7 +2356,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 22.72,
+          "intrinsicValue": 22.85,
           "upsideDownside": 0.0
         },
         {
@@ -2364,12 +2364,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 13.632,
+          "intrinsicValue": 13.71,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 22.72
+      "currentPrice": 22.85
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2383,9 +2383,9 @@
       "targetMeanPrice": 40.78,
       "targetHighPrice": 75.0,
       "targetLowPrice": 11.0,
-      "targetUpside": 79.5,
+      "targetUpside": 78.5,
       "analystCount": 9,
-      "lastUpdated": "2026-06-18T00:07:50.326926Z"
+      "lastUpdated": "2026-06-19T00:18:27.677938Z"
     }
   }
 }

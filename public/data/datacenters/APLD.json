@@ -10,17 +10,17 @@
     "website": "https://applieddigital.com"
   },
   "price": {
-    "price": 45.57,
-    "priceChange": -0.7,
-    "priceChangePct": -1.51,
-    "open": 46.45,
+    "price": 46.59,
+    "priceChange": 1.02,
+    "priceChangePct": 2.24,
+    "open": 47.19,
     "high52w": 50.73,
     "low52w": 9.02,
-    "volume": 18020361,
-    "avgVolume30d": 22679866,
-    "marketCap": 13022517248,
+    "volume": 14456957,
+    "avgVolume30d": 22910036,
+    "marketCap": 13314002944,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-18T00:07:54.032634Z",
+    "lastUpdated": "2026-06-19T00:18:30.368073Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 50
   },
   "priceHistory": [
-    {
-      "time": "2025-06-18",
-      "open": 10.96,
-      "high": 11.02,
-      "low": 10.58,
-      "close": 10.61,
-      "volume": 29145400
-    },
     {
       "time": "2025-06-20",
       "open": 10.72,
@@ -2034,36 +2026,44 @@
     },
     {
       "time": "2026-06-17",
-      "open": 46.45,
+      "open": 46.51,
       "high": 48.67,
       "low": 45.25,
       "close": 45.57,
-      "volume": 18050261
+      "volume": 27044000
+    },
+    {
+      "time": "2026-06-18",
+      "open": 47.19,
+      "high": 47.78,
+      "low": 45.37,
+      "close": 46.59,
+      "volume": 14456957
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 55.55,
-      "sma20": 44.6495,
-      "sma50": 39.1842,
-      "sma200": 31.0611,
+      "rsi14": 57.24,
+      "sma20": 45.003,
+      "sma50": 39.5602,
+      "sma200": 31.2177,
       "macd": {
-        "macd": 1.1953,
-        "signal": 1.4087,
-        "histogram": -0.2134
+        "macd": 1.3122,
+        "signal": 1.3894,
+        "histogram": -0.0772
       },
       "bollingerBands": {
-        "upper": 51.1542,
-        "middle": 44.6495,
-        "lower": 38.1448
+        "upper": 51.1105,
+        "middle": 45.003,
+        "lower": 38.8955
       },
-      "volumeMA20": 22462013,
-      "atr14": 4.1829
+      "volumeMA20": 22259117,
+      "atr14": 4.1086
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "55.55",
+        "value": "57.24",
         "interpretation": "neutral"
       },
       {
@@ -2073,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "+16.3%",
+        "value": "+17.8%",
         "interpretation": "bullish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+46.7%",
+        "value": "+49.2%",
         "interpretation": "bullish"
       }
     ],
@@ -2089,11 +2089,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -47.2228,
+      "forwardPe": -48.2798,
       "evEbitda": 1100.742,
       "evRevenue": 47.941,
-      "ps": 40.7894,
-      "pb": 8.2241,
+      "ps": 41.7024,
+      "pb": 8.4082,
       "pfcf": null
     },
     "health": {
@@ -2320,7 +2320,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 68.355,
+          "intrinsicValue": 69.885,
           "upsideDownside": 50.0
         },
         {
@@ -2328,7 +2328,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 45.57,
+          "intrinsicValue": 46.59,
           "upsideDownside": 0.0
         },
         {
@@ -2336,12 +2336,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 27.342,
+          "intrinsicValue": 27.954,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 45.57
+      "currentPrice": 46.59
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2355,9 +2355,9 @@
       "targetMeanPrice": 73.36,
       "targetHighPrice": 106.0,
       "targetLowPrice": 40.0,
-      "targetUpside": 61.0,
+      "targetUpside": 57.5,
       "analystCount": 11,
-      "lastUpdated": "2026-06-18T00:07:54.032602Z"
+      "lastUpdated": "2026-06-19T00:18:30.368027Z"
     }
   }
 }

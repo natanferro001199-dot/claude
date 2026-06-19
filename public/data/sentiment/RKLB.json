@@ -3,10 +3,10 @@
   "sentimentScore": 50,
   "label": "Neutral",
   "confidence": 0.424,
-  "trend": "declining",
+  "trend": "stable",
   "articlesAnalyzed": 1,
-  "lastUpdated": "2026-06-18T00:08:05.153439Z",
-  "modelMae7d": 0.0593,
+  "lastUpdated": "2026-06-19T00:18:40.768508Z",
+  "modelMae7d": 0.0509,
   "topHeadlines": [
     {
       "title": "",
@@ -20,7 +20,7 @@
     }
   ],
   "scoreHistory7d": [
-    74,
+    50,
     50,
     50,
     50,

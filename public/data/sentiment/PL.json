@@ -5,8 +5,8 @@
   "confidence": 0.424,
   "trend": "stable",
   "articlesAnalyzed": 1,
-  "lastUpdated": "2026-06-18T00:08:07.079225Z",
-  "modelMae7d": 0.0706,
+  "lastUpdated": "2026-06-19T00:18:41.441577Z",
+  "modelMae7d": 0.0417,
   "topHeadlines": [
     {
       "title": "",
@@ -20,7 +20,7 @@
     }
   ],
   "scoreHistory7d": [
-    58,
+    50,
     50,
     50,
     50,

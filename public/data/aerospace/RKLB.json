@@ -10,17 +10,17 @@
     "website": "https://rocketlabcorp.com"
   },
   "price": {
-    "price": 107.98,
-    "priceChange": 3.35,
-    "priceChangePct": 3.2,
-    "open": 104.12,
+    "price": 107.24,
+    "priceChange": -0.74,
+    "priceChangePct": -0.69,
+    "open": 108.92,
     "high52w": 151.0,
-    "low52w": 26.23,
-    "volume": 28438956,
-    "avgVolume30d": 26777046,
-    "marketCap": 67467931648,
+    "low52w": 27.84,
+    "volume": 70192050,
+    "avgVolume30d": 26694485,
+    "marketCap": 67005562880,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-18T00:07:44.375588Z",
+    "lastUpdated": "2026-06-19T00:18:22.615398Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 50
   },
   "priceHistory": [
-    {
-      "time": "2025-06-18",
-      "open": 26.4,
-      "high": 28.07,
-      "low": 26.23,
-      "close": 27.85,
-      "volume": 18457700
-    },
     {
       "time": "2025-06-20",
       "open": 28.35,
@@ -2035,35 +2027,43 @@
     {
       "time": "2026-06-17",
       "open": 104.12,
-      "high": 111.33,
+      "high": 111.34,
       "low": 104.04,
       "close": 107.98,
-      "volume": 28438956
+      "volume": 28723000
+    },
+    {
+      "time": "2026-06-18",
+      "open": 108.92,
+      "high": 109.55,
+      "low": 100.96,
+      "close": 107.24,
+      "volume": 70192050
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 47.33,
-      "sma20": 121.8415,
-      "sma50": 103.1426,
-      "sma200": 73.5018,
+      "rsi14": 46.92,
+      "sma20": 120.4895,
+      "sma50": 103.9058,
+      "sma200": 73.7915,
       "macd": {
-        "macd": -0.7744,
-        "signal": 2.6893,
-        "histogram": -3.4637
+        "macd": -1.0973,
+        "signal": 1.932,
+        "histogram": -3.0293
       },
       "bollingerBands": {
-        "upper": 152.1152,
-        "middle": 121.8415,
-        "lower": 91.5678
+        "upper": 150.8356,
+        "middle": 120.4895,
+        "lower": 90.1434
       },
-      "volumeMA20": 27739737,
-      "atr14": 11.4657
+      "volumeMA20": 30046157,
+      "atr14": 11.0814
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "47.33",
+        "value": "46.92",
         "interpretation": "neutral"
       },
       {
@@ -2073,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "+4.7%",
+        "value": "+3.2%",
         "interpretation": "neutral"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+46.9%",
+        "value": "+45.3%",
         "interpretation": "bullish"
       }
     ],
@@ -2089,11 +2089,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -14852.82,
+      "forwardPe": -14751.031,
       "evEbitda": -359.823,
       "evRevenue": 87.275,
-      "ps": 99.2792,
-      "pb": 27.4549,
+      "ps": 98.5988,
+      "pb": 27.2667,
       "pfcf": null
     },
     "health": {
@@ -2328,7 +2328,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 161.97,
+          "intrinsicValue": 160.85999999999999,
           "upsideDownside": 50.0
         },
         {
@@ -2336,7 +2336,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 107.98,
+          "intrinsicValue": 107.24,
           "upsideDownside": 0.0
         },
         {
@@ -2344,12 +2344,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 64.788,
+          "intrinsicValue": 64.344,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 107.98
+      "currentPrice": 107.24
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2363,9 +2363,9 @@
       "targetMeanPrice": 107.03,
       "targetHighPrice": 150.0,
       "targetLowPrice": 60.0,
-      "targetUpside": -0.9,
+      "targetUpside": -0.2,
       "analystCount": 17,
-      "lastUpdated": "2026-06-18T00:07:44.375549Z"
+      "lastUpdated": "2026-06-19T00:18:22.615353Z"
     }
   }
 }
