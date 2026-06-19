@@ -17,10 +17,10 @@
     "high52w": 46.75,
     "low52w": 7.78,
     "volume": 15272221,
-    "avgVolume30d": 16011487,
+    "avgVolume30d": 16099403,
     "marketCap": 3666335232,
     "marketCapCategory": "mid",
-    "lastUpdated": "2026-06-19T00:18:27.677983Z",
+    "lastUpdated": "2026-06-19T23:57:07.748030Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -2034,11 +2034,11 @@
     },
     {
       "time": "2026-06-18",
-      "open": 22.73,
+      "open": 22.74,
       "high": 22.9,
       "low": 21.21,
       "close": 22.85,
-      "volume": 15272221
+      "volume": 18739400
     }
   ],
   "technical": {
@@ -2057,7 +2057,7 @@
         "middle": 32.376,
         "lower": 18.7718
       },
-      "volumeMA20": 17721431,
+      "volumeMA20": 17894790,
       "atr14": 3.5357
     },
     "signals": [
@@ -2385,7 +2385,7 @@
       "targetLowPrice": 11.0,
       "targetUpside": 78.5,
       "analystCount": 9,
-      "lastUpdated": "2026-06-19T00:18:27.677938Z"
+      "lastUpdated": "2026-06-19T23:57:07.747991Z"
     }
   }
 }

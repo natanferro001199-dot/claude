@@ -17,10 +17,10 @@
     "high52w": 151.0,
     "low52w": 27.84,
     "volume": 70192050,
-    "avgVolume30d": 26694485,
+    "avgVolume30d": 27357979,
     "marketCap": 67005562880,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-19T00:18:22.615398Z",
+    "lastUpdated": "2026-06-19T23:57:01.420060Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -2034,11 +2034,11 @@
     },
     {
       "time": "2026-06-18",
-      "open": 108.92,
+      "open": 108.83,
       "high": 109.55,
       "low": 100.96,
       "close": 107.24,
-      "volume": 70192050
+      "volume": 70326000
     }
   ],
   "technical": {
@@ -2057,7 +2057,7 @@
         "middle": 120.4895,
         "lower": 90.1434
       },
-      "volumeMA20": 30046157,
+      "volumeMA20": 30052855,
       "atr14": 11.0814
     },
     "signals": [
@@ -2358,14 +2358,14 @@
     "analystConsensus": {
       "analystScore": 60,
       "analystLabel": "Hold",
-      "recommendationKey": "strong_buy",
-      "recommendationMean": 1.5,
-      "targetMeanPrice": 107.03,
+      "recommendationKey": "buy",
+      "recommendationMean": 1.58,
+      "targetMeanPrice": 106.92,
       "targetHighPrice": 150.0,
       "targetLowPrice": 60.0,
-      "targetUpside": -0.2,
-      "analystCount": 17,
-      "lastUpdated": "2026-06-19T00:18:22.615353Z"
+      "targetUpside": -0.3,
+      "analystCount": 18,
+      "lastUpdated": "2026-06-19T23:57:01.420013Z"
     }
   }
 }
