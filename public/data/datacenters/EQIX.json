@@ -10,36 +10,28 @@
     "website": "https://www.equinix.com"
   },
   "price": {
-    "price": 1092.19,
-    "priceChange": 3.67,
-    "priceChangePct": 0.34,
-    "open": 1104.5,
+    "price": 1115.94,
+    "priceChange": 23.75,
+    "priceChangePct": 2.17,
+    "open": 1100.23,
     "high52w": 1128.68,
     "low52w": 710.52,
-    "volume": 717760,
-    "avgVolume30d": 565879,
-    "marketCap": 107716411392,
+    "volume": 514275,
+    "avgVolume30d": 545687,
+    "marketCap": 110058733568,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-19T23:57:09.448308Z",
+    "lastUpdated": "2026-06-22T23:59:04.198797Z",
     "dataConfidence": "high"
   },
   "scores": {
-    "technicalScore": 70,
+    "technicalScore": 80,
     "fundamentalScore": 50,
     "piotroskiScore": 7,
     "altmanZScore": null,
     "ohlsonScore": 41.5,
-    "compositeScore": 60
+    "compositeScore": 65
   },
   "priceHistory": [
-    {
-      "time": "2025-06-20",
-      "open": 870.56,
-      "high": 874.72,
-      "low": 862.41,
-      "close": 863.25,
-      "volume": 788100
-    },
     {
       "time": "2025-06-23",
       "open": 865.95,
@@ -125,7 +117,7 @@
       "open": 760.1,
       "high": 764.52,
       "low": 744.34,
-      "close": 750.33,
+      "close": 750.32,
       "volume": 668400
     },
     {
@@ -195,7 +187,7 @@
     {
       "time": "2025-07-21",
       "open": 775.37,
-      "high": 789.01,
+      "high": 789.02,
       "low": 770.29,
       "close": 771.64,
       "volume": 1003300
@@ -2039,32 +2031,40 @@
       "low": 1088.62,
       "close": 1092.19,
       "volume": 807800
+    },
+    {
+      "time": "2026-06-22",
+      "open": 1100.23,
+      "high": 1117.68,
+      "low": 1087.55,
+      "close": 1115.94,
+      "volume": 514275
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 58.65,
-      "sma20": 1070.646,
-      "sma50": 1070.8686,
-      "sma200": 886.2777,
+      "rsi14": 64.73,
+      "sma20": 1072.522,
+      "sma50": 1072.6576,
+      "sma200": 888.1083,
       "macd": {
-        "macd": 4.5693,
-        "signal": 2.2431,
-        "histogram": 2.3262
+        "macd": 7.6294,
+        "signal": 3.3204,
+        "histogram": 4.309
       },
       "bollingerBands": {
-        "upper": 1101.2532,
-        "middle": 1070.646,
-        "lower": 1040.0388
+        "upper": 1108.8668,
+        "middle": 1072.522,
+        "lower": 1036.1772
       },
-      "volumeMA20": 594170,
-      "atr14": 25.9593
+      "volumeMA20": 593133,
+      "atr14": 26.8229
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "58.65",
-        "interpretation": "neutral"
+        "value": "64.73",
+        "interpretation": "bullish"
       },
       {
         "label": "MACD",
@@ -2073,27 +2073,27 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "+2.0%",
+        "value": "+4.0%",
         "interpretation": "neutral"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+23.2%",
+        "value": "+25.7%",
         "interpretation": "bullish"
       }
     ],
     "trendStrength": "strong-up",
     "supportLevel": 1027.95,
-    "resistanceLevel": 1105.63
+    "resistanceLevel": 1127.1
   },
   "fundamental": {
     "valuation": {
-      "pe": 75.5841,
-      "forwardPe": 56.8159,
-      "evEbitda": 30.35,
-      "evRevenue": 13.642,
-      "ps": 11.3076,
-      "pb": 7.5336,
+      "pe": 77.3883,
+      "forwardPe": 58.0513,
+      "evEbitda": 30.84,
+      "evRevenue": 13.863,
+      "ps": 11.5535,
+      "pb": 7.6974,
       "pfcf": null
     },
     "health": {
@@ -2341,7 +2341,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 1638.285,
+          "intrinsicValue": 1673.91,
           "upsideDownside": 50.0
         },
         {
@@ -2349,7 +2349,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 1092.19,
+          "intrinsicValue": 1115.94,
           "upsideDownside": 0.0
         },
         {
@@ -2357,12 +2357,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 655.314,
+          "intrinsicValue": 669.564,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 1092.19
+      "currentPrice": 1115.94
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2376,9 +2376,9 @@
       "targetMeanPrice": 1197.11,
       "targetHighPrice": 1350.0,
       "targetLowPrice": 950.0,
-      "targetUpside": 9.6,
+      "targetUpside": 7.3,
       "analystCount": 28,
-      "lastUpdated": "2026-06-19T23:57:09.448268Z"
+      "lastUpdated": "2026-06-22T23:59:04.198758Z"
     }
   }
 }

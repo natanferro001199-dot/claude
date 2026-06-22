@@ -10,17 +10,17 @@
     "website": "https://www.planet.com"
   },
   "price": {
-    "price": 28.23,
-    "priceChange": 0.01,
-    "priceChangePct": 0.04,
-    "open": 28.65,
+    "price": 28.77,
+    "priceChange": 0.54,
+    "priceChangePct": 1.91,
+    "open": 27.96,
     "high52w": 51.76,
     "low52w": 4.9,
-    "volume": 12379895,
-    "avgVolume30d": 14822334,
-    "marketCap": 10061243392,
+    "volume": 15196878,
+    "avgVolume30d": 14034322,
+    "marketCap": 10253701120,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-19T23:57:04.583675Z",
+    "lastUpdated": "2026-06-22T23:59:00.140441Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 40
   },
   "priceHistory": [
-    {
-      "time": "2025-06-20",
-      "open": 5.15,
-      "high": 5.21,
-      "low": 4.96,
-      "close": 5.03,
-      "volume": 10920800
-    },
     {
       "time": "2025-06-23",
       "open": 4.97,
@@ -2039,31 +2031,39 @@
       "low": 26.33,
       "close": 28.23,
       "volume": 17232400
+    },
+    {
+      "time": "2026-06-22",
+      "open": 27.96,
+      "high": 29.14,
+      "low": 26.71,
+      "close": 28.77,
+      "volume": 15196878
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 33.72,
-      "sma20": 38.8395,
-      "sma50": 38.346,
-      "sma200": 23.8514,
+      "rsi14": 35.13,
+      "sma20": 38.154,
+      "sma50": 38.2368,
+      "sma200": 23.963,
       "macd": {
-        "macd": -3.314,
-        "signal": -1.7591,
-        "histogram": -1.5549
+        "macd": -3.3989,
+        "signal": -2.0871,
+        "histogram": -1.3118
       },
       "bollingerBands": {
-        "upper": 55.9004,
-        "middle": 38.8395,
-        "lower": 21.7786
+        "upper": 55.6703,
+        "middle": 38.154,
+        "lower": 20.6377
       },
-      "volumeMA20": 16776835,
-      "atr14": 4.2086
+      "volumeMA20": 17163693,
+      "atr14": 3.9814
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "33.72",
+        "value": "35.13",
         "interpretation": "bearish"
       },
       {
@@ -2073,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-26.4%",
+        "value": "-24.8%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+18.4%",
+        "value": "+20.1%",
         "interpretation": "bullish"
       }
     ],
@@ -2089,11 +2089,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": 8477.478,
-      "evEbitda": -189.704,
-      "evRevenue": 29.234,
-      "ps": 29.9788,
-      "pb": 22.6747,
+      "forwardPe": 8639.64,
+      "evEbitda": -193.563,
+      "evRevenue": 29.829,
+      "ps": 30.5522,
+      "pb": 23.1084,
       "pfcf": null
     },
     "health": {
@@ -2342,7 +2342,7 @@
           "wacc": 9.0,
           "terminalGrowth": 3.5,
           "intrinsicValue": 21.54,
-          "upsideDownside": -23.7
+          "upsideDownside": -25.1
         },
         {
           "label": "Base",
@@ -2350,7 +2350,7 @@
           "wacc": 10.0,
           "terminalGrowth": 2.5,
           "intrinsicValue": 5.28,
-          "upsideDownside": -81.3
+          "upsideDownside": -81.6
         },
         {
           "label": "Bear",
@@ -2358,27 +2358,27 @@
           "wacc": 12.0,
           "terminalGrowth": 1.5,
           "intrinsicValue": 1.65,
-          "upsideDownside": -94.2
+          "upsideDownside": -94.3
         }
       ],
       "impliedGrowthRate": 39.0,
-      "currentPrice": 28.23
+      "currentPrice": 28.77
     },
     "valuationBands": [],
     "sectorKpis": {},
     "piotroskiScore": 5,
     "ohlsonScore": 93.1,
     "analystConsensus": {
-      "analystScore": 63,
+      "analystScore": 62,
       "analystLabel": "Buy",
       "recommendationKey": "buy",
       "recommendationMean": 2.0,
       "targetMeanPrice": 39.8,
       "targetHighPrice": 53.0,
       "targetLowPrice": 22.0,
-      "targetUpside": 41.0,
+      "targetUpside": 38.3,
       "analystCount": 10,
-      "lastUpdated": "2026-06-19T23:57:04.583635Z"
+      "lastUpdated": "2026-06-22T23:59:00.140390Z"
     }
   }
 }
