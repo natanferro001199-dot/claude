@@ -10,17 +10,17 @@
     "website": "https://iren.com"
   },
   "price": {
-    "price": 56.87,
-    "priceChange": -3.09,
-    "priceChangePct": -5.15,
-    "open": 60.68,
+    "price": 54.72,
+    "priceChange": -2.15,
+    "priceChangePct": -3.78,
+    "open": 53.41,
     "high52w": 76.87,
-    "low52w": 9.82,
-    "volume": 34306662,
-    "avgVolume30d": 44619300,
-    "marketCap": 20324124672,
+    "low52w": 10.92,
+    "volume": 32006091,
+    "avgVolume30d": 44527695,
+    "marketCap": 19555762176,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-22T23:59:08.500625Z",
+    "lastUpdated": "2026-06-23T23:46:19.052225Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 50
   },
   "priceHistory": [
-    {
-      "time": "2025-06-23",
-      "open": 10.72,
-      "high": 10.82,
-      "low": 9.82,
-      "close": 10.66,
-      "volume": 27106000
-    },
     {
       "time": "2025-06-24",
       "open": 11.07,
@@ -2038,32 +2030,40 @@
       "high": 61.28,
       "low": 56.3,
       "close": 56.87,
-      "volume": 34478177
+      "volume": 35086500
+    },
+    {
+      "time": "2026-06-23",
+      "open": 53.4,
+      "high": 57.54,
+      "low": 52.76,
+      "close": 54.72,
+      "volume": 32006091
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 49.27,
-      "sma20": 60.092,
-      "sma50": 54.369,
-      "sma200": 48.4749,
+      "rsi14": 46.7,
+      "sma20": 59.9865,
+      "sma50": 54.677,
+      "sma200": 48.6178,
       "macd": {
-        "macd": 0.9598,
-        "signal": 1.5521,
-        "histogram": -0.5923
+        "macd": 0.5859,
+        "signal": 1.3589,
+        "histogram": -0.773
       },
       "bollingerBands": {
-        "upper": 68.7138,
-        "middle": 60.092,
-        "lower": 51.4702
+        "upper": 68.8146,
+        "middle": 59.9865,
+        "lower": 51.1584
       },
-      "volumeMA20": 47411218,
-      "atr14": 5.6571
+      "volumeMA20": 47224019,
+      "atr14": 5.6193
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "49.27",
+        "value": "46.7",
         "interpretation": "neutral"
       },
       {
@@ -2073,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "+4.6%",
+        "value": "+0.1%",
         "interpretation": "neutral"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+17.3%",
+        "value": "+12.6%",
         "interpretation": "bullish"
       }
     ],
@@ -2088,12 +2088,12 @@
   },
   "fundamental": {
     "valuation": {
-      "pe": 73.8571,
-      "forwardPe": -60.5,
+      "pe": 71.0649,
+      "forwardPe": -58.2128,
       "evEbitda": 149.996,
       "evRevenue": 29.159,
-      "ps": 26.8456,
-      "pb": 7.278,
+      "ps": 25.8307,
+      "pb": 7.0028,
       "pfcf": null
     },
     "health": {
@@ -2348,7 +2348,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 85.30499999999999,
+          "intrinsicValue": 82.08,
           "upsideDownside": 50.0
         },
         {
@@ -2356,7 +2356,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 56.87,
+          "intrinsicValue": 54.72,
           "upsideDownside": 0.0
         },
         {
@@ -2364,28 +2364,28 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 34.122,
+          "intrinsicValue": 32.832,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 56.87
+      "currentPrice": 54.72
     },
     "valuationBands": [],
     "sectorKpis": {},
     "piotroskiScore": 7,
     "ohlsonScore": 12.4,
     "analystConsensus": {
-      "analystScore": 64,
+      "analystScore": 65,
       "analystLabel": "Buy",
       "recommendationKey": "buy",
       "recommendationMean": 1.81,
       "targetMeanPrice": 80.93,
       "targetHighPrice": 126.0,
       "targetLowPrice": 41.0,
-      "targetUpside": 42.3,
+      "targetUpside": 47.9,
       "analystCount": 15,
-      "lastUpdated": "2026-06-22T23:59:08.500584Z"
+      "lastUpdated": "2026-06-23T23:46:19.052183Z"
     }
   }
 }

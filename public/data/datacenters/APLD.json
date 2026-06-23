@@ -10,17 +10,17 @@
     "website": "https://applieddigital.com"
   },
   "price": {
-    "price": 45.2,
-    "priceChange": -1.39,
-    "priceChangePct": -2.98,
-    "open": 46.91,
+    "price": 45.27,
+    "priceChange": 0.07,
+    "priceChangePct": 0.15,
+    "open": 42.35,
     "high52w": 50.73,
     "low52w": 9.02,
-    "volume": 15969601,
-    "avgVolume30d": 23036564,
-    "marketCap": 12916783104,
+    "volume": 17132948,
+    "avgVolume30d": 23059183,
+    "marketCap": 12936786944,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-22T23:59:05.382392Z",
+    "lastUpdated": "2026-06-23T23:46:15.380124Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 50
   },
   "priceHistory": [
-    {
-      "time": "2025-06-23",
-      "open": 10.03,
-      "high": 10.27,
-      "low": 9.41,
-      "close": 9.87,
-      "volume": 38424600
-    },
     {
       "time": "2025-06-24",
       "open": 10.15,
@@ -2038,32 +2030,40 @@
       "high": 47.96,
       "low": 44.62,
       "close": 45.2,
-      "volume": 15969601
+      "volume": 16311300
+    },
+    {
+      "time": "2026-06-23",
+      "open": 42.35,
+      "high": 46.8,
+      "low": 41.64,
+      "close": 45.27,
+      "volume": 17132948
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 54.22,
-      "sma20": 44.862,
-      "sma50": 39.9528,
-      "sma200": 31.3718,
+      "rsi14": 54.35,
+      "sma20": 44.832,
+      "sma50": 40.333,
+      "sma200": 31.5265,
       "macd": {
-        "macd": 1.2778,
-        "signal": 1.3671,
-        "histogram": -0.0893
+        "macd": 1.2419,
+        "signal": 1.342,
+        "histogram": -0.1001
       },
       "bollingerBands": {
-        "upper": 50.8126,
-        "middle": 44.862,
-        "lower": 38.9114
+        "upper": 50.768,
+        "middle": 44.832,
+        "lower": 38.896
       },
-      "volumeMA20": 20908750,
-      "atr14": 3.9936
+      "volumeMA20": 20671722,
+      "atr14": 4.1757
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "54.22",
+        "value": "54.35",
         "interpretation": "neutral"
       },
       {
@@ -2073,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "+13.1%",
+        "value": "+12.2%",
         "interpretation": "bullish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+44.1%",
+        "value": "+43.6%",
         "interpretation": "bullish"
       }
     ],
@@ -2089,11 +2089,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -46.8394,
-      "evEbitda": 1107.319,
-      "evRevenue": 48.228,
-      "ps": 40.4583,
-      "pb": 8.1574,
+      "forwardPe": -46.9119,
+      "evEbitda": 1078.752,
+      "evRevenue": 46.984,
+      "ps": 40.5209,
+      "pb": 8.17,
       "pfcf": null
     },
     "health": {
@@ -2320,7 +2320,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 67.80000000000001,
+          "intrinsicValue": 67.905,
           "upsideDownside": 50.0
         },
         {
@@ -2328,7 +2328,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 45.2,
+          "intrinsicValue": 45.27,
           "upsideDownside": 0.0
         },
         {
@@ -2336,12 +2336,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 27.12,
+          "intrinsicValue": 27.162000000000003,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 45.2
+      "currentPrice": 45.27
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2355,9 +2355,9 @@
       "targetMeanPrice": 73.36,
       "targetHighPrice": 106.0,
       "targetLowPrice": 40.0,
-      "targetUpside": 62.3,
+      "targetUpside": 62.1,
       "analystCount": 11,
-      "lastUpdated": "2026-06-22T23:59:05.382352Z"
+      "lastUpdated": "2026-06-23T23:46:15.380082Z"
     }
   }
 }

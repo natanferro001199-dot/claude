@@ -10,36 +10,28 @@
     "website": "https://tssiusa.com"
   },
   "price": {
-    "price": 13.3,
-    "priceChange": -0.26,
-    "priceChangePct": -1.92,
-    "open": 13.42,
+    "price": 12.72,
+    "priceChange": -0.58,
+    "priceChangePct": -4.36,
+    "open": 12.87,
     "high52w": 31.94,
     "low52w": 6.87,
-    "volume": 741909,
-    "avgVolume30d": 1640200,
-    "marketCap": 373383616,
+    "volume": 615757,
+    "avgVolume30d": 1618937,
+    "marketCap": 357100736,
     "marketCapCategory": "small",
-    "lastUpdated": "2026-06-22T23:59:09.935642Z",
+    "lastUpdated": "2026-06-23T23:46:21.066697Z",
     "dataConfidence": "medium"
   },
   "scores": {
-    "technicalScore": 50,
+    "technicalScore": 40,
     "fundamentalScore": 50,
     "piotroskiScore": 7,
     "altmanZScore": null,
     "ohlsonScore": 64.3,
-    "compositeScore": 50
+    "compositeScore": 45
   },
   "priceHistory": [
-    {
-      "time": "2025-06-23",
-      "open": 25.4,
-      "high": 27.17,
-      "low": 22.59,
-      "close": 26.96,
-      "volume": 3247400
-    },
     {
       "time": "2025-06-24",
       "open": 28.55,
@@ -2038,47 +2030,55 @@
       "high": 13.95,
       "low": 13.08,
       "close": 13.3,
-      "volume": 741909
+      "volume": 742100
+    },
+    {
+      "time": "2026-06-23",
+      "open": 12.87,
+      "high": 13.27,
+      "low": 12.67,
+      "close": 12.72,
+      "volume": 615757
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 50.65,
-      "sma20": 13.414,
-      "sma50": 13.6776,
-      "sma200": 12.546,
+      "rsi14": 47.57,
+      "sma20": 13.4495,
+      "sma50": 13.6836,
+      "sma200": 12.5449,
       "macd": {
-        "macd": -0.0746,
-        "signal": -0.081,
-        "histogram": 0.0064
+        "macd": -0.0999,
+        "signal": -0.0848,
+        "histogram": -0.0151
       },
       "bollingerBands": {
-        "upper": 15.7869,
-        "middle": 13.414,
-        "lower": 11.0411
+        "upper": 15.7577,
+        "middle": 13.4495,
+        "lower": 11.1413
       },
-      "volumeMA20": 1606100,
-      "atr14": 1.13
+      "volumeMA20": 1571952,
+      "atr14": 1.1029
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "50.65",
+        "value": "47.57",
         "interpretation": "neutral"
       },
       {
         "label": "MACD",
-        "value": "Bullish",
-        "interpretation": "bullish"
+        "value": "Bearish",
+        "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA50",
-        "value": "-2.8%",
-        "interpretation": "neutral"
+        "value": "-7.0%",
+        "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+6.0%",
+        "value": "+1.4%",
         "interpretation": "bullish"
       }
     ],
@@ -2088,12 +2088,12 @@
   },
   "fundamental": {
     "valuation": {
-      "pe": 25.5769,
-      "forwardPe": 53.2,
-      "evEbitda": 24.817,
-      "evRevenue": 1.756,
-      "ps": 1.8475,
-      "pb": 4.7432,
+      "pe": 24.4615,
+      "forwardPe": 50.88,
+      "evEbitda": 24.306,
+      "evRevenue": 1.72,
+      "ps": 1.7669,
+      "pb": 4.5364,
       "pfcf": null
     },
     "health": {
@@ -2346,7 +2346,7 @@
           "wacc": 9.0,
           "terminalGrowth": 3.5,
           "intrinsicValue": 10.53,
-          "upsideDownside": -20.8
+          "upsideDownside": -17.2
         },
         {
           "label": "Base",
@@ -2354,7 +2354,7 @@
           "wacc": 10.0,
           "terminalGrowth": 2.5,
           "intrinsicValue": 2.58,
-          "upsideDownside": -80.6
+          "upsideDownside": -79.7
         },
         {
           "label": "Bear",
@@ -2362,27 +2362,27 @@
           "wacc": 12.0,
           "terminalGrowth": 1.5,
           "intrinsicValue": 0.81,
-          "upsideDownside": -93.9
+          "upsideDownside": -93.6
         }
       ],
-      "impliedGrowthRate": 39.0,
-      "currentPrice": 13.3
+      "impliedGrowthRate": 38.0,
+      "currentPrice": 12.72
     },
     "valuationBands": [],
     "sectorKpis": {},
     "piotroskiScore": 7,
     "ohlsonScore": 64.3,
     "analystConsensus": {
-      "analystScore": 50,
+      "analystScore": 52,
       "analystLabel": "Hold",
       "recommendationKey": "none",
       "recommendationMean": null,
       "targetMeanPrice": 18.0,
       "targetHighPrice": 20.0,
       "targetLowPrice": 16.0,
-      "targetUpside": 35.3,
+      "targetUpside": 41.5,
       "analystCount": 2,
-      "lastUpdated": "2026-06-22T23:59:09.935600Z"
+      "lastUpdated": "2026-06-23T23:46:21.066657Z"
     }
   }
 }

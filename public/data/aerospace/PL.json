@@ -10,17 +10,17 @@
     "website": "https://www.planet.com"
   },
   "price": {
-    "price": 28.77,
-    "priceChange": 0.54,
-    "priceChangePct": 1.91,
-    "open": 27.96,
+    "price": 28.53,
+    "priceChange": -0.24,
+    "priceChangePct": -0.83,
+    "open": 27.33,
     "high52w": 51.76,
-    "low52w": 4.9,
-    "volume": 15196878,
-    "avgVolume30d": 14034322,
-    "marketCap": 10253701120,
+    "low52w": 5.41,
+    "volume": 12771367,
+    "avgVolume30d": 13810366,
+    "marketCap": 10168164352,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-22T23:59:00.140441Z",
+    "lastUpdated": "2026-06-23T23:46:06.083336Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 40
   },
   "priceHistory": [
-    {
-      "time": "2025-06-23",
-      "open": 4.97,
-      "high": 5.36,
-      "low": 4.9,
-      "close": 5.3,
-      "volume": 8754300
-    },
     {
       "time": "2025-06-24",
       "open": 5.5,
@@ -2038,32 +2030,40 @@
       "high": 29.14,
       "low": 26.71,
       "close": 28.77,
-      "volume": 15196878
+      "volume": 15233100
+    },
+    {
+      "time": "2026-06-23",
+      "open": 27.33,
+      "high": 29.24,
+      "low": 27.33,
+      "close": 28.53,
+      "volume": 12771367
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 35.13,
-      "sma20": 38.154,
-      "sma50": 38.2368,
-      "sma200": 23.963,
+      "rsi14": 34.77,
+      "sma20": 37.363,
+      "sma50": 38.114,
+      "sma200": 24.0734,
       "macd": {
-        "macd": -3.3989,
-        "signal": -2.0871,
-        "histogram": -1.3118
+        "macd": -3.4458,
+        "signal": -2.3588,
+        "histogram": -1.087
       },
       "bollingerBands": {
-        "upper": 55.6703,
-        "middle": 38.154,
-        "lower": 20.6377
+        "upper": 55.1159,
+        "middle": 37.363,
+        "lower": 19.6101
       },
-      "volumeMA20": 17163693,
-      "atr14": 3.9814
+      "volumeMA20": 17313583,
+      "atr14": 3.81
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "35.13",
+        "value": "34.77",
         "interpretation": "bearish"
       },
       {
@@ -2073,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-24.8%",
+        "value": "-25.1%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+20.1%",
+        "value": "+18.5%",
         "interpretation": "bullish"
       }
     ],
@@ -2089,11 +2089,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": 8639.64,
-      "evEbitda": -193.563,
-      "evRevenue": 29.829,
-      "ps": 30.5522,
-      "pb": 23.1084,
+      "forwardPe": 8567.567,
+      "evEbitda": -191.909,
+      "evRevenue": 29.574,
+      "ps": 30.2974,
+      "pb": 22.9157,
       "pfcf": null
     },
     "health": {
@@ -2342,7 +2342,7 @@
           "wacc": 9.0,
           "terminalGrowth": 3.5,
           "intrinsicValue": 21.54,
-          "upsideDownside": -25.1
+          "upsideDownside": -24.5
         },
         {
           "label": "Base",
@@ -2350,7 +2350,7 @@
           "wacc": 10.0,
           "terminalGrowth": 2.5,
           "intrinsicValue": 5.28,
-          "upsideDownside": -81.6
+          "upsideDownside": -81.5
         },
         {
           "label": "Bear",
@@ -2358,11 +2358,11 @@
           "wacc": 12.0,
           "terminalGrowth": 1.5,
           "intrinsicValue": 1.65,
-          "upsideDownside": -94.3
+          "upsideDownside": -94.2
         }
       ],
       "impliedGrowthRate": 39.0,
-      "currentPrice": 28.77
+      "currentPrice": 28.53
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2376,9 +2376,9 @@
       "targetMeanPrice": 39.8,
       "targetHighPrice": 53.0,
       "targetLowPrice": 22.0,
-      "targetUpside": 38.3,
+      "targetUpside": 39.5,
       "analystCount": 10,
-      "lastUpdated": "2026-06-22T23:59:00.140390Z"
+      "lastUpdated": "2026-06-23T23:46:06.083296Z"
     }
   }
 }
