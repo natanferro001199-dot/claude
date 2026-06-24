@@ -10,17 +10,17 @@
     "website": "https://momentus.space"
   },
   "price": {
-    "price": 8.23,
-    "priceChange": -0.53,
-    "priceChangePct": -6.05,
-    "open": 8.27,
+    "price": 7.8,
+    "priceChange": -0.43,
+    "priceChangePct": -5.22,
+    "open": 8.13,
     "high52w": 43.57,
     "low52w": 3.11,
-    "volume": 2110843,
-    "avgVolume30d": 6220233,
-    "marketCap": 155018752,
+    "volume": 2042925,
+    "avgVolume30d": 6228766,
+    "marketCap": 146919376,
     "marketCapCategory": "micro",
-    "lastUpdated": "2026-06-23T23:46:07.773080Z",
+    "lastUpdated": "2026-06-24T23:56:02.488986Z",
     "dataConfidence": "medium"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 45
   },
   "priceHistory": [
-    {
-      "time": "2025-06-24",
-      "open": 23.21,
-      "high": 25.71,
-      "low": 22.86,
-      "close": 25.36,
-      "volume": 15025
-    },
     {
       "time": "2025-06-25",
       "open": 25.71,
@@ -2034,36 +2026,44 @@
     },
     {
       "time": "2026-06-23",
-      "open": 8.27,
+      "open": 8.26,
       "high": 9.14,
       "low": 8.16,
       "close": 8.23,
-      "volume": 2110843
+      "volume": 2129900
+    },
+    {
+      "time": "2026-06-24",
+      "open": 8.13,
+      "high": 8.26,
+      "low": 7.42,
+      "close": 7.8,
+      "volume": 2042925
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 43.69,
-      "sma20": 13.364,
-      "sma50": 8.76,
-      "sma200": 11.4926,
+      "rsi14": 42.74,
+      "sma20": 12.98,
+      "sma50": 8.8176,
+      "sma200": 11.4244,
       "macd": {
-        "macd": 0.039,
-        "signal": 0.9405,
-        "histogram": -0.9015
+        "macd": -0.2001,
+        "signal": 0.7124,
+        "histogram": -0.9125
       },
       "bollingerBands": {
-        "upper": 20.013,
-        "middle": 13.364,
-        "lower": 6.715
+        "upper": 19.974,
+        "middle": 12.98,
+        "lower": 5.986
       },
-      "volumeMA20": 13088592,
-      "atr14": 2.8029
+      "volumeMA20": 8912251,
+      "atr14": 2.7129
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "43.69",
+        "value": "42.74",
         "interpretation": "neutral"
       },
       {
@@ -2073,27 +2073,27 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-6.1%",
+        "value": "-11.5%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "-28.4%",
+        "value": "-31.7%",
         "interpretation": "bearish"
       }
     ],
     "trendStrength": "strong-down",
-    "supportLevel": 8.15,
+    "supportLevel": 7.72,
     "resistanceLevel": 19.7
   },
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -0.9084,
-      "evEbitda": -2.615,
-      "evRevenue": 18.399,
-      "ps": 38.7256,
-      "pb": 1.7691,
+      "forwardPe": -0.8609,
+      "evEbitda": -2.427,
+      "evRevenue": 17.076,
+      "ps": 36.7023,
+      "pb": 1.6767,
       "pfcf": null
     },
     "health": {
@@ -2348,7 +2348,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 12.345,
+          "intrinsicValue": 11.7,
           "upsideDownside": 50.0
         },
         {
@@ -2356,7 +2356,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 8.23,
+          "intrinsicValue": 7.8,
           "upsideDownside": 0.0
         },
         {
@@ -2364,12 +2364,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 4.938,
+          "intrinsicValue": 4.68,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 8.23
+      "currentPrice": 7.8
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2385,7 +2385,7 @@
       "targetLowPrice": null,
       "targetUpside": null,
       "analystCount": 0,
-      "lastUpdated": "2026-06-23T23:46:07.773032Z"
+      "lastUpdated": "2026-06-24T23:56:02.488956Z"
     }
   }
 }

@@ -10,17 +10,17 @@
     "website": "https://applieddigital.com"
   },
   "price": {
-    "price": 45.27,
-    "priceChange": 0.07,
-    "priceChangePct": 0.15,
-    "open": 42.35,
+    "price": 41.98,
+    "priceChange": -3.29,
+    "priceChangePct": -7.27,
+    "open": 45.18,
     "high52w": 50.73,
     "low52w": 9.02,
-    "volume": 17132948,
-    "avgVolume30d": 23059183,
-    "marketCap": 12936786944,
+    "volume": 15483198,
+    "avgVolume30d": 23131301,
+    "marketCap": 11996605440,
     "marketCapCategory": "large",
-    "lastUpdated": "2026-06-23T23:46:15.380124Z",
+    "lastUpdated": "2026-06-24T23:56:12.633038Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 50
   },
   "priceHistory": [
-    {
-      "time": "2025-06-24",
-      "open": 10.15,
-      "high": 10.53,
-      "low": 9.9,
-      "close": 10.32,
-      "volume": 32706500
-    },
     {
       "time": "2025-06-25",
       "open": 10.56,
@@ -2038,32 +2030,40 @@
       "high": 46.8,
       "low": 41.64,
       "close": 45.27,
-      "volume": 17132948
+      "volume": 17212800
+    },
+    {
+      "time": "2026-06-24",
+      "open": 45.18,
+      "high": 45.22,
+      "low": 40.41,
+      "close": 41.98,
+      "volume": 15483198
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 54.35,
-      "sma20": 44.832,
-      "sma50": 40.333,
-      "sma200": 31.5265,
+      "rsi14": 47.49,
+      "sma20": 44.674,
+      "sma50": 40.6206,
+      "sma200": 31.667,
       "macd": {
-        "macd": 1.2419,
-        "signal": 1.342,
-        "histogram": -0.1001
+        "macd": 0.9371,
+        "signal": 1.261,
+        "histogram": -0.3239
       },
       "bollingerBands": {
-        "upper": 50.768,
-        "middle": 44.832,
-        "lower": 38.896
+        "upper": 50.7357,
+        "middle": 44.674,
+        "lower": 38.6123
       },
-      "volumeMA20": 20671722,
-      "atr14": 4.1757
+      "volumeMA20": 20322164,
+      "atr14": 4.2364
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "54.35",
+        "value": "47.49",
         "interpretation": "neutral"
       },
       {
@@ -2073,12 +2073,12 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "+12.2%",
-        "interpretation": "bullish"
+        "value": "+3.3%",
+        "interpretation": "neutral"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+43.6%",
+        "value": "+32.6%",
         "interpretation": "bullish"
       }
     ],
@@ -2089,11 +2089,11 @@
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -46.9119,
-      "evEbitda": 1078.752,
-      "evRevenue": 46.984,
-      "ps": 40.5209,
-      "pb": 8.17,
+      "forwardPe": -43.5026,
+      "evEbitda": 1080.191,
+      "evRevenue": 47.046,
+      "ps": 37.5761,
+      "pb": 7.5762,
       "pfcf": null
     },
     "health": {
@@ -2320,7 +2320,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 67.905,
+          "intrinsicValue": 62.97,
           "upsideDownside": 50.0
         },
         {
@@ -2328,7 +2328,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 45.27,
+          "intrinsicValue": 41.98,
           "upsideDownside": 0.0
         },
         {
@@ -2336,12 +2336,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 27.162000000000003,
+          "intrinsicValue": 25.188,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 45.27
+      "currentPrice": 41.98
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2355,9 +2355,9 @@
       "targetMeanPrice": 73.36,
       "targetHighPrice": 106.0,
       "targetLowPrice": 40.0,
-      "targetUpside": 62.1,
+      "targetUpside": 74.8,
       "analystCount": 11,
-      "lastUpdated": "2026-06-23T23:46:15.380082Z"
+      "lastUpdated": "2026-06-24T23:56:12.633004Z"
     }
   }
 }
