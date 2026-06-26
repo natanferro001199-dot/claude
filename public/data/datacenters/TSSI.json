@@ -10,17 +10,17 @@
     "website": "https://tssiusa.com"
   },
   "price": {
-    "price": 12.0,
-    "priceChange": -0.72,
-    "priceChangePct": -5.66,
-    "open": 12.73,
+    "price": 11.65,
+    "priceChange": -0.35,
+    "priceChangePct": -2.92,
+    "open": 12.3,
     "high52w": 31.94,
     "low52w": 6.87,
-    "volume": 752243,
-    "avgVolume30d": 1599806,
-    "marketCap": 336887488,
+    "volume": 778566,
+    "avgVolume30d": 1579583,
+    "marketCap": 327061568,
     "marketCapCategory": "small",
-    "lastUpdated": "2026-06-24T23:56:17.494591Z",
+    "lastUpdated": "2026-06-26T00:03:05.538211Z",
     "dataConfidence": "medium"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 45
   },
   "priceHistory": [
-    {
-      "time": "2025-06-25",
-      "open": 29.0,
-      "high": 29.2,
-      "low": 26.75,
-      "close": 27.17,
-      "volume": 2511200
-    },
     {
       "time": "2025-06-26",
       "open": 27.99,
@@ -2038,32 +2030,40 @@
       "high": 12.81,
       "low": 11.87,
       "close": 12.0,
-      "volume": 752243
+      "volume": 754900
+    },
+    {
+      "time": "2026-06-25",
+      "open": 12.3,
+      "high": 12.41,
+      "low": 11.35,
+      "close": 11.65,
+      "volume": 790953
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 43.99,
-      "sma20": 13.4005,
-      "sma50": 13.6268,
-      "sma200": 12.5364,
+      "rsi14": 42.33,
+      "sma20": 13.356,
+      "sma50": 13.5702,
+      "sma200": 12.527,
       "macd": {
-        "macd": -0.1759,
-        "signal": -0.103,
-        "histogram": -0.0729
+        "macd": -0.2614,
+        "signal": -0.1347,
+        "histogram": -0.1267
       },
       "bollingerBands": {
-        "upper": 15.7868,
-        "middle": 13.4005,
-        "lower": 11.0142
+        "upper": 15.8362,
+        "middle": 13.356,
+        "lower": 10.8758
       },
-      "volumeMA20": 1514882,
-      "atr14": 1.0607
+      "volumeMA20": 1488947,
+      "atr14": 1.0371
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "43.99",
+        "value": "42.33",
         "interpretation": "neutral"
       },
       {
@@ -2073,27 +2073,27 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-11.9%",
+        "value": "-14.2%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "-4.3%",
+        "value": "-7.0%",
         "interpretation": "bearish"
       }
     ],
     "trendStrength": "down",
-    "supportLevel": 11.73,
+    "supportLevel": 11.53,
     "resistanceLevel": 16.64
   },
   "fundamental": {
     "valuation": {
-      "pe": 23.0769,
-      "forwardPe": 48.0,
-      "evEbitda": 23.168,
-      "evRevenue": 1.639,
-      "ps": 1.6669,
-      "pb": 4.2796,
+      "pe": 22.4038,
+      "forwardPe": 46.6,
+      "evEbitda": 21.754,
+      "evRevenue": 1.539,
+      "ps": 1.6183,
+      "pb": 4.1548,
       "pfcf": null
     },
     "health": {
@@ -2346,7 +2346,7 @@
           "wacc": 9.0,
           "terminalGrowth": 3.5,
           "intrinsicValue": 10.53,
-          "upsideDownside": -12.3
+          "upsideDownside": -9.6
         },
         {
           "label": "Base",
@@ -2354,7 +2354,7 @@
           "wacc": 10.0,
           "terminalGrowth": 2.5,
           "intrinsicValue": 2.58,
-          "upsideDownside": -78.5
+          "upsideDownside": -77.9
         },
         {
           "label": "Bear",
@@ -2362,11 +2362,11 @@
           "wacc": 12.0,
           "terminalGrowth": 1.5,
           "intrinsicValue": 0.81,
-          "upsideDownside": -93.2
+          "upsideDownside": -93.0
         }
       ],
       "impliedGrowthRate": 37.0,
-      "currentPrice": 12.0
+      "currentPrice": 11.65
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2380,9 +2380,9 @@
       "targetMeanPrice": 18.0,
       "targetHighPrice": 20.0,
       "targetLowPrice": 16.0,
-      "targetUpside": 50.0,
+      "targetUpside": 54.5,
       "analystCount": 2,
-      "lastUpdated": "2026-06-24T23:56:17.494560Z"
+      "lastUpdated": "2026-06-26T00:03:05.538158Z"
     }
   }
 }
