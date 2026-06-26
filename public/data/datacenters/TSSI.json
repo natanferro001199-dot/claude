@@ -10,17 +10,17 @@
     "website": "https://tssiusa.com"
   },
   "price": {
-    "price": 11.65,
-    "priceChange": -0.35,
-    "priceChangePct": -2.92,
-    "open": 12.3,
-    "high52w": 31.94,
+    "price": 11.32,
+    "priceChange": -0.33,
+    "priceChangePct": -2.83,
+    "open": 11.3,
+    "high52w": 31.72,
     "low52w": 6.87,
-    "volume": 778566,
-    "avgVolume30d": 1579583,
-    "marketCap": 327061568,
+    "volume": 2437475,
+    "avgVolume30d": 1570091,
+    "marketCap": 317797184,
     "marketCapCategory": "small",
-    "lastUpdated": "2026-06-26T00:03:05.538211Z",
+    "lastUpdated": "2026-06-26T23:53:51.944296Z",
     "dataConfidence": "medium"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 45
   },
   "priceHistory": [
-    {
-      "time": "2025-06-26",
-      "open": 27.99,
-      "high": 31.94,
-      "low": 27.89,
-      "close": 31.1,
-      "volume": 3372900
-    },
     {
       "time": "2025-06-27",
       "open": 30.86,
@@ -2038,32 +2030,40 @@
       "high": 12.41,
       "low": 11.35,
       "close": 11.65,
-      "volume": 790953
+      "volume": 801200
+    },
+    {
+      "time": "2026-06-26",
+      "open": 11.3,
+      "high": 11.57,
+      "low": 10.74,
+      "close": 11.32,
+      "volume": 2437475
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 42.33,
-      "sma20": 13.356,
-      "sma50": 13.5702,
-      "sma200": 12.527,
+      "rsi14": 40.76,
+      "sma20": 13.245,
+      "sma50": 13.5128,
+      "sma200": 12.5115,
       "macd": {
-        "macd": -0.2614,
-        "signal": -0.1347,
-        "histogram": -0.1267
+        "macd": -0.3518,
+        "signal": -0.1781,
+        "histogram": -0.1737
       },
       "bollingerBands": {
-        "upper": 15.8362,
-        "middle": 13.356,
-        "lower": 10.8758
+        "upper": 15.8764,
+        "middle": 13.245,
+        "lower": 10.6136
       },
-      "volumeMA20": 1488947,
-      "atr14": 1.0371
+      "volumeMA20": 1529623,
+      "atr14": 0.99
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "42.33",
+        "value": "40.76",
         "interpretation": "neutral"
       },
       {
@@ -2073,27 +2073,27 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-14.2%",
+        "value": "-16.2%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "-7.0%",
+        "value": "-9.5%",
         "interpretation": "bearish"
       }
     ],
     "trendStrength": "down",
-    "supportLevel": 11.53,
+    "supportLevel": 11.21,
     "resistanceLevel": 16.64
   },
   "fundamental": {
     "valuation": {
-      "pe": 22.4038,
-      "forwardPe": 46.6,
-      "evEbitda": 21.754,
-      "evRevenue": 1.539,
-      "ps": 1.6183,
-      "pb": 4.1548,
+      "pe": 21.7692,
+      "forwardPe": 45.28,
+      "evEbitda": 21.067,
+      "evRevenue": 1.491,
+      "ps": 1.5724,
+      "pb": 4.0371,
       "pfcf": null
     },
     "health": {
@@ -2346,7 +2346,7 @@
           "wacc": 9.0,
           "terminalGrowth": 3.5,
           "intrinsicValue": 10.53,
-          "upsideDownside": -9.6
+          "upsideDownside": -7.0
         },
         {
           "label": "Base",
@@ -2354,7 +2354,7 @@
           "wacc": 10.0,
           "terminalGrowth": 2.5,
           "intrinsicValue": 2.58,
-          "upsideDownside": -77.9
+          "upsideDownside": -77.2
         },
         {
           "label": "Bear",
@@ -2362,11 +2362,11 @@
           "wacc": 12.0,
           "terminalGrowth": 1.5,
           "intrinsicValue": 0.81,
-          "upsideDownside": -93.0
+          "upsideDownside": -92.8
         }
       ],
-      "impliedGrowthRate": 37.0,
-      "currentPrice": 11.65
+      "impliedGrowthRate": 36.0,
+      "currentPrice": 11.32
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2380,9 +2380,9 @@
       "targetMeanPrice": 18.0,
       "targetHighPrice": 20.0,
       "targetLowPrice": 16.0,
-      "targetUpside": 54.5,
+      "targetUpside": 59.0,
       "analystCount": 2,
-      "lastUpdated": "2026-06-26T00:03:05.538158Z"
+      "lastUpdated": "2026-06-26T23:53:51.944255Z"
     }
   }
 }

@@ -10,17 +10,17 @@
     "website": "https://www.rdw.com"
   },
   "price": {
-    "price": 10.8,
-    "priceChange": -0.58,
-    "priceChangePct": -5.1,
-    "open": 11.3,
+    "price": 10.93,
+    "priceChange": 0.13,
+    "priceChangePct": 1.2,
+    "open": 10.73,
     "high52w": 26.64,
     "low52w": 4.87,
-    "volume": 27129127,
-    "avgVolume30d": 39156193,
-    "marketCap": 2148322304,
+    "volume": 19506221,
+    "avgVolume30d": 39310029,
+    "marketCap": 2174181632,
     "marketCapCategory": "mid",
-    "lastUpdated": "2026-06-26T00:02:54.648343Z",
+    "lastUpdated": "2026-06-26T23:53:40.045203Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 40
   },
   "priceHistory": [
-    {
-      "time": "2025-06-26",
-      "open": 15.89,
-      "high": 17.57,
-      "low": 15.89,
-      "close": 16.96,
-      "volume": 3872100
-    },
     {
       "time": "2025-06-27",
       "open": 16.99,
@@ -2035,35 +2027,43 @@
     {
       "time": "2026-06-25",
       "open": 11.3,
-      "high": 11.35,
-      "low": 10.37,
+      "high": 11.37,
+      "low": 10.11,
       "close": 10.8,
-      "volume": 27129127
+      "volume": 27398600
+    },
+    {
+      "time": "2026-06-26",
+      "open": 10.73,
+      "high": 11.22,
+      "low": 10.6,
+      "close": 10.93,
+      "volume": 19506221
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 37.03,
-      "sma20": 16.8045,
-      "sma50": 13.9444,
-      "sma200": 9.9422,
+      "rsi14": 37.55,
+      "sma20": 16.056,
+      "sma50": 13.9648,
+      "sma200": 9.9561,
       "macd": {
-        "macd": -0.9845,
-        "signal": -0.0408,
-        "histogram": -0.9437
+        "macd": -1.1463,
+        "signal": -0.2619,
+        "histogram": -0.8844
       },
       "bollingerBands": {
-        "upper": 25.0292,
-        "middle": 16.8045,
-        "lower": 8.5798
+        "upper": 23.5234,
+        "middle": 16.056,
+        "lower": 8.5886
       },
-      "volumeMA20": 48228021,
-      "atr14": 1.8329
+      "volumeMA20": 44879731,
+      "atr14": 1.6236
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "37.03",
+        "value": "37.55",
         "interpretation": "bearish"
       },
       {
@@ -2073,27 +2073,27 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-22.5%",
+        "value": "-21.7%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+8.6%",
+        "value": "+9.8%",
         "interpretation": "bullish"
       }
     ],
     "trendStrength": "down",
     "supportLevel": 10.69,
-    "resistanceLevel": 26.16
+    "resistanceLevel": 24.82
   },
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -26.3415,
+      "forwardPe": -26.6585,
       "evEbitda": -12.34,
       "evRevenue": 5.935,
-      "ps": 5.7913,
-      "pb": 1.9651,
+      "ps": 5.861,
+      "pb": 1.9887,
       "pfcf": null
     },
     "health": {
@@ -2341,7 +2341,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 16.200000000000003,
+          "intrinsicValue": 16.395,
           "upsideDownside": 50.0
         },
         {
@@ -2349,7 +2349,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 10.8,
+          "intrinsicValue": 10.93,
           "upsideDownside": 0.0
         },
         {
@@ -2357,12 +2357,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 6.48,
+          "intrinsicValue": 6.558,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 10.8
+      "currentPrice": 10.93
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2376,9 +2376,9 @@
       "targetMeanPrice": 15.67,
       "targetHighPrice": 24.0,
       "targetLowPrice": 7.0,
-      "targetUpside": 45.1,
+      "targetUpside": 43.3,
       "analystCount": 9,
-      "lastUpdated": "2026-06-26T00:02:54.648289Z"
+      "lastUpdated": "2026-06-26T23:53:40.045160Z"
     }
   }
 }

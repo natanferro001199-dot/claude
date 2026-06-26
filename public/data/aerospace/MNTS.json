@@ -10,17 +10,17 @@
     "website": "https://momentus.space"
   },
   "price": {
-    "price": 7.26,
-    "priceChange": -0.54,
-    "priceChangePct": -6.92,
-    "open": 7.57,
+    "price": 7.05,
+    "priceChange": -0.21,
+    "priceChangePct": -2.89,
+    "open": 7.01,
     "high52w": 43.57,
     "low52w": 3.11,
-    "volume": 1447325,
-    "avgVolume30d": 6226817,
-    "marketCap": 136748032,
+    "volume": 1354682,
+    "avgVolume30d": 6238937,
+    "marketCap": 132792504,
     "marketCapCategory": "micro",
-    "lastUpdated": "2026-06-26T00:02:57.422526Z",
+    "lastUpdated": "2026-06-26T23:53:42.954651Z",
     "dataConfidence": "medium"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 45
   },
   "priceHistory": [
-    {
-      "time": "2025-06-26",
-      "open": 24.11,
-      "high": 25.71,
-      "low": 24.11,
-      "close": 25.54,
-      "volume": 10517
-    },
     {
       "time": "2025-06-27",
       "open": 25.36,
@@ -2036,34 +2028,42 @@
       "time": "2026-06-25",
       "open": 7.57,
       "high": 7.67,
-      "low": 7.03,
+      "low": 7.02,
       "close": 7.26,
-      "volume": 1447325
+      "volume": 1475100
+    },
+    {
+      "time": "2026-06-26",
+      "open": 7.01,
+      "high": 7.6,
+      "low": 6.99,
+      "close": 7.05,
+      "volume": 1354682
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 41.52,
-      "sma20": 12.368,
-      "sma50": 8.8636,
-      "sma200": 11.3536,
+      "rsi14": 41.03,
+      "sma20": 11.7505,
+      "sma50": 8.8664,
+      "sma200": 11.2853,
       "macd": {
-        "macd": -0.4282,
-        "signal": 0.4843,
-        "histogram": -0.9125
+        "macd": -0.6188,
+        "signal": 0.2637,
+        "histogram": -0.8825
       },
       "bollingerBands": {
-        "upper": 19.1104,
-        "middle": 12.368,
-        "lower": 5.6256
+        "upper": 18.0513,
+        "middle": 11.7505,
+        "lower": 5.4497
       },
-      "volumeMA20": 6768736,
-      "atr14": 2.4707
+      "volumeMA20": 6096174,
+      "atr14": 2.2593
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "41.52",
+        "value": "41.03",
         "interpretation": "neutral"
       },
       {
@@ -2073,27 +2073,27 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-18.1%",
+        "value": "-20.5%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "-36.1%",
+        "value": "-37.5%",
         "interpretation": "bearish"
       }
     ],
     "trendStrength": "strong-down",
-    "supportLevel": 7.19,
-    "resistanceLevel": 19.59
+    "supportLevel": 6.98,
+    "resistanceLevel": 17.02
   },
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -0.8013,
+      "forwardPe": -0.7781,
       "evEbitda": -2.083,
       "evRevenue": 14.655,
-      "ps": 34.1614,
-      "pb": 1.5606,
+      "ps": 33.1732,
+      "pb": 1.5155,
       "pfcf": null
     },
     "health": {
@@ -2348,7 +2348,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 10.89,
+          "intrinsicValue": 10.575,
           "upsideDownside": 50.0
         },
         {
@@ -2356,7 +2356,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 7.26,
+          "intrinsicValue": 7.05,
           "upsideDownside": 0.0
         },
         {
@@ -2364,12 +2364,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 4.356,
+          "intrinsicValue": 4.2299999999999995,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 7.26
+      "currentPrice": 7.05
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2385,7 +2385,7 @@
       "targetLowPrice": null,
       "targetUpside": null,
       "analystCount": 0,
-      "lastUpdated": "2026-06-26T00:02:57.422485Z"
+      "lastUpdated": "2026-06-26T23:53:42.954611Z"
     }
   }
 }

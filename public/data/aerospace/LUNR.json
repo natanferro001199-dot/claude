@@ -10,17 +10,17 @@
     "website": "https://www.intuitivemachines.com"
   },
   "price": {
-    "price": 18.7,
-    "priceChange": -0.46,
-    "priceChangePct": -2.43,
-    "open": 19.25,
+    "price": 19.79,
+    "priceChange": 1.09,
+    "priceChangePct": 5.83,
+    "open": 18.57,
     "high52w": 46.75,
     "low52w": 7.78,
-    "volume": 10388661,
-    "avgVolume30d": 15497217,
-    "marketCap": 3000458240,
+    "volume": 14055733,
+    "avgVolume30d": 15488869,
+    "marketCap": 3175351296,
     "marketCapCategory": "mid",
-    "lastUpdated": "2026-06-26T00:02:58.786837Z",
+    "lastUpdated": "2026-06-26T23:53:44.503027Z",
     "dataConfidence": "high"
   },
   "scores": {
@@ -32,14 +32,6 @@
     "compositeScore": 40
   },
   "priceHistory": [
-    {
-      "time": "2025-06-26",
-      "open": 10.02,
-      "high": 11.39,
-      "low": 9.9,
-      "close": 11.36,
-      "volume": 8674800
-    },
     {
       "time": "2025-06-27",
       "open": 11.39,
@@ -2038,32 +2030,40 @@
       "high": 19.29,
       "low": 17.91,
       "close": 18.7,
-      "volume": 10388661
+      "volume": 10493700
+    },
+    {
+      "time": "2026-06-26",
+      "open": 18.57,
+      "high": 20.24,
+      "low": 18.51,
+      "close": 19.79,
+      "volume": 14055733
     }
   ],
   "technical": {
     "indicators": {
-      "rsi14": 32.42,
-      "sma20": 29.0295,
-      "sma50": 29.4364,
-      "sma200": 18.4825,
+      "rsi14": 35.34,
+      "sma20": 27.734,
+      "sma50": 29.3546,
+      "sma200": 18.5394,
       "macd": {
-        "macd": -3.2739,
-        "signal": -1.9455,
-        "histogram": -1.3284
+        "macd": -3.353,
+        "signal": -2.227,
+        "histogram": -1.126
       },
       "bollingerBands": {
-        "upper": 44.4866,
-        "middle": 29.0295,
-        "lower": 13.5724
+        "upper": 41.6516,
+        "middle": 27.734,
+        "lower": 13.8164
       },
-      "volumeMA20": 14684933,
-      "atr14": 2.7371
+      "volumeMA20": 14195611,
+      "atr14": 2.4993
     },
     "signals": [
       {
         "label": "RSI",
-        "value": "32.42",
+        "value": "35.34",
         "interpretation": "bearish"
       },
       {
@@ -2073,27 +2073,27 @@
       },
       {
         "label": "Price vs SMA50",
-        "value": "-36.5%",
+        "value": "-32.6%",
         "interpretation": "bearish"
       },
       {
         "label": "Price vs SMA200",
-        "value": "+1.2%",
+        "value": "+6.7%",
         "interpretation": "bullish"
       }
     ],
     "trendStrength": "down",
     "supportLevel": 18.51,
-    "resistanceLevel": 46.16
+    "resistanceLevel": 44.27
   },
   "fundamental": {
     "valuation": {
       "pe": null,
-      "forwardPe": -155.8333,
-      "evEbitda": -54.048,
-      "evRevenue": 13.039,
-      "ps": 8.9763,
-      "pb": -8.9388,
+      "forwardPe": -164.9167,
+      "evEbitda": -53.193,
+      "evRevenue": 12.833,
+      "ps": 9.4995,
+      "pb": -9.4598,
       "pfcf": null
     },
     "health": {
@@ -2348,7 +2348,7 @@
           "fcfGrowthRate": 30,
           "wacc": 9.0,
           "terminalGrowth": 3.5,
-          "intrinsicValue": 28.049999999999997,
+          "intrinsicValue": 29.685,
           "upsideDownside": 50.0
         },
         {
@@ -2356,7 +2356,7 @@
           "fcfGrowthRate": 15,
           "wacc": 10.0,
           "terminalGrowth": 2.5,
-          "intrinsicValue": 18.7,
+          "intrinsicValue": 19.79,
           "upsideDownside": 0.0
         },
         {
@@ -2364,12 +2364,12 @@
           "fcfGrowthRate": 3,
           "wacc": 12.0,
           "terminalGrowth": 1.5,
-          "intrinsicValue": 11.219999999999999,
+          "intrinsicValue": 11.873999999999999,
           "upsideDownside": -40.0
         }
       ],
       "impliedGrowthRate": 10.0,
-      "currentPrice": 18.7
+      "currentPrice": 19.79
     },
     "valuationBands": [],
     "sectorKpis": {},
@@ -2383,9 +2383,9 @@
       "targetMeanPrice": 40.78,
       "targetHighPrice": 75.0,
       "targetLowPrice": 11.0,
-      "targetUpside": 118.1,
+      "targetUpside": 106.1,
       "analystCount": 9,
-      "lastUpdated": "2026-06-26T00:02:58.786790Z"
+      "lastUpdated": "2026-06-26T23:53:44.502986Z"
     }
   }
 }
